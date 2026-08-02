@@ -1,0 +1,218 @@
+@charset "utf-8";
+@import url(common.css);
+@import url(header.css);
+@import url(nav.css);
+@import url(footer.css);
+@import url(float.css);
+@import url(components/components.css);
+
+:root {
+  /* Brand — Figma 원본 */
+  --color-primary: #5d31ff;
+  --color-primary-dark: #4a22e0;
+  --color-primary-soft: #dfdff7;
+  --color-accent: #ff3e8d;
+  --color-accent-soft: #ffe9fd;
+  --color-nav: #5d31ff;
+  --color-cta: #5d31ff;
+  --color-cta-hover: #4a22e0;
+  --color-tooltip: #5d31ff;
+  --color-bot: #3b36bf;
+
+  /* Neutrals */
+  --color-text: #222;
+  --color-text-sub: #666;
+  --color-text-muted: #999;
+  --color-border: #e6e8ee;
+  --color-bg: #f5f6f8;
+  --color-bg-page: #f7f8fa;
+  --color-white: #fff;
+
+  /* Badge — 해외법령 원본 */
+  --badge-law: #eef0ff;
+  --badge-law-text: #5b63d6;
+  --badge-notice: #fff0f5;
+  --badge-notice-text: #e04080;
+  --badge-permit: #e3edff;
+  --badge-permit-text: #3d6ef5;
+  --badge-reg: #e3f6ef;
+  --badge-reg-text: #1a9a6c;
+
+  /* Layout */
+  --container: 1280px;
+  --header-h: 78px;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --radius-pill: 999px;
+  --shadow: 0 6px 24px rgba(40, 40, 80, 0.08);
+  --shadow-sm: 0 2px 12px rgba(40, 40, 80, 0.06);
+  /* rem 기준: PC 10px → 1.6rem = 16px */
+  --font-root: 10px;
+  --z-header: 100;
+  --z-float: 90;
+  --z-overlay: 200;
+  --z-bot: 95;
+}
+
+html {
+  font-size: var(--font-root);
+}
+
+body {
+  font-size: 1.6rem; /* PC 16px / 모바일은 html 루트에 비례 */
+  line-height: 1.5;
+  background: var(--color-bg-page);
+  color: var(--color-text);
+}
+
+body.is-locked {
+  overflow: hidden;
+}
+
+*:focus-visible {
+  outline: 2px dashed #99b0cb;
+  outline-offset: 2px;
+}
+
+.wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-white);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#skipNav {
+  position: absolute;
+  left: 0;
+  top: -1000px;
+  width: 100%;
+  z-index: 1000;
+}
+
+#skipNav a:focus {
+  position: absolute;
+  left: 0;
+  top: 1000px;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background: #20262c;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sec {
+  padding: 70px 0;
+}
+
+.sec-hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.sec-tit {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+}
+
+.more {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 1.8rem;
+  color: var(--color-text-sub);
+  flex-shrink: 0;
+  transition: color 0.25s ease;
+}
+
+.more:hover {
+  color: var(--color-nav);
+}
+
+.more i {
+  font-size: 1.8rem;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.more:hover i {
+  transform: rotate(90deg);
+}
+
+.dimmed {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: var(--z-overlay);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s, visibility 0.25s;
+}
+
+.dimmed.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --header-h: 64px;
+    --font-root: 9.5px; /* 약 95% */
+  }
+
+  html {
+    font-size: var(--font-root);
+  }
+
+  .sec {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --font-root: 9px; /* 약 90% — 본문 ~14.4px */
+  }
+
+  html {
+    font-size: var(--font-root);
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .sec {
+    padding: 70px 0;
+  }
+
+  .sec-hd {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --font-root: 8.5px; /* 약 85% — 본문 ~13.6px */
+  }
+
+  html {
+    font-size: var(--font-root);
+  }
+}

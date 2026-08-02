@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  height: var(--header-h);
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 12px;
+  position: relative;
+}
+
+.header .logo {
+  flex-shrink: 0;
+}
+
+.header .logo a {
+  display: block;
+  line-height: 0;
+}
+
+.header .logo img {
+  display: block;
+  width: 122px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.header .etcMenu {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.header .icon-btn {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #333;
+  font-size: 2.2rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.header .icon-btn:hover {
+  background: var(--color-bg);
+  color: var(--color-primary);
+}
+
+.header .sideMenuBtn {
+  display: grid;
+}
+
+/* 알림 툴팁 — 벨 아이콘 호버 시 */
+.alert-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert-tooltip {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  background: var(--color-tooltip);
+  color: #fff !important;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(93, 49, 255, 0.28);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+}
+
+.alert-tooltip::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  border: 7px solid transparent;
+  border-bottom-color: var(--color-tooltip);
+}
+
+.alert-wrap:hover .alert-tooltip,
+.alert-wrap:focus-within .alert-tooltip {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.alert-wrap:hover .alert-btn,
+.alert-wrap:focus-within .alert-btn {
+  color: var(--color-primary);
+}
+
+@media (max-width: 1280px) {
+  .header .logo img {
+    width: 122px;
+    height: 34px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .logo img {
+    width: 110px;
+    height: auto;
+  }
+
+  .alert-tooltip {
+    left: auto;
+    right: -8px;
+    transform: translateX(0) translateY(4px);
+  }
+
+  .alert-tooltip::before {
+    left: auto;
+    right: 18px;
+    transform: none;
+  }
+
+  .alert-wrap:hover .alert-tooltip,
+  .alert-wrap:focus-within .alert-tooltip {
+    transform: translateX(0) translateY(0);
+  }
+}

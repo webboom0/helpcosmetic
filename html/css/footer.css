@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.footer {
+  margin-top: auto;
+  background: #fff;
+  border-top: 1px solid #cfd8ea;
+  padding: 36px 0 40px;
+}
+
+.footer-info {
+  font-size: 1.7rem; /* 17px */
+  color: #666;
+  line-height: 1.7;
+}
+
+.footer-info p + p {
+  margin-top: 6px;
+}
+
+.footer-info .sep {
+  margin: 0 0.35em;
+  color: #999;
+}
+
+.footer-info a {
+  color: inherit;
+}
+
+.footer-info a:hover {
+  color: var(--color-primary);
+}
+
+.footer .footer-copy {
+  margin-top: 18px;
+  font-size: 1.4rem; /* 14px */
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 28px 0 32px;
+  }
+}

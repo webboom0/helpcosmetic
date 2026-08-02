@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="200" viewBox="0 0 160 200">
+  <ellipse cx="80" cy="180" rx="48" ry="10" fill="#0f2448" opacity="0.25"/>
+  <path d="M40 175 L40 95 Q40 70 80 70 Q120 70 120 95 L120 175 Z" fill="#3d6aad"/>
+  <path d="M52 175 L52 100 Q52 82 80 82 Q108 82 108 100 L108 175 Z" fill="#5a8fd4"/>
+  <circle cx="80" cy="52" r="28" fill="#f0c9a0"/>
+  <path d="M55 48 Q80 20 105 48" fill="#2c3e6b"/>
+  <rect x="68" y="58" width="24" height="8" rx="4" fill="#e8a878"/>
+  <circle cx="70" cy="50" r="3" fill="#3a2a20"/>
+  <circle cx="90" cy="50" r="3" fill="#3a2a20"/>
+  <path d="M72 60 Q80 66 88 60" fill="none" stroke="#c47850" stroke-width="2"/>
+  <rect x="58" y="118" width="44" height="28" rx="4" fill="#f5d76e"/>
+  <text x="80" y="137" text-anchor="middle" fill="#5a4010" font-family="Arial,sans-serif" font-size="10" font-weight="700">MFDS</text>
+</svg>

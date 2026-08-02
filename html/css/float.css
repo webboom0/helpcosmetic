@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+/* ========== FLOATING QUICK (공통) ========== */
+.quick-float {
+  position: fixed;
+  right: 20px;
+  top: 160px;
+  transform: none;
+  z-index: var(--z-float);
+  width: 86px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s ease, opacity 0.3s;
+}
+
+.quick-float.is-collapsed {
+  transform: translateX(calc(100% + 40px));
+  opacity: 0;
+  pointer-events: none;
+}
+
+.quick-float-panel {
+  width: 100%;
+  background: var(--color-white);
+  border-radius: 24px;
+  box-shadow: 0 6px 24px rgba(40, 40, 80, 0.12);
+  padding: 14px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.quick-float .qf-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 8px 4px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.25;
+  text-align: center;
+  background: transparent;
+}
+
+.quick-float .qf-item:hover {
+  color: #333;
+  background: transparent;
+}
+
+.quick-float .qf-ico-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #f0f1f5;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.quick-float .qf-ico-wrap i {
+  font-size: 2rem;
+  color: #3a4580;
+  transition: color 0.25s ease;
+}
+
+.quick-float .qf-item:hover .qf-ico-wrap,
+.quick-float .qf-item:focus-visible .qf-ico-wrap {
+  background: var(--color-primary);
+  transform: translateY(-3px) scale(1.06);
+}
+
+.quick-float .qf-item:hover .qf-ico-wrap i,
+.quick-float .qf-item:focus-visible .qf-ico-wrap i {
+  color: #fff;
+}
+
+.quick-float .qf-close {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  color: #666;
+  background: #fff;
+  border: 0;
+  box-shadow: 0 4px 14px rgba(40, 40, 80, 0.12);
+}
+
+.quick-float .qf-close:hover {
+  background: #f7f8fc;
+  color: #333;
+}
+
+/* 접힌 상태: <<< + 흰 탭(햄버거) */
+.quick-float-toggle {
+  position: fixed;
+  right: 0;
+  top: 200px;
+  transform: none;
+  z-index: var(--z-float);
+  display: none;
+  align-items: center;
+  gap: 2px;
+  width: auto;
+  height: auto;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+}
+
+.quick-float-toggle.is-visible {
+  display: flex;
+}
+
+.quick-float-toggle .qf-chevrons {
+  display: flex;
+  align-items: center;
+  margin-right: 2px;
+}
+
+.quick-float-toggle .qf-chevrons i {
+  font-size: 1.8rem;
+  line-height: 1;
+  margin-left: -10px;
+  color: #3a4580;
+  animation: qf-chevron-flow 1.4s ease-in-out infinite;
+}
+
+.quick-float-toggle .qf-chevrons i:first-child {
+  margin-left: 0;
+  animation-delay: 0s;
+}
+
+.quick-float-toggle .qf-chevrons i:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.quick-float-toggle .qf-chevrons i:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes qf-chevron-flow {
+  0%,
+  100% {
+    color: #d0d3e0;
+    opacity: 0.35;
+    transform: translateX(0);
+  }
+  50% {
+    color: #3a4580;
+    opacity: 1;
+    transform: translateX(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quick-float-toggle .qf-chevrons i {
+    animation: none;
+  }
+
+  .quick-float-toggle .qf-chevrons i:first-child {
+    color: #d0d3e0;
+    opacity: 1;
+  }
+
+  .quick-float-toggle .qf-chevrons i:nth-child(2) {
+    color: #9aa0b8;
+    opacity: 1;
+  }
+
+  .quick-float-toggle .qf-chevrons i:nth-child(3) {
+    color: #3a4580;
+    opacity: 1;
+  }
+}
+
+.quick-float-toggle .qf-tab {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 52px;
+  background: #fff;
+  border-radius: 12px 0 0 12px;
+  box-shadow: -2px 2px 12px rgba(40, 40, 80, 0.1);
+  color: #3a4580;
+  font-size: 2.2rem;
+}
+
+.quick-float-toggle:hover .qf-tab {
+  background: #f7f8fc;
+}
+
+/* ========== COS BOT (공통 · 우하단) ========== */
+.cos-bot {
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+  top: auto;
+  z-index: var(--z-bot);
+  width: 86px;
+  height: auto;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.cos-bot:hover {
+  transform: translateY(-3px) scale(1.03);
+  color: inherit;
+}
+
+.cos-bot img {
+  width: 86px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 8px 18px rgba(59, 54, 191, 0.35));
+}
+
+.cos-panel {
+  position: fixed;
+  right: 28px;
+  bottom: 130px;
+  top: auto;
+  z-index: calc(var(--z-bot) + 1);
+  width: min(360px, calc(100vw - 32px));
+  background: var(--color-white);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: opacity 0.25s, visibility 0.25s, transform 0.25s;
+}
+
+.cos-panel.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.cos-panel-hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: var(--color-bot);
+  color: #fff;
+}
+
+.cos-panel-hd strong {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cos-panel-hd button {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+.cos-panel-hd button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.cos-panel-bd {
+  padding: 20px 16px;
+  font-size: 1.4rem;
+  color: var(--color-text-sub);
+  line-height: 1.6;
+  min-height: 160px;
+}
+
+@media (max-width: 1200px) {
+  .quick-float {
+    right: 10px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .quick-float {
+    display: none;
+  }
+
+  .quick-float-toggle {
+    display: none !important;
+  }
+
+  .cos-bot {
+    right: 12px;
+    bottom: 16px;
+    width: 72px;
+  }
+
+  .cos-bot img {
+    width: 72px;
+  }
+
+  .cos-panel {
+    right: 12px;
+    bottom: 100px;
+  }
+}
