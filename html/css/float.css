@@ -292,6 +292,13 @@
   min-height: 160px;
 }
 
+.cos-panel-note {
+  display: inline-block;
+  margin-top: 8px;
+  color: #666;
+  font-size: 1.3rem;
+}
+
 @media (max-width: 1200px) {
   .quick-float {
     right: 10px;

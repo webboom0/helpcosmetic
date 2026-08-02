@@ -32,7 +32,7 @@
 
         <nav class="gnb" id="gnb" aria-label="주메뉴">
           <button type="button" class="sideMenuCloseBtn" aria-label="메뉴 닫기">
-            <i class="ri-close-fill"></i>
+            <i class="ri-close-fill" aria-hidden="true"></i>
           </button>
           <ul>
             <li class="depth-1 is-active">
@@ -101,15 +101,15 @@
 
         <div class="etcMenu">
           <div class="alert-wrap">
-            <button type="button" class="icon-btn alert-btn" aria-label="알림" aria-expanded="false"
+            <button type="button" class="icon-btn alert-btn" aria-label="자료 업데이트 알림서비스 신청" aria-expanded="false"
               aria-controls="alertTooltip">
-              <i class="ri-notification-3-line"></i>
+              <i class="ri-notification-3-line" aria-hidden="true"></i>
             </button>
             <a href="#" class="alert-tooltip" id="alertTooltip" role="tooltip">자료 업데이트 알림서비스 신청</a>
           </div>
           <button type="button" class="icon-btn sideMenuBtn" aria-label="메뉴 열기" aria-expanded="false"
             aria-controls="gnb">
-            <i class="ri-menu-line"></i>
+            <i class="ri-menu-line" aria-hidden="true"></i>
           </button>
         </div>
       </div>
@@ -257,21 +257,22 @@
   </button>
 
   <!-- COS BOT -->
-  <div class="cos-panel" id="cosPanel" role="dialog" aria-labelledby="cosPanelTit" aria-hidden="true">
+  <div class="cos-panel" id="cosPanel" role="dialog" aria-modal="true" aria-labelledby="cosPanelTit"
+    aria-hidden="true">
     <div class="cos-panel-hd">
       <strong id="cosPanelTit">COS BOT</strong>
-      <button type="button" class="cos-panel-close" aria-label="닫기"><i class="ri-close-line"></i></button>
+      <button type="button" class="cos-panel-close" aria-label="COS BOT 닫기"><i class="ri-close-line" aria-hidden="true"></i></button>
     </div>
     <div class="cos-panel-bd">
       <p>안녕하세요. 화장품 규제 안내 챗봇 <strong>COS BOT</strong>입니다.<br>
         궁금하신 규제·법령 내용을 입력해 주세요.<br>
-        <span style="color:#999;font-size:1.3rem;">(퍼블리싱용 플레이스홀더 — 연동 예정)</span>
+        <span class="cos-panel-note">(퍼블리싱용 플레이스홀더 — 연동 예정)</span>
       </p>
     </div>
   </div>
   <button type="button" class="cos-bot" id="cosBot" aria-label="COS BOT 열기" aria-controls="cosPanel"
-    aria-expanded="false">
-    <img src="images/chatbot.svg" alt="COS BOT">
+    aria-expanded="false" aria-haspopup="dialog">
+    <img src="images/chatbot.svg" alt="" aria-hidden="true">
   </button>
 
   <script>

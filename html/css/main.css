@@ -54,7 +54,7 @@
 }
 
 .hero-tit-main-sub {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .hero-search-form {
@@ -153,16 +153,37 @@
   opacity: 1;
 }
 
+.hero-keywords ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .hero-keywords a {
   color: rgba(255, 255, 255, 0.95);
   font-weight: 400;
   transition: opacity 0.2s;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.hero-keywords a:hover {
+.hero-keywords a:hover,
+.hero-keywords a:focus-visible {
   opacity: 1;
-  text-decoration: underline;
   color: #fff;
+}
+
+.search-error {
+  margin-top: 8px;
+  min-height: 1.2em;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #ffe08a;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 /* quick — 원본: 하나의 흰 박스 안 2x2 */
@@ -584,10 +605,18 @@
   width: 8px;
   height: 8px;
   margin: 0 !important;
+  padding: 0;
   background: #d0d3e0;
   opacity: 1;
   border-radius: 50%;
+  border: 0;
+  cursor: pointer;
   transition: width 0.2s, background 0.2s, border-radius 0.2s;
+}
+
+.trend-pagination .swiper-pagination-bullet:focus-visible {
+  outline: 2px solid #2f5f9e;
+  outline-offset: 3px;
 }
 
 .trend-pagination .swiper-pagination-bullet-active {

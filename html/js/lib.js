@@ -17,6 +17,49 @@ const util = {
   },
 };
 
+/** 접근성 헬퍼 */
+const a11y = {
+  FOCUSABLE:
+    'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+
+  getFocusable(root) {
+    if (!root) return [];
+    return util.qsa(this.FOCUSABLE, root).filter((el) => {
+      if (el.hasAttribute("disabled")) return false;
+      const style = window.getComputedStyle(el);
+      if (style.visibility === "hidden" || style.display === "none") return false;
+      return true;
+    });
+  },
+
+  /** Tab 순환 포커스 트랩 */
+  trapTab(e, root) {
+    if (e.key !== "Tab" || !root) return;
+    const list = this.getFocusable(root);
+    if (!list.length) {
+      e.preventDefault();
+      return;
+    }
+    const first = list[0];
+    const last = list[list.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  },
+
+  setBackgroundHidden(hidden) {
+    util.qsa(".wrap, #quickFloat, #quickFloatToggle, #cosBot").forEach((el) => {
+      if (!el) return;
+      if (hidden) el.setAttribute("aria-hidden", "true");
+      else el.removeAttribute("aria-hidden");
+    });
+  },
+};
+
 /** 상단 이동 */
 function moveTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -56,6 +99,8 @@ const dimmed = {
     if (!this.el) return;
     this.el.classList.remove("is-active");
     this.el.setAttribute("aria-hidden", "true");
-    if (!util.qs(".gnb.is-open")) util.lockScroll(false);
+    if (!util.qs(".gnb.is-open") && !util.qs(".cos-panel.is-open")) {
+      util.lockScroll(false);
+    }
   },
 };

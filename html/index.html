@@ -36,7 +36,7 @@
 
         <nav class="gnb" id="gnb" aria-label="주메뉴">
           <button type="button" class="sideMenuCloseBtn" aria-label="메뉴 닫기">
-            <i class="ri-close-fill"></i>
+            <i class="ri-close-fill" aria-hidden="true"></i>
           </button>
           <ul>
             <li class="depth-1">
@@ -105,15 +105,15 @@
 
         <div class="etcMenu">
           <div class="alert-wrap">
-            <button type="button" class="icon-btn alert-btn" aria-label="알림" aria-expanded="false"
+            <button type="button" class="icon-btn alert-btn" aria-label="자료 업데이트 알림서비스 신청" aria-expanded="false"
               aria-controls="alertTooltip">
-              <i class="ri-notification-3-line"></i>
+              <i class="ri-notification-3-line" aria-hidden="true"></i>
             </button>
             <a href="#" class="alert-tooltip" id="alertTooltip" role="tooltip">자료 업데이트 알림서비스 신청</a>
           </div>
           <button type="button" class="icon-btn sideMenuBtn" aria-label="메뉴 열기" aria-expanded="false"
             aria-controls="gnb">
-            <i class="ri-menu-line"></i>
+            <i class="ri-menu-line" aria-hidden="true"></i>
           </button>
         </div>
       </div>
@@ -132,38 +132,42 @@
               <form class="hero-search-form" action="#" method="get" role="search">
                 <label for="mainSearch" class="blind">검색어</label>
                 <div class="hero-search-field">
-                  <input type="search" id="mainSearch" name="q" placeholder="검색어를 입력하세요!" autocomplete="off">
-                  <button type="submit" aria-label="검색"><i class="ri-search-line"></i></button>
+                  <input type="search" id="mainSearch" name="q" placeholder="검색어를 입력하세요!"
+                    autocomplete="off" title="검색어">
+                  <button type="submit" aria-label="검색"><i class="ri-search-line" aria-hidden="true"></i></button>
                 </div>
+                <p id="searchError" class="search-error" role="alert" aria-live="assertive"></p>
               </form>
-              <div class="hero-keywords">
-                <span class="label">검색키워드</span>
-                <a href="#">#TBT통보문</a>
-                <a href="#">#할랄인증절차</a>
-                <a href="#">#AI코스봇</a>
-                <a href="#">#ICCR</a>
-              </div>
+              <nav class="hero-keywords" aria-label="추천 검색어">
+                <span class="label" id="kwLabel">검색키워드</span>
+                <ul aria-labelledby="kwLabel">
+                  <li><a href="#">#TBT통보문</a></li>
+                  <li><a href="#">#할랄인증절차</a></li>
+                  <li><a href="#">#AI코스봇</a></li>
+                  <li><a href="#">#ICCR</a></li>
+                </ul>
+              </nav>
             </div>
 
             <div class="hero-quick-wrap">
-              <div class="hero-quick" aria-label="바로가기">
+              <nav class="hero-quick" aria-label="주요 바로가기">
                 <a href="#" class="quick-item">
-                  <img src="images/icon_01.svg" alt="">
+                  <img src="images/icon_01.svg" alt="" aria-hidden="true">
                   <span>세계법제정보센터</span>
                 </a>
                 <a href="#" class="quick-item">
-                  <img src="images/icon_02.svg" alt="">
+                  <img src="images/icon_02.svg" alt="" aria-hidden="true">
                   <span>할랄규제정보</span>
                 </a>
                 <a href="#" class="quick-item">
-                  <img src="images/icon_03.svg" alt="">
+                  <img src="images/icon_03.svg" alt="" aria-hidden="true">
                   <span>교육</span>
                 </a>
                 <a href="#" class="quick-item">
-                  <img src="images/icon_04.svg" alt="">
+                  <img src="images/icon_04.svg" alt="" aria-hidden="true">
                   <span>해외동향정보지</span>
                 </a>
-              </div>
+              </nav>
             </div>
           </div>
         </div>
@@ -174,7 +178,7 @@
         <div class="container">
           <div class="sec-hd">
             <h2 class="sec-tit" id="tit-law">해외법령</h2>
-            <a href="#" class="more">더보기 <i class="ri-add-line" aria-hidden="true"></i></a>
+            <a href="#" class="more" aria-label="해외법령 더보기">더보기 <i class="ri-add-line" aria-hidden="true"></i></a>
           </div>
           <ul class="card-grid">
             <li>
@@ -209,7 +213,7 @@
             <div class="permit-left">
               <div class="sec-hd">
                 <h2 class="sec-tit" id="tit-permit">인허가 대행사 및 해외 규정 요약 자료집</h2>
-                <a href="#" class="more">더보기 <i class="ri-add-line" aria-hidden="true"></i></a>
+                <a href="#" class="more" aria-label="인허가 대행사 및 해외 규정 요약 자료집 더보기">더보기 <i class="ri-add-line" aria-hidden="true"></i></a>
               </div>
               <ul class="board-list">
                 <li>
@@ -244,16 +248,18 @@
             </div>
 
             <div class="banner-col">
-              <div class="swiper banner-swiper" id="bannerSwiper">
+              <div class="swiper banner-swiper" id="bannerSwiper" role="region" aria-roledescription="carousel"
+                aria-label="홍보 배너">
+                <p id="bannerStatus" class="blind" aria-live="polite" aria-atomic="true"></p>
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+                  <div class="swiper-slide" role="group" aria-label="1 / 2">
                     <div class="banner-slide">
                       <a href="#">
                         <img class="banner-img" src="images/banner_police.png" alt="지식재산침해 원스톱 신고상담센터">
                       </a>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide" role="group" aria-label="2 / 2">
                     <div class="banner-slide">
                       <a href="#">
                         <img class="banner-img" src="images/banner_police.png" alt="지식재산침해 원스톱 신고상담센터">
@@ -261,14 +267,14 @@
                     </div>
                   </div>
                 </div>
-                <div class="banner-ctrl">
-                  <span class="frac"><span class="current">1</span> / <span class="total">2</span></span>
-                  <button type="button" class="banner-prev" aria-label="이전 배너"><i class="ri-arrow-left-s-line"></i></button>
-                  <button type="button" class="play-toggle is-playing" aria-label="자동재생 일시정지">
-                    <i class="ri-pause-mini-fill"></i>
-                    <i class="ri-play-fill"></i>
+                <div class="banner-ctrl" role="group" aria-label="배너 조작">
+                  <span class="frac" aria-hidden="true"><span class="current">1</span> / <span class="total">2</span></span>
+                  <button type="button" class="banner-prev" aria-label="이전 배너"><i class="ri-arrow-left-s-line" aria-hidden="true"></i></button>
+                  <button type="button" class="play-toggle is-playing" aria-label="자동재생 일시정지" aria-pressed="true">
+                    <i class="ri-pause-mini-fill" aria-hidden="true"></i>
+                    <i class="ri-play-fill" aria-hidden="true"></i>
                   </button>
-                  <button type="button" class="banner-next" aria-label="다음 배너"><i class="ri-arrow-right-s-line"></i></button>
+                  <button type="button" class="banner-next" aria-label="다음 배너"><i class="ri-arrow-right-s-line" aria-hidden="true"></i></button>
                 </div>
               </div>
             </div>
@@ -281,14 +287,14 @@
         <div class="container">
           <div class="sec-hd">
             <h2 class="sec-tit" id="tit-trend">해외동향정보지</h2>
-            <a href="#" class="more">더보기 <i class="ri-add-line" aria-hidden="true"></i></a>
+            <a href="#" class="more" aria-label="해외동향정보지 더보기">더보기 <i class="ri-add-line" aria-hidden="true"></i></a>
           </div>
-          <div class="swiper trend-swiper" id="trendSwiper">
+          <div class="swiper trend-swiper" id="trendSwiper" role="region" aria-label="해외동향정보지 목록">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <a href="#" class="trend-card">
                   <div class="trend-thumb">
-                    <img src="images/book_01.png" alt="">
+                    <img src="images/book_01.png" alt="" aria-hidden="true">
                   </div>
                   <strong class="tit">&lt;식품의약품안전처&gt; 의료제품분야, 최신 해외 동향 정보지(2026년 7월)</strong>
                   <time class="date" datetime="2026-07-05">2026.07.05</time>
@@ -297,7 +303,7 @@
               <div class="swiper-slide">
                 <a href="#" class="trend-card">
                   <div class="trend-thumb">
-                    <img src="images/book_02.jpg" alt="">
+                    <img src="images/book_02.jpg" alt="" aria-hidden="true">
                   </div>
                   <strong class="tit">&lt;식품의약품안전처&gt; 의료제품분야, 최신 해외 동향 정보지(2026년 6월)</strong>
                   <time class="date" datetime="2026-07-05">2026.07.05</time>
@@ -306,7 +312,7 @@
               <div class="swiper-slide">
                 <a href="#" class="trend-card">
                   <div class="trend-thumb">
-                    <img src="images/book_01.png" alt="">
+                    <img src="images/book_01.png" alt="" aria-hidden="true">
                   </div>
                   <strong class="tit">&lt;식품의약품안전처&gt; 의료제품분야, 최신 해외 동향 정보지(2026년 5월)</strong>
                   <time class="date" datetime="2026-07-05">2026.07.05</time>
@@ -315,14 +321,14 @@
               <div class="swiper-slide">
                 <a href="#" class="trend-card">
                   <div class="trend-thumb">
-                    <img src="images/book_02.jpg" alt="">
+                    <img src="images/book_02.jpg" alt="" aria-hidden="true">
                   </div>
                   <strong class="tit">&lt;식품의약품안전처&gt; 의료제품분야, 최신 해외 동향 정보지(2026년 4월)</strong>
                   <time class="date" datetime="2026-07-05">2026.07.05</time>
                 </a>
               </div>
             </div>
-            <div class="trend-pagination" aria-label="해외동향정보지 페이지"></div>
+            <div class="trend-pagination" role="navigation" aria-label="해외동향정보지 페이지"></div>
           </div>
         </div>
       </section>
@@ -385,21 +391,22 @@
   </button>
 
   <!-- COS BOT -->
-  <div class="cos-panel" id="cosPanel" role="dialog" aria-labelledby="cosPanelTit" aria-hidden="true">
+  <div class="cos-panel" id="cosPanel" role="dialog" aria-modal="true" aria-labelledby="cosPanelTit"
+    aria-hidden="true">
     <div class="cos-panel-hd">
       <strong id="cosPanelTit">COS BOT</strong>
-      <button type="button" class="cos-panel-close" aria-label="닫기"><i class="ri-close-line"></i></button>
+      <button type="button" class="cos-panel-close" aria-label="COS BOT 닫기"><i class="ri-close-line" aria-hidden="true"></i></button>
     </div>
     <div class="cos-panel-bd">
       <p>안녕하세요. 화장품 규제 안내 챗봇 <strong>COS BOT</strong>입니다.<br>
         궁금하신 규제·법령 내용을 입력해 주세요.<br>
-        <span style="color:#999;font-size:1.3rem;">(퍼블리싱용 플레이스홀더 — 연동 예정)</span>
+        <span class="cos-panel-note">(퍼블리싱용 플레이스홀더 — 연동 예정)</span>
       </p>
     </div>
   </div>
   <button type="button" class="cos-bot" id="cosBot" aria-label="COS BOT 열기" aria-controls="cosPanel"
-    aria-expanded="false">
-    <img src="images/chatbot.svg" alt="COS BOT">
+    aria-expanded="false" aria-haspopup="dialog">
+    <img src="images/chatbot.svg" alt="" aria-hidden="true">
   </button>
 </body>
 

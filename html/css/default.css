@@ -70,8 +70,31 @@ body.is-locked {
 }
 
 *:focus-visible {
-  outline: 2px dashed #99b0cb;
+  outline: 2px solid #2f5f9e;
   outline-offset: 2px;
+}
+
+#skipNav {
+  position: absolute;
+  left: 0;
+  top: -1000px;
+  width: 100%;
+  z-index: 1000;
+}
+
+#skipNav a:focus {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  background: #1a2330;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  z-index: 1001;
 }
 
 .wrap {
@@ -88,28 +111,6 @@ body.is-locked {
   margin-right: auto;
   padding-left: 24px;
   padding-right: 24px;
-}
-
-#skipNav {
-  position: absolute;
-  left: 0;
-  top: -1000px;
-  width: 100%;
-  z-index: 1000;
-}
-
-#skipNav a:focus {
-  position: absolute;
-  left: 0;
-  top: 1000px;
-  display: block;
-  width: 100%;
-  padding: 10px 0;
-  background: #20262c;
-  color: #fff;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .sec {

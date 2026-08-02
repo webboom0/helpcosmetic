@@ -9,7 +9,7 @@
 
 .footer-info {
   font-size: 1.7rem; /* 17px */
-  color: #666;
+  color: #555;
   line-height: 1.7;
 }
 
@@ -19,21 +19,24 @@
 
 .footer-info .sep {
   margin: 0 0.35em;
-  color: #999;
+  color: #777;
 }
 
 .footer-info a {
   color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
-.footer-info a:hover {
+.footer-info a:hover,
+.footer-info a:focus-visible {
   color: var(--color-primary);
 }
 
 .footer .footer-copy {
   margin-top: 18px;
   font-size: 1.4rem; /* 14px */
-  color: #888;
+  color: #666;
 }
 
 @media (max-width: 768px) {
