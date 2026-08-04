@@ -88,12 +88,9 @@
   position: absolute;
   top: calc(100% + 10px);
   left: 50%;
-  transform: translateX(-50%) translateY(4px);
+  right: auto;
   z-index: 30;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 16px;
+  display: block;
   background: var(--color-tooltip);
   color: #fff !important;
   font-size: 1.3rem;
@@ -101,21 +98,32 @@
   letter-spacing: -0.02em;
   white-space: nowrap;
   border-radius: 10px;
-  box-shadow: 0 6px 16px rgba(93, 49, 255, 0.28);
+  text-align: center;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: translateX(-50%) translateY(4px);
   transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+  /* 숨김 시 레이아웃/overflow 계산에서 제외 */
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 0;
+  box-shadow: none;
 }
 
 .alert-tooltip::before {
   content: "";
   position: absolute;
   left: 50%;
+  right: auto;
   bottom: 100%;
   transform: translateX(-50%);
   border: 7px solid transparent;
   border-bottom-color: var(--color-tooltip);
+  display: none;
 }
 
 .alert-wrap:hover .alert-tooltip,
@@ -124,11 +132,45 @@
   visibility: visible;
   pointer-events: auto;
   transform: translateX(-50%) translateY(0);
+  width: max-content;
+  max-width: min(280px, calc(100vw - 32px));
+  height: auto;
+  padding: 10px 16px;
+  overflow: visible;
+  white-space: nowrap;
+  box-shadow: 0 6px 16px rgba(93, 49, 255, 0.28);
+}
+
+.alert-wrap:hover .alert-tooltip::before,
+.alert-wrap:focus-within .alert-tooltip::before {
+  display: block;
 }
 
 .alert-wrap:hover .alert-btn,
 .alert-wrap:focus-within .alert-btn {
   color: var(--color-primary);
+}
+
+/* 1300 이하: 우측 정렬 (가로 스크롤 방지) */
+@media (max-width: 1300px) {
+  .alert-tooltip {
+    left: auto;
+    right: 0;
+    transform: translateY(4px);
+  }
+
+  .alert-tooltip::before {
+    left: auto;
+    right: 14px;
+    transform: none;
+  }
+
+  .alert-wrap:hover .alert-tooltip,
+  .alert-wrap:focus-within .alert-tooltip {
+    transform: translateY(0);
+    max-width: min(280px, calc(100vw - 32px));
+    white-space: normal;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -142,22 +184,5 @@
   .header .logo img {
     width: 110px;
     height: auto;
-  }
-
-  .alert-tooltip {
-    left: auto;
-    right: -8px;
-    transform: translateX(0) translateY(4px);
-  }
-
-  .alert-tooltip::before {
-    left: auto;
-    right: 18px;
-    transform: none;
-  }
-
-  .alert-wrap:hover .alert-tooltip,
-  .alert-wrap:focus-within .alert-tooltip {
-    transform: translateX(0) translateY(0);
   }
 }
