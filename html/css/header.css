@@ -57,8 +57,23 @@
   color: var(--color-primary);
 }
 
-.header .sideMenuBtn {
+/* PC: 사이트맵 링크 / 모바일: 사이드메뉴 버튼 */
+.header .sitemap-btn {
   display: grid;
+}
+
+.header .sideMenuBtn {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .header .sitemap-btn {
+    display: none;
+  }
+
+  .header .sideMenuBtn {
+    display: grid;
+  }
 }
 
 /* 알림 툴팁 — 벨 아이콘 호버 시 */
