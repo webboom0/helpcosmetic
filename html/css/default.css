@@ -77,24 +77,41 @@ body.is-locked {
 #skipNav {
   position: absolute;
   left: 0;
-  top: -1000px;
+  top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 10000;
 }
 
-#skipNav a:focus {
+#skipNav a {
   position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+}
+
+#skipNav a:focus,
+#skipNav a:focus-visible {
+  position: fixed;
   left: 0;
   top: 0;
-  display: block;
+  clip: auto;
+  clip-path: none;
   width: 100%;
-  padding: 12px 0;
+  height: auto;
+  padding: 14px 16px;
   background: #1a2330;
   color: #fff;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 700;
-  z-index: 1001;
+  outline: 3px solid #ffe08a;
+  outline-offset: -3px;
+  z-index: 10001;
 }
 
 .wrap {
