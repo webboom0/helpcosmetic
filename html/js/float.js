@@ -19,19 +19,24 @@ const floatUI = {
 
     const closeBtn = util.qs(".qf-close", panel);
 
+    // 초기: 닫힘
+    panel.classList.remove("is-open");
+    panel.setAttribute("aria-hidden", "true");
+    if (toggle) toggle.classList.remove("is-hidden");
+
     util.on(closeBtn, "click", () => {
-      panel.classList.add("is-collapsed");
+      panel.classList.remove("is-open");
       panel.setAttribute("aria-hidden", "true");
       if (toggle) {
-        toggle.classList.add("is-visible");
+        toggle.classList.remove("is-hidden");
         toggle.focus();
       }
     });
 
     util.on(toggle, "click", () => {
-      panel.classList.remove("is-collapsed");
+      panel.classList.add("is-open");
       panel.removeAttribute("aria-hidden");
-      toggle.classList.remove("is-visible");
+      if (toggle) toggle.classList.add("is-hidden");
       closeBtn?.focus();
     });
   },
@@ -69,7 +74,7 @@ const floatUI = {
       bot.setAttribute("aria-expanded", "false");
       a11y.setBackgroundHidden(false);
       const qf = util.qs("#quickFloat");
-      if (qf?.classList.contains("is-collapsed")) {
+      if (qf && !qf.classList.contains("is-open")) {
         qf.setAttribute("aria-hidden", "true");
       }
       if (!util.qs(".gnb.is-open")) util.lockScroll(false);

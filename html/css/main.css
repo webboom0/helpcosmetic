@@ -633,16 +633,37 @@
 }
 
 @media (max-width: 1024px) {
+  /* 모바일/태블릿에서는 섹션 배경 구분 없이 흰색으로 통일하고
+     섹션 간 간격은 .sec 패딩과 동일한 리듬으로 맞춤 */
+  .main-hero,
+  .sec-permit {
+    background: var(--color-white);
+  }
+
+  .main-hero {
+    padding: 28px 0 50px;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
   }
 
+  /* 좁은 화면에서는 라운드 없이 사각 박스로 정리 */
   .hero-search {
     min-height: 240px;
+    border-radius: 0;
+  }
+
+  .hero-search-field,
+  .hero-search-field input,
+  .hero-search-field::before,
+  .hero-search-field::after {
+    border-radius: 0;
   }
 
   .hero-quick-wrap {
     min-height: 0;
+    border-radius: 0;
   }
 
   .hero-quick {
@@ -654,13 +675,20 @@
     padding: 18px 8px;
   }
 
+  /* 섹션 배경이 흰색이 되면서 카드 형태가 불필요해져 컨테이너 기준으로 정렬 */
+  .board-list {
+    padding: 0;
+    border-radius: 0;
+  }
+
   .sec-law .card-grid {
     grid-template-columns: 1fr;
   }
 
+  /* 자료집 목록과 아래 배너 사이 간격을 섹션 리듬(.sec 패딩)과 동일하게 */
   .sec-permit .permit-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 50px;
   }
 
   /* 스택 시: 배너 가로 풀폭 + 약간 넓은 비율로 빈 공간 제거 */
@@ -675,7 +703,7 @@
   .banner-swiper {
     position: absolute;
     inset: 0;
-    border-radius: 14px;
+    border-radius: 0;
   }
 
   .banner-ctrl {
@@ -686,7 +714,54 @@
 
 @media (max-width: 768px) {
   .main-hero {
-    padding: 16px 0 0;
+    padding: 20px 0 36px;
+  }
+
+  .sec-permit .sec-hd {
+    margin-bottom: 14px;
+  }
+
+  .sec-permit .sec-tit {
+    font-size: 2.4rem;
+  }
+
+  .sec-permit .permit-grid {
+    gap: 36px;
+  }
+
+  /* 모바일 타이포 스케일: 본문 16px 기준으로 카드·리스트 텍스트 축소 */
+  .quick-item span {
+    font-size: 1.6rem;
+  }
+
+  /* .badge 공통 축소값(components.css)보다 특이도가 높아 여기서도 맞춤 */
+  .law-card .badge {
+    font-size: 1.4rem;
+    padding: 4px 8px;
+  }
+
+  .law-card .tit {
+    font-size: 1.7rem;
+  }
+
+  .law-card .desc {
+    font-size: 1.4rem;
+  }
+
+  .board-list .tit {
+    font-size: 1.6rem;
+  }
+
+  .board-list .date {
+    font-size: 1.4rem;
+  }
+
+  .trend-card .tit {
+    font-size: 1.7rem;
+  }
+
+  .trend-card .date {
+    font-size: 1.4rem;
   }
 
   .hero-tit-sub {
@@ -736,7 +811,7 @@
 
 @media (max-width: 480px) {
   .quick-item span {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .quick-item img {

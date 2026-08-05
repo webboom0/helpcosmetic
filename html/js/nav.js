@@ -38,18 +38,22 @@ const nav = {
     }
   },
 
+  /** 1뎁스가 실제로 펼치는 요소(.submenu 래퍼, 없으면 .depth-2) */
+  getSubmenu(li) {
+    if (!li) return null;
+    const wrap = li.querySelector(":scope > .submenu") || li.querySelector(":scope > .depth-2");
+    if (!wrap) return null;
+    return wrap.querySelector("li") ? wrap : null;
+  },
+
   /** 하위메뉴 있는 1뎁스에 aria-expanded 초기화 */
   setupAccordionAria() {
-    util.qsa(".depth-1", this.gnb).forEach((li) => {
+    util.qsa(".depth-1", this.gnb).forEach((li, i) => {
       const link = li.querySelector(":scope > a");
-      const sub = li.querySelector(".depth-2");
-      const hasItems = sub && sub.querySelector("li");
-      if (!link || !hasItems) return;
+      const sub = this.getSubmenu(li);
+      if (!link || !sub) return;
       link.setAttribute("aria-expanded", "false");
-      if (!sub.id) {
-        const slug = (link.textContent || "menu").trim().replace(/\s+/g, "-");
-        sub.id = `gnb-sub-${slug}`;
-      }
+      if (!sub.id) sub.id = `gnb-sub-${i + 1}`;
       link.setAttribute("aria-controls", sub.id);
     });
   },
@@ -61,10 +65,8 @@ const nav = {
     util.qsa(".depth-1 > a", this.gnb).forEach((link) => {
       util.on(link, "click", (e) => {
         if (this.mode !== "mobile") return;
-        const li = link.parentElement;
-        const sub = li.querySelector(".depth-2");
-        const hasItems = sub && sub.querySelector("li");
-        if (!hasItems) return;
+        const li = link.closest(".depth-1");
+        if (!this.getSubmenu(li)) return;
 
         e.preventDefault();
         const isOpen = li.classList.contains("is-open");

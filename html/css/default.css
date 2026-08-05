@@ -5,6 +5,9 @@
 @import url(footer.css);
 @import url(float.css);
 @import url(components/components.css);
+@import url(basic.css);
+@import url(board.css);
+
 
 :root {
   /* Brand — Figma 원본 */
@@ -189,50 +192,41 @@ body.is-locked {
   visibility: visible;
 }
 
+/* 루트 폰트는 전 해상도 10px 고정 (1rem = 10px, 본문 1.6rem = 16px)
+   모바일에서 줄여야 하는 큰 제목만 개별 미디어쿼리로 조정한다 */
 @media (max-width: 1024px) {
   :root {
     --header-h: 64px;
-    --font-root: 9.5px; /* 약 95% */
-  }
-
-  html {
-    font-size: var(--font-root);
   }
 
   .sec {
-    padding: 70px 0;
+    padding: 50px 0;
   }
 }
 
 @media (max-width: 768px) {
-  :root {
-    --font-root: 9px; /* 약 90% — 본문 ~14.4px */
-  }
-
-  html {
-    font-size: var(--font-root);
-  }
-
   .container {
     padding-left: 16px;
     padding-right: 16px;
   }
 
   .sec {
-    padding: 70px 0;
+    padding: 36px 0;
   }
 
   .sec-hd {
     margin-bottom: 14px;
   }
-}
 
-@media (max-width: 480px) {
-  :root {
-    --font-root: 8.5px; /* 약 85% — 본문 ~13.6px */
+  .sec-tit {
+    font-size: 2.4rem;
   }
 
-  html {
-    font-size: var(--font-root);
+  .more {
+    font-size: 1.5rem;
+  }
+
+  .more i {
+    font-size: 1.6rem;
   }
 }

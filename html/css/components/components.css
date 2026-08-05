@@ -90,4 +90,10 @@
     padding: 0 12px;
     font-size: 1.2rem;
   }
+
+  /* 뱃지는 컴포넌트 단위로 축소 (law-card, board-list 등 사용처 공통)
+     .badge-permit/.badge-reg는 width가 em 기준이라 함께 줄어듦 */
+  .badge {
+    font-size: 1.4rem;
+  }
 }

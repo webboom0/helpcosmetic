@@ -1,11 +1,10 @@
 @charset "utf-8";
 
-/* ========== FLOATING QUICK (공통) ========== */
+/* ========== FLOATING QUICK (공통) — 기본 닫힘 ========== */
 .quick-float {
   position: fixed;
   right: 20px;
   top: 160px;
-  transform: none;
   z-index: var(--z-float);
   width: 86px;
   background: transparent;
@@ -16,13 +15,18 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  transition: transform 0.3s ease, opacity 0.3s;
-}
-
-.quick-float.is-collapsed {
   transform: translateX(calc(100% + 40px));
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
+  transition: transform 0.3s ease, opacity 0.3s, visibility 0.3s;
+}
+
+.quick-float.is-open {
+  transform: none;
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
 }
 
 .quick-float-panel {
@@ -103,14 +107,14 @@
   color: #333;
 }
 
-/* 접힌 상태: <<< + 흰 탭(햄버거) */
+/* 접힌 상태 탭: <<< + 햄버거 — 기본 표시 */
 .quick-float-toggle {
   position: fixed;
   right: 0;
   top: 200px;
   transform: none;
   z-index: var(--z-float);
-  display: none;
+  display: flex;
   align-items: center;
   gap: 2px;
   width: auto;
@@ -122,8 +126,8 @@
   color: inherit;
 }
 
-.quick-float-toggle.is-visible {
-  display: flex;
+.quick-float-toggle.is-hidden {
+  display: none;
 }
 
 .quick-float-toggle .qf-chevrons {
