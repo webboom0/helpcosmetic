@@ -1,11 +1,11 @@
 /**
  * GNB / 사이드메뉴 (바닐라 JS)
  * - PC: hover/focus 드롭다운
- * - <=1024: 사이드 패널 + 아코디언
+ * - <=1100: 사이드 패널 + 아코디언
  * - 포커스 트랩 / Esc / aria-expanded
  */
 const nav = {
-  bp: 1024,
+  bp: 1100,
   mode: "pc",
   gnb: null,
   openBtn: null,

@@ -92,9 +92,10 @@
 .gnb .depth-2 a {
   display: block;
   padding: 10px 16px;
-  font-size: 1.4rem;
-  color: var(--color-text-sub);
+  font-size: 1.5rem;
+  color: var(--color-text);
   white-space: nowrap;
+  font-weight: 500;
 }
 
 .gnb .depth-2 a em {
@@ -107,9 +108,33 @@
   background: #eef0ff;
 }
 
-/* 3뎁스: 마크업(CMS 출력)은 유지하되 GNB 드롭다운에서는 노출하지 않음 */
+/* 3뎁스 — 2뎁스와 동일 계열(#666), 흰 배경 대비 AA 충족 */
 .gnb .depth3 {
-  display: none;
+  padding-bottom: 4px;
+}
+
+.gnb .depth3 a {
+  position: relative;
+  padding: 7px 16px 7px 30px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--color-text-sub);
+}
+
+.gnb .depth3 a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  width: 5px;
+  height: 1px;
+  background: currentColor;
+}
+
+.gnb .depth3 a:hover,
+.gnb .depth3 a:focus-visible {
+  color: var(--color-nav);
+  background: #eef0ff;
 }
 
 .gnb .sideMenuCloseBtn,
@@ -118,7 +143,7 @@
 }
 
 /* ===== Mobile / Tablet side panel ===== */
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   /* 사이드메뉴 열릴 때 헤더(메뉴)를 딤드 위로 */
   body.is-locked .header {
     z-index: calc(var(--z-overlay) + 10);
@@ -212,12 +237,27 @@
     display: block;
     padding: 12px 24px 12px 36px;
     font-size: 1.5rem;
-    color: #444;
+    color: var(--color-text);
     white-space: normal;
   }
 
   .gnb .depth-2 a:hover {
     color: var(--color-nav);
+    background: transparent;
+  }
+
+  .gnb .depth3 a {
+    padding: 10px 24px 10px 52px;
+    font-size: 1.4rem;
+    color: var(--color-text-sub);
+  }
+
+  .gnb .depth3 a::before {
+    left: 38px;
+  }
+
+  .gnb .depth3 a:hover,
+  .gnb .depth3 a:focus-visible {
     background: transparent;
   }
 
@@ -263,13 +303,13 @@
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1101px) {
   .gnb .mobile-cta {
     display: none !important;
   }
 }
 
-@media (max-width: 1280px) and (min-width: 1025px) {
+@media (max-width: 1280px) and (min-width: 1101px) {
   .gnb .depth-1 > a {
     padding: 0 8px;
     font-size: 1.8rem;

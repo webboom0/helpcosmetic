@@ -1,0 +1,439 @@
+@charset "utf-8";
+
+/* ===== 좌측 섹션 닷 (메인 PC only) ===== */
+.hc-navi {
+  z-index: var(--z-float);
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 46px;
+  transform: translateY(-50%);
+}
+
+.hc-navi button {
+  width: 45px;
+  padding: 4px 0;
+  display: block;
+  background: transparent;
+  border: 0;
+}
+
+.hc-navi button span {
+  opacity: 0.2;
+  background: #fff;
+  height: 2px;
+  transition: opacity 0.35s, background 0.35s;
+  display: block;
+}
+
+.hc-navi.theme-light button span {
+  background: #000;
+}
+
+.hc-navi button.active span {
+  opacity: 1;
+}
+
+.hc-navi.theme-light button.active span {
+  background: var(--purple);
+}
+
+/* ===== 우측 퀵 (html quick-float: 열기 탭 + 닫기) ===== */
+.quick-float {
+  position: fixed;
+  right: 20px;
+  top: 160px;
+  z-index: var(--z-float);
+  width: 86px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transform: translateX(calc(100% + 40px));
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: transform 0.3s ease, opacity 0.3s, visibility 0.3s;
+}
+
+.quick-float.is-open {
+  transform: none;
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.quick-float-panel {
+  width: 100%;
+  background: var(--color-white);
+  border-radius: 24px;
+  box-shadow: 0 6px 24px rgba(40, 40, 80, 0.12);
+  padding: 14px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.quick-float .qf-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 8px 4px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.25;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.quick-float .qf-item:hover {
+  color: #333;
+  background: transparent;
+}
+
+.quick-float .qf-ico-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #f0f1f5;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.quick-float .qf-ico-wrap i {
+  font-size: 2rem;
+  color: #3a4580;
+  transition: color 0.25s ease;
+}
+
+.quick-float .qf-item:hover .qf-ico-wrap,
+.quick-float .qf-item:focus-visible .qf-ico-wrap {
+  background: var(--color-primary);
+  transform: translateY(-3px) scale(1.06);
+}
+
+.quick-float .qf-item:hover .qf-ico-wrap i,
+.quick-float .qf-item:focus-visible .qf-ico-wrap i {
+  color: #fff;
+}
+
+.quick-float .qf-close {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  color: #666;
+  background: #fff;
+  border: 0;
+  box-shadow: 0 4px 14px rgba(40, 40, 80, 0.12);
+  cursor: pointer;
+}
+
+.quick-float .qf-close:hover {
+  background: #f7f8fc;
+  color: #333;
+}
+
+.quick-float-toggle {
+  position: fixed;
+  right: 0;
+  top: 200px;
+  transform: none;
+  z-index: var(--z-float);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  width: auto;
+  height: auto;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.quick-float-toggle.is-hidden {
+  display: none;
+}
+
+.quick-float-toggle .qf-chevrons {
+  display: flex;
+  align-items: center;
+  margin-right: 2px;
+}
+
+.quick-float-toggle .qf-chevrons i {
+  font-size: 1.8rem;
+  line-height: 1;
+  margin-left: -10px;
+  color: #3a4580;
+  animation: qf-chevron-flow 1.4s ease-in-out infinite;
+}
+
+.quick-float-toggle .qf-chevrons i:first-child {
+  margin-left: 0;
+  animation-delay: 0s;
+}
+
+.quick-float-toggle .qf-chevrons i:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.quick-float-toggle .qf-chevrons i:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes qf-chevron-flow {
+  0%,
+  100% {
+    color: #d0d3e0;
+    opacity: 0.35;
+    transform: translateX(0);
+  }
+  50% {
+    color: #3a4580;
+    opacity: 1;
+    transform: translateX(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quick-float-toggle .qf-chevrons i {
+    animation: none;
+  }
+
+  .quick-float-toggle .qf-chevrons i:first-child {
+    color: #d0d3e0;
+    opacity: 1;
+  }
+
+  .quick-float-toggle .qf-chevrons i:nth-child(2) {
+    color: #9aa0b8;
+    opacity: 1;
+  }
+
+  .quick-float-toggle .qf-chevrons i:nth-child(3) {
+    color: #3a4580;
+    opacity: 1;
+  }
+}
+
+.quick-float-toggle .qf-tab {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 52px;
+  background: #fff;
+  border-radius: 12px 0 0 12px;
+  box-shadow: -2px 2px 12px rgba(40, 40, 80, 0.1);
+  color: #3a4580;
+  font-size: 2.2rem;
+}
+
+.quick-float-toggle:hover .qf-tab {
+  background: #f7f8fc;
+}
+
+/* ===== 챗봇 (html2) ===== */
+.hc-chatbot {
+  z-index: var(--z-bot);
+  width: 62px;
+  height: 62px;
+  transition: transform 0.2s;
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  right: 14px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.hc-chatbot:hover {
+  transform: translateY(-3px);
+}
+
+.hc-chatbot .circle {
+  background: var(--purple);
+  border-radius: 999px;
+  width: 62px;
+  height: 62px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 20px #5446cc14;
+}
+
+.hc-chatbot .robot {
+  width: 54px;
+  height: 63px;
+  position: absolute;
+  top: calc(50% + 9.5px);
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+.hc-chatbot .robot img {
+  width: 215.97%;
+  max-width: none;
+  height: 200%;
+  position: absolute;
+  top: -50%;
+  left: -21.15%;
+}
+
+.hc-chatbot .badge {
+  letter-spacing: -0.18px;
+  color: #fff;
+  background: #00c395;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 13px;
+  font-family: "Pretendard GOV", Pretendard, sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  display: flex;
+  position: absolute;
+  top: 1px;
+  right: 0;
+}
+
+/* COS 패널 */
+.cos-panel {
+  position: fixed;
+  right: 28px;
+  bottom: 110px;
+  z-index: calc(var(--z-bot) + 1);
+  width: min(360px, calc(100vw - 32px));
+  background: var(--color-white);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: opacity 0.25s, visibility 0.25s, transform 0.25s;
+}
+
+.cos-panel.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.cos-panel-hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: var(--color-bot);
+  color: #fff;
+}
+
+.cos-panel-hd strong {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cos-panel-hd button {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border-radius: 50%;
+  color: #fff;
+  background: transparent;
+  border: 0;
+}
+
+.cos-panel-hd button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.cos-panel-bd {
+  padding: 20px 16px;
+  font-size: 1.4rem;
+  color: var(--color-text-sub);
+  line-height: 1.6;
+  min-height: 160px;
+}
+
+.cos-panel-note {
+  display: inline-block;
+  margin-top: 8px;
+  color: #666;
+  font-size: 1.3rem;
+}
+
+.page-sub .hc-navi {
+  display: none !important;
+}
+
+@media (max-width: 1200px) {
+  .quick-float {
+    right: 10px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .hc-navi {
+    display: none !important;
+  }
+
+  .quick-float,
+  .quick-float-toggle {
+    display: none !important;
+  }
+
+  .hc-chatbot {
+    right: 12px;
+    bottom: 16px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .hc-chatbot .circle {
+    width: 56px;
+    height: 56px;
+  }
+
+  .cos-panel {
+    right: 12px;
+    bottom: 88px;
+  }
+}
+
+/* 사이드메뉴(딤드) 열림 시 플로트 UI가 메뉴/클릭을 가로채지 않게 */
+body.is-locked .hc-navi,
+body.is-locked .quick-float,
+body.is-locked .quick-float-toggle,
+body.is-locked .hc-chatbot {
+  visibility: hidden !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+}
