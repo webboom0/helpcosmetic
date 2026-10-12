@@ -2,22 +2,20 @@
 
 /* ===== PC GNB ===== */
 .gnb {
-  flex: 1;
   min-width: 0;
   display: flex;
   justify-content: center;
 }
 
-/* 메인/서브 PC: 헤더 중앙 절대 배치 (live-design) */
+/* 메인/서브 PC: 헤더 grid 가운데 열 (로고·유틸 폭과 무관하게 정중앙) */
 @media (min-width: 1101px) {
   .page-main .gnb,
   .page-sub .gnb {
-    flex: 0 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    grid-column: 2;
+    justify-self: center;
+    position: relative;
     width: auto;
+    z-index: 1;
   }
 }
 
@@ -360,9 +358,20 @@
   }
 }
 
+/* 해상도 축소 시 메뉴 폭을 줄여 로고·유틸과 겹치지 않게 */
+@media (max-width: 1600px) and (min-width: 1281px) {
+  .gnb .depth-1 > a {
+    padding: 6px 12px;
+  }
+}
+
 @media (max-width: 1280px) and (min-width: 1101px) {
   .gnb .depth-1 > a {
-    padding: 6px 8px;
-    font-size: 1.8rem;
+    padding: 6px 6px;
+    font-size: 1.6rem;
+  }
+
+  .gnb > ul {
+    gap: 0;
   }
 }

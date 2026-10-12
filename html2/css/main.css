@@ -791,3 +791,68 @@
     bottom: -40px;
   }
 }
+
+/* ========== GNB 헤더 정중앙 (로고·유틸 폭 비대칭 보정) ========== */
+@media (min-width: 1101px) {
+  body.page-main .header.hc-header,
+  body.page-sub .header.hc-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    justify-content: initial;
+  }
+
+  body.page-main .header.hc-header .logo,
+  body.page-sub .header.hc-header .logo {
+    grid-column: 1;
+    justify-self: start;
+  }
+
+  body.page-main .header.hc-header .gnb,
+  body.page-sub .header.hc-header .gnb {
+    grid-column: 2;
+    justify-self: center;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    flex: none;
+    width: auto;
+    z-index: 1;
+  }
+
+  body.page-main .header.hc-header .etcMenu.hc-util,
+  body.page-sub .header.hc-header .etcMenu.hc-util {
+    grid-column: 3;
+    justify-self: end;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  body.page-main .header.hc-header,
+  body.page-sub .header.hc-header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1600px) and (min-width: 1281px) {
+  body.page-main .gnb .depth-1 > a,
+  body.page-sub .gnb .depth-1 > a {
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1101px) {
+  body.page-main .gnb .depth-1 > a,
+  body.page-sub .gnb .depth-1 > a {
+    padding: 6px 6px;
+    font-size: 1.6rem;
+  }
+
+  body.page-main .gnb > ul,
+  body.page-sub .gnb > ul {
+    gap: 0;
+  }
+}

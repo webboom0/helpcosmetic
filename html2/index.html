@@ -24,6 +24,7 @@
   </head>
 
   <body class="page-main">
+    <!-- ========== Skip Navigation ========== -->
     <div id="skipNav">
       <a href="#contents">본문 바로가기</a>
       <a href="#gnb">주메뉴 바로가기</a>
@@ -32,6 +33,7 @@
     <div class="dimmed" id="dimmed" aria-hidden="true"></div>
 
     <div class="wrap hc">
+      <!-- ========== Header / GNB ========== -->
       <header class="header hc-header theme-dark" id="hc-header">
         <h1 class="logo">
           <a href="index.html" data-goto="0">
@@ -281,6 +283,7 @@
         </div>
       </header>
 
+      <!-- ========== Section Navi ========== -->
       <nav class="hc-navi theme-dark" id="hc-navi" aria-label="섹션 이동">
         <button type="button" class="active" data-index="0" aria-label="히어로·통합검색" aria-current="true">
           <span></span>
@@ -296,6 +299,7 @@
         </button>
       </nav>
 
+      <!-- ========== COS BOT Button ========== -->
       <button
         type="button"
         class="hc-chatbot"
@@ -310,10 +314,12 @@
         <span class="badge">AI</span>
       </button>
 
+      <!-- ========== Main Contents ========== -->
       <main id="contents">
         <div class="hc-spacer" id="hc-spacer">
           <div class="hc-fixed" id="hc-fixed">
             <div class="hc-track" id="hc-track">
+              <!-- Section 1 : Hero (통합검색) -->
               <section class="hc-section" id="hc-s1" data-theme="dark" aria-labelledby="s1-title">
                 <div class="s1-bg">
                   <video
@@ -359,6 +365,7 @@
                   </nav>
                 </div>
               </section>
+              <!-- Section 2 : 해외 법령 -->
               <section class="hc-section" id="hc-s2" data-theme="light" aria-labelledby="s2-title">
                 <img class="s2-grid" src="images/s2-grid.svg" alt="" aria-hidden="true" />
                 <div class="container s2-body">
@@ -444,6 +451,7 @@
                   </div>
                 </div>
               </section>
+              <!-- Section 3 : 인허가 대행 / 규정 요약 -->
               <section class="hc-section" id="hc-s3" data-theme="dark" aria-labelledby="s3-title">
                 <div class="s3-bg">
                   <img src="images/s3-bg.jpg" alt="" aria-hidden="true" />
@@ -541,6 +549,7 @@
                   </div>
                 </div>
               </section>
+              <!-- Section 4 : 해외 동향 / 해외시장 -->
               <section class="hc-section" id="hc-s4" data-theme="light" aria-labelledby="s4-title">
                 <canvas class="s4-globe" id="s4-globe" data-mask="images/land-mask.json" aria-hidden="true"></canvas>
                 <div class="container split">
@@ -674,6 +683,7 @@
         </div>
       </main>
 
+      <!-- ========== Footer ========== -->
       <footer class="footer hc-footer" aria-label="사이트 정보">
         <div class="container">
           <div class="footer-info info">
@@ -693,6 +703,7 @@
     <!-- /.wrap -->
 
     <!-- 우측 퀵메뉴 (html: 열기 탭 + 닫기) -->
+    <!-- ========== Quick Menu ========== -->
     <aside class="quick-float" id="quickFloat" aria-label="바로가기 메뉴" aria-hidden="true">
       <div class="quick-float-panel">
         <a href="#" class="qf-item">
@@ -720,6 +731,7 @@
         <i class="ri-close-line" aria-hidden="true"></i>
       </button>
     </aside>
+    <!-- ========== Quick Menu Toggle ========== -->
     <button
       type="button"
       class="quick-float-toggle"
@@ -738,6 +750,7 @@
       </span>
     </button>
 
+    <!-- ========== COS BOT Panel ========== -->
     <div
       class="cos-panel"
       id="cosPanel"

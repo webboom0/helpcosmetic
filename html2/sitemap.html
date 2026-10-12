@@ -15,6 +15,7 @@
 </head>
 
 <body class="page-sub">
+  <!-- ========== Skip Navigation ========== -->
   <div id="skipNav">
     <a href="#contents">본문 바로가기</a>
     <a href="#gnb">주메뉴 바로가기</a>
@@ -23,6 +24,7 @@
   <div class="dimmed" id="dimmed" aria-hidden="true"></div>
 
   <div class="wrap">
+    <!-- ========== Header / GNB ========== -->
     <header class="header hc-header theme-light" id="hc-header">
       <h1 class="logo">
         <a href="index.html">
@@ -31,6 +33,7 @@
         </a>
       </h1>
 
+      <!-- GNB -->
       <nav class="gnb" id="gnb" aria-label="주메뉴">
         <button type="button" class="sideMenuCloseBtn" aria-label="메뉴 닫기">
           <i class="ri-close-fill" aria-hidden="true"></i>
@@ -155,6 +158,7 @@
         <a href="sitemap.html" class="btn-pill mobile-cta mobile-sitemap" aria-current="page">사이트맵</a>
       </nav>
 
+      <!-- Util (알림 / 사이트맵 / 햄버거) -->
       <div class="etcMenu hc-util">
         <div class="alert-wrap">
           <button type="button" class="icon-btn alert-btn" aria-label="자료 업데이트 알림서비스 신청"
@@ -179,20 +183,24 @@
       </div>
     </header>
 
+    <!-- ========== COS BOT Button ========== -->
     <button type="button" class="hc-chatbot" id="cosBot" data-open-bot aria-label="AI 코스봇 챗봇"
       aria-controls="cosPanel" aria-expanded="false" aria-haspopup="dialog">
       <span class="circle"><span class="robot"><img src="images/s1-robot.png" alt="" aria-hidden="true"></span></span>
       <span class="badge">AI</span>
     </button>
 
+    <!-- ========== Main Contents ========== -->
     <main id="contents" class="sub-contents">
       <div class="container">
+        <!-- Breadcrumb -->
         <nav class="breadcrumb" aria-label="현재 위치">
           <a href="index.html" class="home" aria-label="홈"><i class="ri-home-4-line" aria-hidden="true"></i></a>
           <span class="sep" aria-hidden="true"><i class="ri-arrow-right-s-line"></i></span>
           <span class="current" aria-current="page">사이트맵</span>
         </nav>
 
+        <!-- Page Header -->
         <div class="page-hd">
           <h2 class="page-tit">사이트맵</h2>
           <div class="page-tools">
@@ -205,6 +213,7 @@
           </div>
         </div>
 
+        <!-- Content : 사이트맵 -->
         <nav class="sitemap" aria-label="전체 메뉴">
           <div class="sitemap-grid">
             <section class="sitemap-group">
@@ -314,6 +323,7 @@
       </div>
     </main>
 
+    <!-- ========== Footer ========== -->
     <footer class="footer hc-footer" aria-label="사이트 정보">
       <div class="container">
         <div class="footer-info info">
@@ -331,7 +341,7 @@
     </footer>
   </div><!-- /.wrap -->
 
-  <!-- 우측 퀵메뉴 (html: 열기 탭 + 닫기) -->
+  <!-- ========== Quick Menu ========== -->
   <aside class="quick-float" id="quickFloat" aria-label="바로가기 메뉴" aria-hidden="true">
     <div class="quick-float-panel">
       <a href="#" class="qf-item">
@@ -359,6 +369,7 @@
       <i class="ri-close-line" aria-hidden="true"></i>
     </button>
   </aside>
+  <!-- ========== Quick Menu Toggle ========== -->
   <button type="button" class="quick-float-toggle" id="quickFloatToggle" aria-label="퀵메뉴 열기"
     aria-expanded="false" aria-controls="quickFloat">
     <span class="qf-chevrons" aria-hidden="true">
@@ -371,6 +382,7 @@
     </span>
   </button>
 
+  <!-- ========== COS BOT Panel ========== -->
   <div class="cos-panel" id="cosPanel" role="dialog" aria-modal="true" aria-labelledby="cosPanelTit"
     aria-hidden="true">
     <div class="cos-panel-hd">
