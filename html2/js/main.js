@@ -6,6 +6,9 @@
 (() => {
   "use strict";
 
+  /* 1021 수정: CMS는 defer 없이 head에서 로드 → DOM 전에 실행되면 track=null로 즉시 return.
+     nav.js/float.js처럼 DOMContentLoaded 이후에 부팅한다. */
+  const boot = () => {
   const BP = 1100;
   const mq = window.matchMedia(`(max-width: ${BP}px)`);
   const isMobile = () => mq.matches;
@@ -20,7 +23,10 @@
   const naviBtns = navi ? Array.from(navi.querySelectorAll("button")) : [];
   const sectionCount = sections.length;
 
-  if (!track || !sections.length) return;
+  if (!track || !sections.length) {
+    console.warn("[hc] snap skipped: missing #hc-track or .hc-section");
+    return;
+  }
 
   const TRANS = 850;
   const WHEEL_GAP = 150;
@@ -813,4 +819,11 @@
     enableSnapMode();
   }
   mq.addEventListener("change", onBreakpointChange);
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
+  }
 })();

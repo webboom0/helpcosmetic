@@ -110,12 +110,13 @@ input.form_input::placeholder {
   color: var(--color-text-muted);
 }
 
-/* 검색 버튼 */
+/* 1021 수정: 검색 버튼 — 원형 → 라운드 사각형 (입력창 radius와 맞춤) */
 .board_info .btn_box .btn.round {
   width: 4.6rem;
   min-width: 4.6rem;
   height: 4.6rem;
   min-height: 4.6rem;
+  border-radius: var(--radius-sm, 8px);
 }
 
 .board_info .btn_box .btn.round::after {
@@ -148,7 +149,30 @@ input.form_input::placeholder {
 }
 
 .board_list tbody tr.notice {
-  background: #f7f6ff;
+  background: var(--color-primary-soft, #f5f4fd);
+}
+
+/* 1021 수정: 공지 배지 — 노란 원형 → 브랜드 라운드 사각 */
+.board_list tbody td .icon_notice {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-width: 4.2rem;
+  height: 2.6rem;
+  margin: 0 auto;
+  padding: 0 0.8rem;
+  border-radius: 6px;
+  background: var(--badge-notice, #fff0f5);
+  color: var(--badge-notice-text, #e04080);
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  box-sizing: border-box;
 }
 
 .board_list tbody td {
@@ -452,7 +476,26 @@ input.form_input::placeholder {
   }
 
   .board_list tbody tr.notice {
-    background: #f7f6ff;
+    background: var(--color-primary-soft, #f5f4fd);
+  }
+
+  /* 1021 수정: 모바일 — 번호열 숨김 → 제목 앞에 공지 배지 */
+  .board_list tbody tr.notice td.subject a::before {
+    content: "공지";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    min-width: 3.6rem;
+    height: 2.2rem;
+    margin-right: 0.6rem;
+    padding: 0 0.6rem;
+    border-radius: 6px;
+    background: var(--badge-notice, #fff0f5);
+    color: var(--badge-notice-text, #e04080);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1;
   }
 
   .board_list tbody td {
