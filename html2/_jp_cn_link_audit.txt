@@ -1,0 +1,18 @@
+# JP/CN PPT vs HTML link/download audit (2026-10-27)
+
+## Japan — fixes applied
+1. MISSING DL: `files/japan/jp-1-1-agency-contract.zip` (PPT comment 첨부파일 1-1) → added on `law-export-jp-01.html`
+2. PATH: label examples pointed to `images/law/` → changed to PPT attachment paths `files/japan/jp-5-1-cosmetic-label.png`, `jp-5-2-quasi-label.png` on `law-export-jp-05.html`
+3. NOTE: PPT `law.go.kr#undefined` (제16조) kept as HTML `#J16:0` (broken fragment fix)
+4. NOTE: PPT JPO guide `...?ut` truncated query stripped in HTML (same as other utm cleanups)
+5. Drive PDFs on slide7 → local individual PDFs + ZIPs already present; no extras
+
+## China — fixes applied
+1. EXTRA link: `http://www.wipo.int/madrid/en/romarin` was HTML lex-link but PPT body plain text only (no hyperlink) → unwrapped to plain URL text on `law-export-cn-01.html`
+2. EXTRA link: UNI-PASS → unipass.customs.go.kr on `law-export-cn-04.html` (PPT has wording only, no hyperlink) → removed link, kept text
+3. KCIA form PDFs in PPT → already localized to `files/china/cn-*`; 붙임1/3 present
+4. After fixes: external URL set matches PPT (non-PDF KCIA page links + portals)
+
+## Verdict
+- JP/CN audited against live PPTX hyperlinks + 첨부자료 + comments
+- Remaining differences are intentional cleanups only (#J16:0, stripped `?ut`)
