@@ -113,7 +113,7 @@ body.page-main.is-locked .header.hc-header {
   display: block;
 }
 
-/* 1021 수정: 헤더 통합검색 아이콘 */
+/* 헤더 통합검색 아이콘 */
 .page-main .header .search-btn i,
 .page-main .header .alert-btn i {
   font-size: 2.4rem;
@@ -351,7 +351,7 @@ body.page-sub.is-locked .header.hc-header {
   display: block;
 }
 
-/* 1021 수정: 헤더 통합검색 아이콘 */
+/* 헤더 통합검색 아이콘 */
 .page-sub .header .search-btn i,
 .page-sub .header .alert-btn i {
   font-size: 2.4rem;

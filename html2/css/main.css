@@ -1,4 +1,4 @@
-/* 1021 수정: Pretendard — common.css 로컬 폰트 사용 (CDN @import는 CMS CSP 차단) */
+/* Pretendard — common.css 로컬 폰트 사용 (CDN @import는 CMS CSP 차단) */
 @font-face {
   font-family: GmarketSans;
   src: url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff)
@@ -2139,7 +2139,7 @@ html:has(.hc) {
 }
 
 /*
-  1021 수정: s2/s3/s4 왼쪽 타이틀 줄바꿈
+  s2/s3/s4 왼쪽 타이틀 줄바꿈
   부모(.s2-title / .lead .title)는 white-space:nowrap 이고,
   줄 단위는 .reveal-line { display:block } 로 나눈다.
   CMS에서 .hc 하위 선택자가 깨지거나 span이 inline으로 남으면 한 줄로 붙음 → 강제.

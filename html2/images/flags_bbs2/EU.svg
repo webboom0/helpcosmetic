@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="256" cy="256" r="256" />
+    </clipPath>
+    <g id="star">
+      <polygon points="0,-15 4,-4 15,-4 7,3 10,14 0,7 -10,14 -7,3 -15,-4 -4,-4" fill="#ffcc00" />
+    </g>
+  </defs>
+  <g clip-path="url(#circle-clip)">
+    <rect width="512" height="512" fill="#003399" />
+    <g transform="translate(256, 256)">
+      <use href="#star" y="-140" />
+      <use href="#star" y="140" />
+      <use href="#star" x="-140" />
+      <use href="#star" x="140" />
+      <use href="#star" x="-70" y="-121" />
+      <use href="#star" x="70" y="-121" />
+      <use href="#star" x="-121" y="-70" />
+      <use href="#star" x="121" y="-70" />
+      <use href="#star" x="-121" y="70" />
+      <use href="#star" x="121" y="70" />
+      <use href="#star" x="-70" y="121" />
+      <use href="#star" x="70" y="121" />
+    </g>
+  </g>
+</svg>

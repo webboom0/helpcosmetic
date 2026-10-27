@@ -1,0 +1,91 @@
+# Taiwan PPT vs HTML link/download audit
+
+Pages: law-export-tw-01.html, law-export-tw-02.html, law-export-tw-03.html, law-export-tw-04.html, law-export-tw-05.html, law-export-tw.html
+PPT unique URLs: 19
+HTML content URLs: 19
+PPT attachments: 18
+HTML downloads: 18
+
+## Missing external URLs (in PPT, not in HTML content)
+- (none)
+
+## Extra external URLs (in HTML content, not in PPT)
+- (none)
+
+## Missing downloads (PPT attach inventory, not linked in HTML)
+- (none)
+
+## Extra downloads (in HTML, not in PPT attach inventory)
+- (none)
+
+## Per-page content URL list
+### law-export-tw-01.html
+URLs (2):
+  [PPT] https://cloud.tipo.gov.tw/S282/S282WV1/
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+DLs (2):
+  [PPT] files/taiwan/tw-1-1-export-agency-en.pdf
+  [PPT] files/taiwan/tw-1-1-export-agency-ko.pdf
+
+### law-export-tw-02.html
+URLs (6):
+  [PPT] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5629&page=1&code=foreign&searchopt=&searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC
+  [PPT] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5630&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC
+  [PPT] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84
+  [PPT] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5823&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C
+  [PPT] https://kcia.or.kr/inc/down.php?dir=BOARD&file_name=202310_169640754590651_1.docx&rename=%ED%99%94%EC%9E%A5%ED%92%88+%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4+%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1+%EB%A7%A4%EB%89%B4%EC%96%BC_%EA%B5%AD%EB%AC%B8.docx
+  [PPT] https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180
+DLs (1):
+  [PPT] files/taiwan/tw-2-1-importer-auth.pdf
+
+### law-export-tw-03.html
+URLs (2):
+  [PPT] https://cos.fda.gov.tw/TCAL/
+  [PPT] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84
+DLs (0):
+
+### law-export-tw-04.html
+URLs (9):
+  [PPT] https://kcia.or.kr/cert/main/
+  [PPT] https://kcia.or.kr/home/law/%EA%B8%B0%ED%83%80%20%EC%88%98%EC%B6%9C%ED%86%B5%EA%B4%80%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%84%9C%EB%A5%98.pdf
+  [PPT] https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf
+  [PPT] https://unipass.customs.go.kr/clip/index.do
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1720212
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1863877
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1863914
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1863940
+DLs (7):
+  [PPT] files/taiwan/tw-4-1-export-declaration.pdf
+  [PPT] files/taiwan/tw-4-2-commercial-invoice.pdf
+  [PPT] files/taiwan/tw-4-3-proforma-invoice.pdf
+  [PPT] files/taiwan/tw-4-4-packing-list.pdf
+  [PPT] files/taiwan/tw-4-5-bl.pdf
+  [PPT] files/taiwan/tw-4-6-awb.pdf
+  [PPT] files/taiwan/tw-4-7-customs-docs.pdf
+
+### law-export-tw-05.html
+URLs (6):
+  [PPT] https://kcia.or.kr/cert/main/
+  [PPT] https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf
+  [PPT] https://web.customs.gov.tw/en/singlehtml/3333?cntId=ef481d6f272c42ac98dca2c33502bb7c
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1720212
+  [PPT] https://www.kita.net/board/format/formatDetail.do?postIndex=1863940
+DLs (8):
+  [PPT] files/taiwan/tw-4-guide-awb.hwp
+  [PPT] files/taiwan/tw-4-guide-commercial-invoice.hwp
+  [PPT] files/taiwan/tw-4-guide-packing-list.xlsx
+  [PPT] files/taiwan/tw-5-1-commercial-invoice.pdf
+  [PPT] files/taiwan/tw-5-2-packing-list.pdf
+  [PPT] files/taiwan/tw-5-3-bl.pdf
+  [PPT] files/taiwan/tw-5-4-awb.pdf
+  [PPT] files/taiwan/tw-5-5-import-declaration.pdf
+
+### law-export-tw.html
+URLs (0):
+DLs (0):
+
+## Disk vs inventory
+disk only: ['tw-1-2-trademark-form.pdf']
+inventory missing on disk: []

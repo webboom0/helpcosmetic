@@ -1,0 +1,137 @@
+# CN HTML inventory
+
+## law-export-cn-01.html
+  URL https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+  URL https://www.koipa.re.kr/home/board/000118Detail.do?menu_cd=000118&num=5586
+  URL https://sbj.cnipa.gov.cn/sbj/index.html
+  URL http://www.wipo.int/madrid/en/romarin
+
+## law-export-cn-02.html
+  URL https://zwfw.nmpa.gov.cn/web/user/login?backUrl=https%3A%2F%2Fzwfw.nmpa.gov.cn%2Fweb%2Ftasklist%2Fcorporate%3Ftheme%3DHZP
+  DL  files/china/cn-2-1-rp-auth.pdf
+  DL  files/china/cn-2-2-reg-info.pdf
+  DL  files/china/cn-2-3-qm-overview.pdf
+  DL  files/china/cn-2-4-ae-monitor.pdf
+  DL  files/china/cn-2-5-rp-info.pdf
+  DL  files/china/cn-2-6-rp-auth.pdf
+  DL  files/china/cn-2-7-manufacturer.pdf
+
+## law-export-cn-03.html
+  URL https://kcia.or.kr/home/law/law_09.php?type=view&no=5389&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EB%AA%85%EB%AA%85%26ob%3D
+  DL  files/china/cn-3-1-reg-info.pdf
+  DL  files/china/cn-3-2-formula.pdf
+  DL  files/china/cn-3-3-standard.pdf
+  DL  files/china/cn-3-4-label.pdf
+  DL  files/china/cn-3-5-test-report.pdf
+  DL  files/china/cn-3-6-safety-report.pdf
+  DL  files/china/cn-3-7-efficacy.pdf
+  DL  files/china/cn-3-2-formula.pdf
+  DL  files/china/cn-3-3-standard.pdf
+  DL  files/china/cn-3-4-label.pdf
+  DL  files/china/cn-3-5-test-report.pdf
+  DL  files/china/cn-3-6-safety-report.pdf
+  DL  files/china/cn-3-7-efficacy.pdf
+  DL  files/china/cn-3-2-formula.pdf
+  DL  files/china/cn-3-3-standard.pdf
+  DL  files/china/cn-3-4-label.pdf
+  DL  files/china/cn-3-5-test-report.pdf
+  DL  files/china/cn-3-6-safety-report.pdf
+  DL  files/china/cn-3-7-efficacy.pdf
+  DL  files/china/cn-att1-annex14.hwp
+  DL  files/china/cn-att3-ingredient-guide.hwp
+
+## law-export-cn-04.html
+  URL https://unipass.customs.go.kr/clip/index.do
+  DL  files/china/cn-4-1-invoice.zip
+  DL  files/china/cn-4-2-packing-list.pdf
+  DL  files/china/cn-4-3-customs-docs.pdf
+  DL  files/china/cn-4-4-bl.pdf
+  DL  files/china/cn-4-1-invoice.zip
+  DL  files/china/cn-4-2-packing-list.pdf
+
+## law-export-cn-05.html
+  URL https://www.singlewindow.cn/#/
+  URL https://kcia.or.kr/home/law/law_09.php?type=view&no=17610&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EA%B2%80%EC%97%AD%26ob%3D
+  URL https://sc.singlewindow.cn/wmzx/zcfg?articleId=2005181785205510145
+  URL https://www.singlewindow.cn/fs/STADOCROOT/09/B2/AE/C3E3F190560D2FCBCE8FF5C7ED.pdf?_downloadmode=1&_rnd=1750819913812&filenamex=201C53554E007A9753E3201D680751C6724875286237624B518CFF088D277269753362A5002D4E0AFF09005F00320030003200350030003600310038002E007000640066
+  DL  files/china/cn-5-1-inspection-cert.png
+
+## UNIQUE URLS
+- http://www.wipo.int/madrid/en/romarin
+- https://kcia.or.kr/home/law/law_09.php?type=view&no=17610&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EA%B2%80%EC%97%AD%26ob%3D
+- https://kcia.or.kr/home/law/law_09.php?type=view&no=5389&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EB%AA%85%EB%AA%85%26ob%3D
+- https://sbj.cnipa.gov.cn/sbj/index.html
+- https://sc.singlewindow.cn/wmzx/zcfg?articleId=2005181785205510145
+- https://unipass.customs.go.kr/clip/index.do
+- https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+- https://www.koipa.re.kr/home/board/000118Detail.do?menu_cd=000118&num=5586
+- https://www.singlewindow.cn/#/
+- https://www.singlewindow.cn/fs/STADOCROOT/09/B2/AE/C3E3F190560D2FCBCE8FF5C7ED.pdf?_downloadmode=1&_rnd=1750819913812&filenamex=201C53554E007A9753E3201D680751C6724875286237624B518CFF088D277269753362A5002D4E0AFF09005F00320030003200350030003600310038002E007000640066
+- https://zwfw.nmpa.gov.cn/web/user/login?backUrl=https%3A%2F%2Fzwfw.nmpa.gov.cn%2Fweb%2Ftasklist%2Fcorporate%3Ftheme%3DHZP
+
+## UNIQUE DLS
+- files/china/cn-2-1-rp-auth.pdf
+- files/china/cn-2-2-reg-info.pdf
+- files/china/cn-2-3-qm-overview.pdf
+- files/china/cn-2-4-ae-monitor.pdf
+- files/china/cn-2-5-rp-info.pdf
+- files/china/cn-2-6-rp-auth.pdf
+- files/china/cn-2-7-manufacturer.pdf
+- files/china/cn-3-1-reg-info.pdf
+- files/china/cn-3-2-formula.pdf
+- files/china/cn-3-3-standard.pdf
+- files/china/cn-3-4-label.pdf
+- files/china/cn-3-5-test-report.pdf
+- files/china/cn-3-6-safety-report.pdf
+- files/china/cn-3-7-efficacy.pdf
+- files/china/cn-4-1-invoice.zip
+- files/china/cn-4-2-packing-list.pdf
+- files/china/cn-4-3-customs-docs.pdf
+- files/china/cn-4-4-bl.pdf
+- files/china/cn-5-1-inspection-cert.png
+- files/china/cn-att1-annex14.hwp
+- files/china/cn-att3-ingredient-guide.hwp
+
+## DISK FILES
+- 2-1. 경내책임자 수권서(양식).pdf
+- 2-2. 화장품 허가, 등록 정보표(양식).pdf
+- 2-3. 품질관리체계 개요(양식).pdf
+- 2-4. 부작용 모니터링 및 평가 체계 개요표(양식).pdf
+- 2-5. 경내책임자 정보표(양식).pdf
+- 2-6. 경내책임자 수권서(양식).pdf
+- 2-7. 생산기업 정보표(양식).pdf
+- 3-1. 화장품 허가, 등록 정보표(양식).pdf
+- 3-2. 처방표(양식).pdf
+- 3-3. 화장품 제품 집행표준(양식).pdf
+- 3-4. 화장품 제품 라벨(양식).pdf
+- 3-5. 검사보고서(예시).pdf
+- 3-6. 안전성평가보고서(예시).pdf
+- 3-7. 효능 클레임 평가 근거의 개요(양식).pdf
+- 4-1. 송장.zip
+- 4-2. 포장명세서.pdf
+- 4-3. 기타 수출통관에 필요한 서류.pdf
+- 4-4. 선하증권.pdf
+- 5-1. 입경화물검험검역증명.png
+- cn-2-1-rp-auth.pdf
+- cn-2-2-reg-info.pdf
+- cn-2-3-qm-overview.pdf
+- cn-2-4-ae-monitor.pdf
+- cn-2-5-rp-info.pdf
+- cn-2-6-rp-auth.pdf
+- cn-2-7-manufacturer.pdf
+- cn-3-1-reg-info.pdf
+- cn-3-2-formula.pdf
+- cn-3-3-standard.pdf
+- cn-3-4-label.pdf
+- cn-3-5-test-report.pdf
+- cn-3-6-safety-report.pdf
+- cn-3-7-efficacy.pdf
+- cn-4-1-invoice.zip
+- cn-4-2-packing-list.pdf
+- cn-4-3-customs-docs.pdf
+- cn-4-4-bl.pdf
+- cn-5-1-inspection-cert.png
+- cn-att1-annex14.hwp
+- cn-att3-ingredient-guide.hwp
+- 붙임1. 화장품 허가 등록 자료 관리 규정 별표14.hwp
+- 붙임3. 화장품 원료 안전 정보 작성 기술지침_국문.hwp

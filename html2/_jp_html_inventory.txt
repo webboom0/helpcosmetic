@@ -1,0 +1,149 @@
+# JP HTML inventory
+
+## law-export-jp-01.html
+  URL https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+  URL https://www.jpo.go.jp/e/system/professionals/step-by-step-trademark.html
+  URL https://www.j-platpat.inpit.go.jp/t0100
+  URL https://www.j-platpat.inpit.go.jp/t1201
+  URL https://www.jpo.go.jp/system/trademark/madrid/tetuzuki/mado_shutsugan_nagare.html
+  URL https://www.jpo.go.jp/e/system/process/tesuryo/hyou.html
+  URL https://www.wipo.int/en/web/madrid-system
+  DL  files/japan/jp-1-2-trademark-form.pdf
+
+## law-export-jp-02.html
+
+## law-export-jp-03.html
+  URL https://web.fd-shinsei.mhlw.go.jp/download/index.html
+  URL https://web.fd-shinsei.mhlw.go.jp/download/index.html
+  URL https://www.pmda.go.jp/review-services/drug-reviews/procedures/0004.html
+  URL https://shinsei.e-gov.go.jp/recept/procedure/lists/procedureInformation?_csrf=621bfbd2-359e-45ff-8964-a961beb83905&search=%2Frecept%2Fprocedure%2Flists%2Fsearch&procedureInfo=%2Frecept%2Fprocedure%2Flists%2FprocedureInformation&checkApplyByGroupId=%2Frecept%2Fprocedure%2Flists%2FcheckApplyByGroupId&applyByProcIdOrGroupId=%2Frecept%2Fprocedure%2Flists%2FapplyByProcIdOrGroupId&pagingPath=%2Frecept%2Fprocedure%2Flists%2Fpaging&backView=%2Frecept%2Fprocedure%2Flists%2FbackView&class1Path=%2Frecept%2Fprocedure%2Flists%2Fclass1&class2Path=%2Frecept%2Fprocedure%2Flists%2Fclass2&deleteBookmark=%2Frecept%2Fprocedure%2Flists%2FdeleteBookmark&registBookmark=%2Frecept%2Fprocedure%2Flists%2FregistBookmark&errorPath=%2Frecept%2Fshinsei-system-error%2F&_csrf=621bfbd2-359e-45ff-8964-a961beb83905&pagingType=&pageNum=1&totalPageNum=1&gtaTetCd=495ES00020961&procId=&groupId=&groupName=&urlParameter=&partSignGroupFlag=false&confirmProcedureOKSubmit=false&methodFlag=true&gtaTetName=%E6%A5%AD%E8%80%85%E3%82%B3%E3%83%BC%E3%83%89&officeId=&gtaEveCd=&gtaTbuCd=&gtaTguCd=&pageNum=1&displayNum=20&pageNum=1&DSCTOKEN=
+  URL https://www.mhlw.go.jp/file/06-Seisakujouhou-11120000-Iyakushokuhinkyoku/keshouhin-standard.pdf
+  URL https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=6014&page=1&code=foreign
+  URL https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=6014&page=1&code=foreign
+  DL  files/japan/jp-3-1-ma-permit.pdf
+  DL  files/japan/jp-3-1-manager-cert.pdf
+  DL  files/japan/jp-3-1-gqp-gvp.pdf
+  DL  files/japan/jp-3-1-ma-notice.pdf
+  DL  files/japan/jp-3-1-foreign-mfg.pdf
+  DL  files/japan/jp-3-1-duty-chart.pdf
+  DL  files/japan/jp-3-2-mfg-permit.pdf
+  DL  files/japan/jp-3-2-tech-cert.pdf
+  DL  files/japan/jp-3-2-facility-summary.pdf
+  DL  files/japan/jp-3-2-test-equip.pdf
+  DL  files/japan/jp-3-2-ma-notice.pdf
+  DL  files/japan/jp-3-2-foreign-mfg.pdf
+  DL  files/japan/jp-3-2-duty-chart.pdf
+  DL  files/japan/jp-3-3-operator-code.pdf
+  DL  files/japan/jp-3-3-approval-app.pdf
+  DL  files/japan/jp-3-3-gmp-inspect.pdf
+  DL  files/japan/jp-3-3-foreign-approval.pdf
+  DL  files/japan/jp-3-3-foreign-mfg.pdf
+  DL  files/japan/jp-3-1-ma-docs.zip
+  DL  files/japan/jp-3-2-mfg-docs.zip
+  DL  files/japan/jp-3-3-quasi-docs.zip
+  DL  files/japan/jp-3-4-notice-form.pdf
+  DL  files/japan/jp-3-5-notice-annex.pdf
+
+## law-export-jp-04.html
+  URL https://www.customs.go.kr/common/nttFileDownload.do?fileKey=075d1443478bbd1b57e2b74ea36937df
+  URL https://www.law.go.kr/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%ED%99%94%EC%9E%A5%ED%92%88%EB%B2%95#J16:0
+  URL https://www.law.go.kr/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%ED%99%94%EC%9E%A5%ED%92%88%EB%B2%95#J30:0
+  DL  files/japan/jp-4-1-bl.pdf
+  DL  files/japan/jp-4-2-awb.pdf
+  DL  files/japan/jp-4-3-invoice.zip
+  DL  files/japan/jp-4-4-packing-list.pdf
+  DL  files/japan/jp-4-5-customs-docs.pdf
+
+## law-export-jp-05.html
+  URL https://bbs.naccscenter.com/afr/
+  URL https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5757&page=1&code=foreign
+  URL https://www.jcia.org/user/business/ingredients/namelist
+  URL https://www.jcia.org/user/common/download/business/ingredients/qdlnl.pdf
+
+## law-export-jp.html
+
+## UNIQUE URLS
+- https://bbs.naccscenter.com/afr/
+- https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5757&page=1&code=foreign
+- https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=6014&page=1&code=foreign
+- https://shinsei.e-gov.go.jp/recept/procedure/lists/procedureInformation?_csrf=621bfbd2-359e-45ff-8964-a961beb83905&search=%2Frecept%2Fprocedure%2Flists%2Fsearch&procedureInfo=%2Frecept%2Fprocedure%2Flists%2FprocedureInformation&checkApplyByGroupId=%2Frecept%2Fprocedure%2Flists%2FcheckApplyByGroupId&applyByProcIdOrGroupId=%2Frecept%2Fprocedure%2Flists%2FapplyByProcIdOrGroupId&pagingPath=%2Frecept%2Fprocedure%2Flists%2Fpaging&backView=%2Frecept%2Fprocedure%2Flists%2FbackView&class1Path=%2Frecept%2Fprocedure%2Flists%2Fclass1&class2Path=%2Frecept%2Fprocedure%2Flists%2Fclass2&deleteBookmark=%2Frecept%2Fprocedure%2Flists%2FdeleteBookmark&registBookmark=%2Frecept%2Fprocedure%2Flists%2FregistBookmark&errorPath=%2Frecept%2Fshinsei-system-error%2F&_csrf=621bfbd2-359e-45ff-8964-a961beb83905&pagingType=&pageNum=1&totalPageNum=1&gtaTetCd=495ES00020961&procId=&groupId=&groupName=&urlParameter=&partSignGroupFlag=false&confirmProcedureOKSubmit=false&methodFlag=true&gtaTetName=%E6%A5%AD%E8%80%85%E3%82%B3%E3%83%BC%E3%83%89&officeId=&gtaEveCd=&gtaTbuCd=&gtaTguCd=&pageNum=1&displayNum=20&pageNum=1&DSCTOKEN=
+- https://web.fd-shinsei.mhlw.go.jp/download/index.html
+- https://www.customs.go.kr/common/nttFileDownload.do?fileKey=075d1443478bbd1b57e2b74ea36937df
+- https://www.j-platpat.inpit.go.jp/t0100
+- https://www.j-platpat.inpit.go.jp/t1201
+- https://www.jcia.org/user/business/ingredients/namelist
+- https://www.jcia.org/user/common/download/business/ingredients/qdlnl.pdf
+- https://www.jpo.go.jp/e/system/process/tesuryo/hyou.html
+- https://www.jpo.go.jp/e/system/professionals/step-by-step-trademark.html
+- https://www.jpo.go.jp/system/trademark/madrid/tetuzuki/mado_shutsugan_nagare.html
+- https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+- https://www.law.go.kr/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%ED%99%94%EC%9E%A5%ED%92%88%EB%B2%95#J16:0
+- https://www.law.go.kr/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%ED%99%94%EC%9E%A5%ED%92%88%EB%B2%95#J30:0
+- https://www.mhlw.go.jp/file/06-Seisakujouhou-11120000-Iyakushokuhinkyoku/keshouhin-standard.pdf
+- https://www.pmda.go.jp/review-services/drug-reviews/procedures/0004.html
+- https://www.wipo.int/en/web/madrid-system
+
+## UNIQUE DLS
+- files/japan/jp-1-2-trademark-form.pdf
+- files/japan/jp-3-1-duty-chart.pdf
+- files/japan/jp-3-1-foreign-mfg.pdf
+- files/japan/jp-3-1-gqp-gvp.pdf
+- files/japan/jp-3-1-ma-docs.zip
+- files/japan/jp-3-1-ma-notice.pdf
+- files/japan/jp-3-1-ma-permit.pdf
+- files/japan/jp-3-1-manager-cert.pdf
+- files/japan/jp-3-2-duty-chart.pdf
+- files/japan/jp-3-2-facility-summary.pdf
+- files/japan/jp-3-2-foreign-mfg.pdf
+- files/japan/jp-3-2-ma-notice.pdf
+- files/japan/jp-3-2-mfg-docs.zip
+- files/japan/jp-3-2-mfg-permit.pdf
+- files/japan/jp-3-2-tech-cert.pdf
+- files/japan/jp-3-2-test-equip.pdf
+- files/japan/jp-3-3-approval-app.pdf
+- files/japan/jp-3-3-foreign-approval.pdf
+- files/japan/jp-3-3-foreign-mfg.pdf
+- files/japan/jp-3-3-gmp-inspect.pdf
+- files/japan/jp-3-3-operator-code.pdf
+- files/japan/jp-3-3-quasi-docs.zip
+- files/japan/jp-3-4-notice-form.pdf
+- files/japan/jp-3-5-notice-annex.pdf
+- files/japan/jp-4-1-bl.pdf
+- files/japan/jp-4-2-awb.pdf
+- files/japan/jp-4-3-invoice.zip
+- files/japan/jp-4-4-packing-list.pdf
+- files/japan/jp-4-5-customs-docs.pdf
+
+## DISK FILES
+- jp-1-1-agency-contract.zip
+- jp-1-2-trademark-form.pdf
+- jp-3-1-duty-chart.pdf
+- jp-3-1-foreign-mfg.pdf
+- jp-3-1-gqp-gvp.pdf
+- jp-3-1-ma-docs.zip
+- jp-3-1-ma-notice.pdf
+- jp-3-1-ma-permit.pdf
+- jp-3-1-manager-cert.pdf
+- jp-3-2-duty-chart.pdf
+- jp-3-2-facility-summary.pdf
+- jp-3-2-foreign-mfg.pdf
+- jp-3-2-ma-notice.pdf
+- jp-3-2-mfg-docs.zip
+- jp-3-2-mfg-permit.pdf
+- jp-3-2-tech-cert.pdf
+- jp-3-2-test-equip.pdf
+- jp-3-3-approval-app.pdf
+- jp-3-3-foreign-approval.pdf
+- jp-3-3-foreign-mfg.pdf
+- jp-3-3-gmp-inspect.pdf
+- jp-3-3-operator-code.pdf
+- jp-3-3-quasi-docs.zip
+- jp-3-4-notice-form.pdf
+- jp-3-5-notice-annex.pdf
+- jp-4-1-bl.pdf
+- jp-4-2-awb.pdf
+- jp-4-3-invoice.zip
+- jp-4-4-packing-list.pdf
+- jp-4-5-customs-docs.pdf
+- jp-5-1-cosmetic-label.png
+- jp-5-2-quasi-label.png

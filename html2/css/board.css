@@ -31,17 +31,28 @@
   border: 0;
 }
 
+.mt20 {
+  margin-top: 20px;
+}
+
 .mt40 {
   margin-top: 40px;
 }
 
-/* ===== 목록 상단 정보 + 검색 ===== */
+/* ===== 목록 상단 정보 + 검색
+   basic.css 레이아웃을 board.css에 포함 — html2(기본 css만) / CMS 모두 동일 ===== */
 .board_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
   margin: 28px 0 16px;
   gap: 12px 16px;
 }
 
 .board_info .page {
+  margin: 0;
   font-size: 1.5rem;
   color: var(--color-text-sub);
 }
@@ -53,11 +64,32 @@
   color: var(--color-primary);
 }
 
+.board_info .page .current {
+  position: relative;
+  margin-left: 2rem;
+}
+
 .board_info .page .current::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: calc(50% - 5px);
+  width: 1px;
+  height: 10px;
   background: var(--color-border);
 }
 
+.board_info form,
 .board_info .form {
+  margin-left: auto;
+}
+
+.board_info .form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
   gap: 8px;
 }
 
@@ -67,18 +99,34 @@
 
 .board_info .form .form_input {
   width: 28rem;
+  max-width: 100%;
   padding-right: 1.6rem;
 }
 
 /* 셀렉트 / 인풋 */
+.form_select {
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+
 .form_select::after {
+  content: "\ea4e";
+  position: absolute;
+  top: 50%;
   right: 1.2rem;
+  z-index: 1;
+  transform: translateY(-50%);
+  font-family: "remixicon";
   font-size: 1.8rem;
   color: var(--color-text-sub);
+  pointer-events: none;
 }
 
 .form_select select,
 input.form_input {
+  box-sizing: border-box;
+  width: 100%;
   height: 4.6rem;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
@@ -88,16 +136,22 @@ input.form_input {
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-/* basic.css가 ::after로 화살표를 그리므로 브라우저 기본 화살표는 제거 */
 .form_select select {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  padding-right: 3.6rem;
+  padding: 0 3.6rem 0 1.4rem;
+  outline: none;
+  text-overflow: ellipsis;
 }
 
 .form_select select::-ms-expand {
   display: none;
+}
+
+input.form_input {
+  padding: 0 1.6rem;
+  outline: none;
 }
 
 .form_select select:focus,
@@ -110,17 +164,64 @@ input.form_input::placeholder {
   color: var(--color-text-muted);
 }
 
-/* 1021 수정: 검색 버튼 — 원형 → 라운드 사각형 (입력창 radius와 맞춤) */
+/* 검색 영역 버튼 — 아이콘 전용 라운드 사각형 */
+.board_info .btn_box {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 0;
+}
+
+.board_info .btn_box .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.board_info .btn_box .btn.navy {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.board_info .btn_box .btn.ic::after {
+  font-family: "remixicon";
+  font-weight: 400;
+  line-height: 1;
+}
+
+.board_info .btn_box .btn.ic.search::after {
+  content: "\f0d1";
+}
+
 .board_info .btn_box .btn.round {
   width: 4.6rem;
   min-width: 4.6rem;
   height: 4.6rem;
   min-height: 4.6rem;
   border-radius: var(--radius-sm, 8px);
+  font-size: 0;
+  overflow: hidden;
 }
 
 .board_info .btn_box .btn.round::after {
+  margin: 0;
+  width: 100%;
   font-size: 2.1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1025px) {
+  .board_info .btn_box .btn.navy:hover {
+    border-color: var(--color-cta-hover);
+    background: var(--color-cta-hover);
+  }
 }
 
 /* ===== 목록 테이블 ===== */
@@ -152,7 +253,7 @@ input.form_input::placeholder {
   background: var(--color-primary-soft, #f5f4fd);
 }
 
-/* 1021 수정: 공지 배지 — 노란 원형 → 브랜드 라운드 사각 */
+/* 공지 배지 — 노란 원형 → 브랜드 라운드 사각 */
 .board_list tbody td .icon_notice {
   display: inline-flex;
   flex-direction: row;
@@ -249,15 +350,24 @@ input.form_input::placeholder {
   }
 }
 
-/* ===== 페이지네이션 =====
-   루트 폰트가 화면 폭에 따라 줄어들어 rem 크기가 흔들리므로 px로 고정 */
+/* ===== 페이지네이션 (다른 board와 통일)
+   루트 폰트가 화면 폭에 따라 줄어들어 rem 크기가 흔들리므로 px로 고정 ===== */
 .board_pager {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   margin-top: 36px;
   gap: 6px;
 }
 
 .board_pager a {
+  display: flex;
   flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   width: 38px;
   min-width: 38px;
   height: 38px;
@@ -265,15 +375,36 @@ input.form_input::placeholder {
   border-radius: 50%;
   letter-spacing: 0;
   line-height: 1;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 
 .board_pager a.nav {
-  border-color: var(--color-border);
+  border: 1px solid var(--color-border);
   color: var(--color-text-sub);
+  font-size: 0;
 }
 
 .board_pager a.nav::before {
+  font-family: "remixicon";
   font-size: 18px;
+  line-height: 1;
+}
+
+.board_pager a.nav.first::before {
+  content: "\f2e3";
+}
+
+.board_pager a.nav.prev::before {
+  content: "\ea64";
+}
+
+.board_pager a.nav.next::before {
+  content: "\ea6e";
+}
+
+.board_pager a.nav.last::before {
+  content: "\f2e5";
 }
 
 .board_pager a:not(.nav) {
@@ -283,13 +414,12 @@ input.form_input::placeholder {
   color: var(--color-text-sub);
 }
 
-/* PC: 페이지 번호 나열 + 현재 페이지 원형 강조
-   (모바일은 basic.css가 "현재/전체" 텍스트로 바꾸므로 PC로 한정) */
-@media (min-width: 1024px) {
-  .board_pager a.total {
-    display: none;
-  }
+.board_pager a.total {
+  display: none;
+}
 
+/* PC: 페이지 번호 나열 + 현재 페이지 원형 강조 */
+@media (min-width: 1024px) {
   .board_pager a:not(.nav).on {
     background: var(--color-primary);
     color: var(--color-white);
@@ -394,12 +524,49 @@ input.form_input::placeholder {
   text-underline-offset: 3px;
 }
 
-/* ===== 하단 버튼 ===== */
+/* ===== 하단 버튼 / 공통 btn (basic.css 보완) ===== */
+.btn_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn_box.center {
+  justify-content: center;
+}
+
+.btn_box.right {
+  justify-content: flex-end;
+}
+
 .btn_box .btn {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 13.8rem;
   min-height: 4.8rem;
+  padding: 0.5rem 2.4rem;
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-pill);
+  background: var(--color-white);
   font-size: 1.5rem;
   font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.btn_box .btn.xsm {
+  min-width: auto;
+  min-height: 3.2rem;
+  padding: 0.5rem 1.6rem;
+  font-size: 1.4rem;
 }
 
 .btn_box .btn.navy {
@@ -408,10 +575,33 @@ input.form_input::placeholder {
   color: var(--color-white);
 }
 
+.btn_box .btn.ic {
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.btn_box .btn.ic::after {
+  font-family: "remixicon";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.btn_box .btn.ic.down::after {
+  content: "\ec5a";
+}
+
 @media screen and (min-width: 1025px) {
+  .btn_box .btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
   .btn_box .btn.navy:hover {
     border-color: var(--color-cta-hover);
     background: var(--color-cta-hover);
+    color: var(--color-white);
   }
 }
 
@@ -479,7 +669,7 @@ input.form_input::placeholder {
     background: var(--color-primary-soft, #f5f4fd);
   }
 
-  /* 1021 수정: 모바일 — 번호열 숨김 → 제목 앞에 공지 배지 */
+  /* 모바일 — 번호열 숨김 → 제목 앞에 공지 배지 */
   .board_list tbody tr.notice td.subject a::before {
     content: "공지";
     display: inline-flex;
@@ -543,8 +733,13 @@ input.form_input::placeholder {
     gap: 4px;
   }
 
+  .board_pager a:not(.nav):not(.on):not(.total) {
+    display: none;
+  }
+
   .board_pager a:not(.nav).on,
   .board_pager a.total {
+    display: flex;
     width: auto;
     min-width: 0;
     background: none;
@@ -631,5 +826,777 @@ input.form_input::placeholder {
 
   .board_pager {
     gap: 4px;
+  }
+}
+
+/* ===== 메일링 신청 폼
+   CMS: .board_form.mailing — basic.css board_form / 반응형 !important 덮어쓰기 ===== */
+.board_form.mailing {
+  margin-top: 2.8rem;
+  border-top: 1px solid var(--color-text);
+  font-size: 1.5rem;
+}
+
+.board_form.mailing table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.board_form.mailing col.wd15 {
+  width: 16rem;
+}
+
+.board_form.mailing tr {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.board_form.mailing th,
+.board_form.mailing td {
+  padding: 2rem 1.2rem;
+  vertical-align: middle;
+}
+
+.board_form.mailing th {
+  width: 1%;
+  padding-left: 0.4rem;
+  padding-right: 2rem;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+  white-space: nowrap;
+  background: transparent;
+}
+
+.board_form.mailing th .required {
+  margin-right: 0.2rem;
+  color: #e10214;
+  font-weight: 700;
+}
+
+.board_form.mailing td {
+  color: var(--color-text-sub);
+}
+
+/* 이메일: [계정] @ [도메인] / 다음 줄 [도메인선택] */
+.board_form.mailing td:not(.captcha) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem 1rem;
+}
+
+.board_form.mailing input.form_input {
+  height: 4.6rem;
+  padding: 0 1.4rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
+  font-size: 1.5rem;
+  color: var(--color-text);
+  box-sizing: border-box;
+}
+
+.board_form.mailing #email01,
+.board_form.mailing #email02 {
+  width: 18rem;
+  flex: 0 1 18rem;
+  max-width: 100%;
+}
+
+.board_form.mailing input.form_input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-soft);
+  outline: none;
+}
+
+.board_form.mailing input.form_input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.board_form.mailing td > span:not(.form_select) {
+  flex: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text-sub);
+  line-height: 1;
+}
+
+.board_form.mailing .form_select {
+  flex: 1 1 16rem;
+  width: 16rem;
+  max-width: 100%;
+  min-width: 14rem;
+}
+
+.board_form.mailing .form_select select {
+  width: 100%;
+  height: 4.6rem;
+  padding: 0 3.6rem 0 1.4rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
+  font-size: 1.5rem;
+  color: var(--color-text);
+  box-sizing: border-box;
+}
+
+.board_form.mailing .form_select select:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-soft);
+  outline: none;
+}
+
+/* 자동입력방지 */
+.board_form.mailing td.captcha {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem 1rem;
+}
+
+.board_form.mailing td.captcha .img,
+.board_form.mailing td.captcha img.img {
+  display: block;
+  height: 4.6rem;
+  width: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
+}
+
+.board_form.mailing td.captcha .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.6rem;
+  padding: 0 1.2rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-text);
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.board_form.mailing td.captcha .btn::after {
+  font-family: "remixicon";
+  margin-left: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.board_form.mailing td.captcha .btn.refresh::after {
+  content: "\f064";
+}
+
+.board_form.mailing td.captcha .btn.audio::after {
+  content: "\f29c";
+}
+
+@media (hover: hover) {
+  .board_form.mailing td.captcha .btn:hover {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+  }
+}
+
+.board_form.mailing td.captcha input.form_input,
+.board_form.mailing td.captcha #captcha_text {
+  flex: 1 1 20rem;
+  width: 20rem;
+  min-width: 16rem;
+  max-width: 32rem;
+}
+
+/* 하단 버튼 */
+.board_form.mailing .btn_box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.board_form.mailing .btn_box .btn {
+  min-width: 12rem;
+  min-height: 4.8rem;
+  padding: 0 2.4rem;
+  border-radius: var(--radius-pill);
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+/* 취소: class 깨짐(class=btn navy") 대비 */
+.board_form.mailing .btn_box .btn:not(.navy) {
+  border: 1px solid var(--color-border);
+  background: var(--color-white);
+  color: var(--color-text);
+}
+
+@media (hover: hover) {
+  .board_form.mailing .btn_box .btn:not(.navy):hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-primary-soft);
+  }
+}
+
+.board_form.mailing .btn_box .btn.navy {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+@media (hover: hover) {
+  .board_form.mailing .btn_box .btn.navy:hover {
+    border-color: var(--color-primary-dark, #3d35c4);
+    background: var(--color-primary-dark, #3d35c4);
+  }
+}
+
+/* ----- 반응형 (basic.css max-width:1023 !important 대응) ----- */
+@media (max-width: 1023px) {
+  .board_form.mailing {
+    margin-top: 2rem;
+  }
+
+  .board_form.mailing table,
+  .board_form.mailing tbody,
+  .board_form.mailing colgroup {
+    display: block;
+    width: 100%;
+  }
+
+  .board_form.mailing col.wd15 {
+    width: 0;
+  }
+
+  .board_form.mailing tr {
+    display: flex !important;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 1.6rem 0 !important;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .board_form.mailing th,
+  .board_form.mailing td {
+    display: block;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .board_form.mailing th {
+    margin-bottom: 1rem !important;
+    white-space: normal;
+  }
+
+  .board_form.mailing td:not(.captcha),
+  .board_form.mailing td.captcha {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  /* basic: .board_form input.form_input { width:100% !important; flex:1 !important } 덮어쓰기
+     계정 @ 도메인 = 한 줄, 셀렉트 = 다음 줄 */
+  .board_form.mailing #email01,
+  .board_form.mailing #email02 {
+    width: auto !important;
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    max-width: none !important;
+  }
+
+  .board_form.mailing td:not(.captcha) > span:not(.form_select) {
+    flex: 0 0 auto !important;
+  }
+
+  .board_form.mailing .form_select {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+  }
+
+  .board_form.mailing .form_select select {
+    width: 100% !important;
+  }
+
+  .board_form.mailing td.captcha .img,
+  .board_form.mailing td.captcha img.img {
+    height: 4.4rem;
+  }
+
+  .board_form.mailing td.captcha .btn {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 4.4rem;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+  }
+
+  .board_form.mailing td.captcha input.form_input,
+  .board_form.mailing td.captcha #captcha_text {
+    width: 100% !important;
+    flex: 1 1 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+  }
+
+  .board_form.mailing .btn_box {
+    margin-top: 2.4rem;
+    gap: 0.8rem;
+  }
+
+  .board_form.mailing .btn_box .btn {
+    flex: 1 1 calc(50% - 0.4rem);
+    min-width: 0;
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .board_form.mailing td.captcha .btn {
+    flex: 1 1 calc(50% - 0.4rem);
+  }
+
+  .board_form.mailing .btn_box .btn {
+    flex: 1 1 100%;
+  }
+}
+
+/* ===== ICCR 갤러리
+   CMS: #iccrGallery.gallery_list — 다른 gallery_list 미영향 ===== */
+#iccrGallery.gallery_list {
+  margin-top: 0.8rem;
+  padding-top: 2.4rem;
+  border-top: 1px solid var(--color-border);
+}
+
+#iccrGallery.gallery_list ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#iccrGallery.gallery_list li {
+  margin: 0;
+  min-width: 0;
+}
+
+#iccrGallery.gallery_list a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
+  overflow: hidden;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+#iccrGallery.gallery_list a .thumb {
+  display: block;
+  aspect-ratio: 4 / 3;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0;
+  background: var(--color-bg);
+}
+
+#iccrGallery.gallery_list a .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+#iccrGallery.gallery_list a .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.6rem 1.8rem 1.8rem;
+}
+
+#iccrGallery.gallery_list a .desc .title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  word-break: keep-all;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+
+#iccrGallery.gallery_list a .desc .title .subject {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+#iccrGallery.gallery_list a .desc .title .new {
+  flex: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0;
+}
+
+#iccrGallery.gallery_list a .desc .title .new::before {
+  content: "N";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-white);
+  box-sizing: border-box;
+  transform: none;
+}
+
+#iccrGallery.gallery_list a .desc .info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.4rem 1.6rem;
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--color-text-muted);
+}
+
+#iccrGallery.gallery_list a .desc .info .label {
+  position: static;
+  display: inline;
+  width: auto;
+  height: auto;
+  margin: 0 0.4rem 0 0;
+  clip: auto;
+  overflow: visible;
+  font-weight: 500;
+  color: var(--color-text-sub);
+}
+
+#iccrGallery.gallery_list a .desc .info .date,
+#iccrGallery.gallery_list a .desc .info .hit {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+#iccrGallery.gallery_list a .desc .info .hit::before {
+  content: none;
+  display: none;
+}
+
+@media (hover: hover) {
+  #iccrGallery.gallery_list a:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 0.8rem 2rem rgba(78, 68, 223, 0.08);
+    text-decoration: none;
+  }
+
+  #iccrGallery.gallery_list a:hover .thumb img {
+    transform: scale(1.04);
+  }
+
+  #iccrGallery.gallery_list a:hover .desc .title {
+    color: var(--color-primary);
+  }
+}
+
+@media (max-width: 1023px) {
+  #iccrGallery.gallery_list {
+    padding-top: 2rem;
+  }
+
+  #iccrGallery.gallery_list ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2rem;
+  }
+
+  #iccrGallery.gallery_list a .desc {
+    padding: 1.4rem 1.4rem 1.6rem;
+  }
+
+  #iccrGallery.gallery_list a .desc .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  #iccrGallery.gallery_list ul {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/* ===== ICCR 연례회의 — 다음 회차 안내 ===== */
+.next-iccr-meeting {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem 1.6rem;
+  margin: 0 0 2.4rem;
+  padding: 1.6rem 2rem;
+  border: 1px solid var(--color-primary-soft, #f5f4fd);
+  border-radius: var(--radius-sm, 8px);
+  background: linear-gradient(90deg, var(--color-primary-soft, #f5f4fd) 0%, #fff 72%);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  word-break: keep-all;
+}
+
+.next-iccr-meeting .label {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  margin: 0;
+  padding: 0.45rem 1.1rem;
+  border-radius: var(--radius-pill, 999px);
+  background: var(--color-primary);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+  white-space: nowrap;
+}
+
+.next-iccr-meeting .detail {
+  flex: 1 1 20rem;
+  min-width: 0;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+@media (max-width: 640px) {
+  .next-iccr-meeting {
+    gap: 0.8rem;
+    margin-bottom: 1.6rem;
+    padding: 1.4rem 1.6rem;
+    font-size: 1.4rem;
+  }
+
+  .next-iccr-meeting .detail {
+    flex-basis: 100%;
+  }
+}
+
+/* ===== ICCR 연례회의
+   CMS: #iccrMeeting.board_list — 2열 카드 그리드, 다른 board_list 미영향 ===== */
+#iccrMeeting.board_list > ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+}
+
+#iccrMeeting.board_list > ul > li {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+}
+
+#iccrMeeting.board_list > ul .box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 2rem 2.2rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm, 8px);
+  background: var(--color-white);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#iccrMeeting.board_list > ul .desc {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0;
+}
+
+#iccrMeeting.board_list > ul .desc > .title {
+  display: block;
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  word-break: keep-all;
+}
+
+#iccrMeeting.board_list > ul .desc > div:not(.btn_box) {
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--color-text-sub);
+  word-break: keep-all;
+}
+
+#iccrMeeting.board_list > ul .desc > div:not(.btn_box) span {
+  display: inline;
+}
+
+#iccrMeeting.board_list > ul .desc .btn_box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.6rem;
+  width: 100%;
+  margin: auto 0 0;
+  padding-top: 1.2rem;
+}
+
+#iccrMeeting.board_list > ul .desc .btn_box.center {
+  justify-content: flex-start;
+}
+
+#iccrMeeting.board_list > ul .desc .btn_box.mt20 {
+  margin-top: auto;
+}
+
+/* 미등록 — 비활성(다운로드 버튼과 구분) */
+#iccrMeeting.board_list > ul .desc .btn_box > span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 3.2rem;
+  padding: 0.4rem 1.2rem;
+  border: 1px dashed var(--color-border);
+  border-radius: 0.6rem;
+  background: var(--color-bg);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+/* PDF 버튼 */
+#iccrMeeting.board_list > ul .desc .btn_box .btn.xsm {
+  min-width: 0;
+  min-height: 3.2rem;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.6rem;
+  background: var(--color-white);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+#iccrMeeting.board_list > ul .desc .btn_box .btn.xsm.ic::after {
+  font-size: 1.4rem;
+  color: var(--color-text-sub);
+}
+
+@media (hover: hover) {
+  #iccrMeeting.board_list > ul .box:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 0.6rem 1.6rem rgba(78, 68, 223, 0.06);
+  }
+
+  #iccrMeeting.board_list > ul .desc .btn_box .btn.xsm:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-white);
+  }
+
+  #iccrMeeting.board_list > ul .desc .btn_box .btn.xsm:hover::after {
+    color: var(--color-primary);
+  }
+}
+
+#iccrMeeting + .board_pager,
+#iccrMeeting ~ .board_pager {
+  margin-top: 2.8rem;
+}
+
+#iccrMeeting + .iccr-meeting-note,
+.iccr-meeting-note {
+  margin: 1.6rem 0 0;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 900px) {
+  #iccrMeeting.board_list > ul {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  #iccrMeeting.board_list > ul .box {
+    padding: 1.8rem 1.8rem;
+  }
+}
+
+@media (max-width: 640px) {
+  #iccrMeeting.board_list > ul .box {
+    padding: 1.6rem 1.4rem;
+  }
+
+  #iccrMeeting.board_list > ul .desc > .title {
+    font-size: 1.55rem;
+  }
+
+  #iccrMeeting.board_list > ul .desc > div:not(.btn_box) {
+    font-size: 1.35rem;
+  }
+
+  #iccrMeeting.board_list > ul .desc .btn_box > span,
+  #iccrMeeting.board_list > ul .desc .btn_box .btn.xsm {
+    flex: 1 1 calc(50% - 0.3rem);
+    justify-content: center;
   }
 }

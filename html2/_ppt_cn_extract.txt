@@ -1,0 +1,126 @@
+# CN PPT extract
+PPTX: 중국 화장품 수출 절차 도식화_5차 보완 완료_261012.pptx
+
+## Hyperlinks
+- S3 rId4: 통합무역정보서비스
+  https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+- S4 rId3: * 참고: 중국 내 상표 출원 현황 검색방법 및 피해 발견 시 대응방안
+  https://www.koipa.re.kr/home/board/000118Detail.do?menu_cd=000118&num=5586
+- S4 rId4: https://sbj.cnipa.gov.cn/sbj/index.html
+  https://sbj.cnipa.gov.cn/sbj/index.html
+- S6 rId8: 경내책임자  | 정보표
+  https://kcia.or.kr/home/law/%EA%B2%BD%EB%82%B4%EC%B1%85%EC%9E%84%EC%9E%90%20%EC%A0%95%EB%B3%B4%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- S6 rId3: 경내책임자 수권서 양식 | 경내책임자 수권서
+  https://kcia.or.kr/home/law/%EA%B2%BD%EB%82%B4%EC%B1%85%EC%9E%84%EC%9E%90%20%EC%88%98%EA%B6%8C%EC%84%9C(%EC%96%91%EC%8B%9D).pdf
+- S6 rId7: 허가인/등록인 부작용 모니터링 및 평가 체계 개요
+  https://kcia.or.kr/home/law/%EB%B6%80%EC%9E%91%EC%9A%A9%20%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20%EB%B0%8F%20%ED%8F%89%EA%B0%80%20%EC%B2%B4%EA%B3%84%20%EA%B0%9C%EC%9A%94%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- S6 rId6: 허가인/등록인 품질관리체계 개요
+  https://kcia.or.kr/home/law/%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC%EC%B2%B4%EA%B3%84%20%EA%B0%9C%EC%9A%94(%EC%96%91%EC%8B%9D).pdf
+- S6 rId5: 허가인/등록인  | 정보표
+  https://kcia.or.kr/home/law/%ED%99%94%EC%9E%A5%ED%92%88%20%ED%97%88%EA%B0%80,%20%EB%93%B1%EB%A1%9D%20%EC%A0%95%EB%B3%B4%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- S6 rId4: 시스템  | ID/PW 신청
+  https://zwfw.nmpa.gov.cn/web/user/login?backUrl=https%3A%2F%2Fzwfw.nmpa.gov.cn%2Fweb%2Ftasklist%2Fcorporate%3Ftheme%3DHZP
+- S6 rId9: 생산기업  | 정보표
+  https://kcia.or.kr/home/law/%EC%83%9D%EC%82%B0%EA%B8%B0%EC%97%85%20%EC%A0%95%EB%B3%B4%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- S7 rId8: 제품 검사보고서
+  https://kcia.or.kr/home/law/%EA%B2%80%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%98%88%EC%8B%9C).pdf
+- S7 rId3: 허가/등록 신청서
+  https://kcia.or.kr/home/law/%ED%99%94%EC%9E%A5%ED%92%88%20%ED%97%88%EA%B0%80,%20%EB%93%B1%EB%A1%9D%20%EC%A0%95%EB%B3%B4%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- S7 rId7: 제품 라벨 원고
+  https://kcia.or.kr/home/law/%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%20%EB%9D%BC%EB%B2%A8(%EC%96%91%EC%8B%9D).pdf
+- S7 rId6: 제품 집행 표준
+  https://kcia.or.kr/home/law/%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%20%EC%A7%91%ED%96%89%ED%91%9C%EC%A4%80(%EC%96%91%EC%8B%9D).pdf
+- S7 rId5: 제품 처방
+  https://kcia.or.kr/home/law/%EC%B2%98%EB%B0%A9%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- S7 rId10: 필요시 효능평가 개요 제출
+  https://kcia.or.kr/home/law/%ED%9A%A8%EB%8A%A5%20%ED%81%B4%EB%A0%88%EC%9E%84%20%ED%8F%89%EA%B0%80%20%EA%B7%BC%EA%B1%B0%EC%9D%98%20%EA%B0%9C%EC%9A%94(%EC%96%91%EC%8B%9D).pdf
+- S7 rId4: 제품 명칭 정보
+  https://kcia.or.kr/home/law/law_09.php?type=view&no=5389&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EB%AA%85%EB%AA%85%26ob%3D
+- S7 rId9: 제품 안전성평가보고서
+  https://kcia.or.kr/home/law/%EC%95%88%EC%A0%84%EC%84%B1%ED%8F%89%EA%B0%80%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%98%88%EC%8B%9C).pdf
+- S14 rId7: Single | Window | 를 통해 전자증명서의 조회 | · | 다운로드 
+  https://www.singlewindow.cn/fs/STADOCROOT/09/B2/AE/C3E3F190560D2FCBCE8FF5C7ED.pdf?_downloadmode=1&_rnd=1750819913812&filenamex=201C53554E007A9753E3201D680751C6724875286237624B518CFF088D277269753362A5002D4E0AFF09005F00320030003200350030003600310038002E007000640066
+- S14 rId6: 《 | 입경화물검험검역증명 | ( | 入境货物检验检疫证明 | )》 |  발급 | . 2025 | 년  | 12 | 월  | 25 | 일부터 전자증명서와 종이증명서를 병행 운영하며
+  https://sc.singlewindow.cn/wmzx/zcfg?articleId=2005181785205510145
+- S14 rId5: 수출입화장품 검사검역 감독관리방법
+  https://kcia.or.kr/home/law/law_09.php?type=view&no=17610&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EA%B2%80%EC%97%AD%26ob%3D
+- S14 rId4: 싱글 윈도우
+  https://www.singlewindow.cn/#/
+
+## Unique URLs (21)
+- https://kcia.or.kr/home/law/%EA%B2%80%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%98%88%EC%8B%9C).pdf
+- https://kcia.or.kr/home/law/%EA%B2%BD%EB%82%B4%EC%B1%85%EC%9E%84%EC%9E%90%20%EC%88%98%EA%B6%8C%EC%84%9C(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%EA%B2%BD%EB%82%B4%EC%B1%85%EC%9E%84%EC%9E%90%20%EC%A0%95%EB%B3%B4%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%EB%B6%80%EC%9E%91%EC%9A%A9%20%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%20%EB%B0%8F%20%ED%8F%89%EA%B0%80%20%EC%B2%B4%EA%B3%84%20%EA%B0%9C%EC%9A%94%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%EC%83%9D%EC%82%B0%EA%B8%B0%EC%97%85%20%EC%A0%95%EB%B3%B4%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%EC%95%88%EC%A0%84%EC%84%B1%ED%8F%89%EA%B0%80%EB%B3%B4%EA%B3%A0%EC%84%9C(%EC%98%88%EC%8B%9C).pdf
+- https://kcia.or.kr/home/law/%EC%B2%98%EB%B0%A9%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC%EC%B2%B4%EA%B3%84%20%EA%B0%9C%EC%9A%94(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%20%EB%9D%BC%EB%B2%A8(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%20%EC%A7%91%ED%96%89%ED%91%9C%EC%A4%80(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%ED%99%94%EC%9E%A5%ED%92%88%20%ED%97%88%EA%B0%80,%20%EB%93%B1%EB%A1%9D%20%EC%A0%95%EB%B3%B4%ED%91%9C(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/%ED%9A%A8%EB%8A%A5%20%ED%81%B4%EB%A0%88%EC%9E%84%20%ED%8F%89%EA%B0%80%20%EA%B7%BC%EA%B1%B0%EC%9D%98%20%EA%B0%9C%EC%9A%94(%EC%96%91%EC%8B%9D).pdf
+- https://kcia.or.kr/home/law/law_09.php?type=view&no=17610&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EA%B2%80%EC%97%AD%26ob%3D
+- https://kcia.or.kr/home/law/law_09.php?type=view&no=5389&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EB%AA%85%EB%AA%85%26ob%3D
+- https://sbj.cnipa.gov.cn/sbj/index.html
+- https://sc.singlewindow.cn/wmzx/zcfg?articleId=2005181785205510145
+- https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+- https://www.koipa.re.kr/home/board/000118Detail.do?menu_cd=000118&num=5586
+- https://www.singlewindow.cn/#/
+- https://www.singlewindow.cn/fs/STADOCROOT/09/B2/AE/C3E3F190560D2FCBCE8FF5C7ED.pdf?_downloadmode=1&_rnd=1750819913812&filenamex=201C53554E007A9753E3201D680751C6724875286237624B518CFF088D277269753362A5002D4E0AFF09005F00320030003200350030003600310038002E007000640066
+- https://zwfw.nmpa.gov.cn/web/user/login?backUrl=https%3A%2F%2Fzwfw.nmpa.gov.cn%2Fweb%2Ftasklist%2Fcorporate%3Ftheme%3DHZP
+
+## Comments (첨부-related snippets)
+### slides [10] / modernComment_106_0.xml
+- 수정완료
+- 수정완료
+- NMPA_화장품_원료안전관련정보_부록14 첨부파일 확인.
+- 제도 용어를 "등록·비안" 대신 협회에서 사용하는 "허가·등록”으로 파일 전체 수정 부탁드립니다. 
+许可-허가
+备案- 등록
+- “원료보고코드"를 "원료 등록코드"로 통일
+- 전체 파일에서 사용한 문체와 통일하여 변경되었다->변경됨으로 수정, 기타 부분도 마찬가지
+- 허가인·등록인으로 통일
+- 수정 완료
+- 처방서라는 표현을 쓰지 않음. 처방으로 변경
+- 수정 완료
+- 별표 14로 통일
+- 수정 완료
+- 자채 보관 문서에 대한 정보 자체 업데이트를 말하는지? 그렇다면 업데이트를 사용하는 것이 적절할 것 같음
+### slides [13] / modernComment_108_0.xml
+- 수정완료
+- 첨부파일 이미지에서 누록된 자료가 있으면 추가 부탁드립니다
+### slides [14] / modernComment_10A_7954FFFB.xml
+- Ciq시절 과거 자료, 최신 양식으로 변경 요청
+- 1. 해관총서 공고 2025년 제255호 업데이트 링크 추가 
+2. Single Window 공식 사용자 매뉴얼 업데이트 링크 추가
+- “수출입화장품 검사검역 감독관리방법"링크를 최신 규정 링크로 변경, 조항도 신규 규정과 맞는지 재확인 요망
+https://kcia.or.kr/home/law/law_09.php?type=view&no=17610&ss=page%3D%26skind%3DTITLE_CNTNT%26sword%3D%EA%B2%80%EC%97%AD%26ob%3D
+- 첫번째 요청사항중 양식 변경은 보내주신 양식 첨부파일 중 "5-1. 입경화물검사검역 증명서”를 Ciq시절 과거 양식이 아닌 최신 양식으로 변경 요청한 것임
+- 기존 CIQ 체계의 「입경화물검험검역증명」이 중국 해관 체계로 전환된 이후 사용하는 현행 형태의 문서로 재첨부드립니다.
+- 첨부파일 5-1
+### slides [11] / modernComment_10E_6CB7AFF9.xml
+- 첨부파일 4-3
+
+## Attachment folder files
+- 2-1. 경내책임자 수권서(양식).pdf
+- 2-2. 화장품 허가, 등록 정보표(양식).pdf
+- 2-3. 품질관리체계 개요(양식).pdf
+- 2-4. 부작용 모니터링 및 평가 체계 개요표(양식).pdf
+- 2-5. 경내책임자 정보표(양식).pdf
+- 2-6. 경내책임자 수권서(양식).pdf
+- 2-7. 생산기업 정보표(양식).pdf
+- 3-1. 화장품 허가, 등록 정보표(양식).pdf
+- 3-2. 처방표(양식).pdf
+- 3-3. 화장품 제품 집행표준(양식).pdf
+- 3-4. 화장품 제품 라벨(양식).pdf
+- 3-5. 검사보고서(예시).pdf
+- 3-6. 안전성평가보고서(예시).pdf
+- 3-7. 효능 클레임 평가 근거의 개요(양식).pdf
+- 4-1. 송장.zip
+- 4-2. 포장명세서.pdf
+- 4-3. 기타 수출통관에 필요한 서류.pdf
+- 4-4. 선하증권.pdf
+- 5-1. 입경화물검험검역증명.png
+- 붙임1. 화장품 허가 등록 자료 관리 규정 별표14.hwp
+- 붙임3. 화장품 원료 안전 정보 작성 기술지침_국문.hwp

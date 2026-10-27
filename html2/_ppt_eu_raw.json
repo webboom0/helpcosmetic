@@ -1,0 +1,1608 @@
+[
+  {
+    "slide": 1,
+    "path": "ppt/slides/slide1.xml",
+    "shapes": [
+      {
+        "name": "TextBox 3",
+        "bbox": [
+          748029,
+          3022573,
+          5788354,
+          655372
+        ],
+        "paras": [
+          "유럽연합(EU) 화장품 수출 절차"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [],
+    "grouped_links": [],
+    "shape_links": [],
+    "any_hlinks": [],
+    "all_rels": {
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      }
+    },
+    "notes": []
+  },
+  {
+    "slide": 2,
+    "path": "ppt/slides/slide2.xml",
+    "shapes": [
+      {
+        "name": "TextBox 5",
+        "bbox": [
+          468066,
+          528935,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "화장품 수출 규제 주요 절차"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 6",
+        "bbox": [
+          7526648,
+          3626293,
+          1537177,
+          307777
+        ],
+        "paras": [
+          "통관"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 7",
+        "bbox": [
+          9916323,
+          3626293,
+          1286268,
+          307777
+        ],
+        "paras": [
+          "사후관리"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          5042925,
+          3626294,
+          1976184,
+          307777
+        ],
+        "paras": [
+          "제품 신고/ 서류 구비"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 2",
+        "bbox": [
+          548905,
+          3628652,
+          2092799,
+          307777
+        ],
+        "paras": [
+          "수출 계약 및 상표등록"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 3",
+        "bbox": [
+          2901056,
+          3628652,
+          1734512,
+          523220
+        ],
+        "paras": [
+          "유럽 책임자(RP)",
+          "선임"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 4",
+        "bbox": [
+          5163761,
+          3887549,
+          1734512,
+          400110
+        ],
+        "paras": [
+          "PIF  및 CPSR 구축CPNP 신고"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [],
+    "grouped_links": [],
+    "shape_links": [],
+    "any_hlinks": [],
+    "all_rels": {
+      "rId3": {
+        "target": "../media/image2.png",
+        "type": "image",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../media/image1.png",
+        "type": "image",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      },
+      "rId6": {
+        "target": "../media/image5.png",
+        "type": "image",
+        "mode": null
+      },
+      "rId5": {
+        "target": "../media/image4.png",
+        "type": "image",
+        "mode": null
+      },
+      "rId4": {
+        "target": "../media/image3.png",
+        "type": "image",
+        "mode": null
+      }
+    },
+    "notes": []
+  },
+  {
+    "slide": 3,
+    "path": "ppt/slides/slide3.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "01. 수출계약 및 상표등록"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 9",
+        "bbox": [
+          325826,
+          896437,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "수출계약 및 신고필증"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          325826,
+          1343195,
+          11178501,
+          5165911
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "설명 또는 정의",
+            "[수출계약서]\n제품을 대상국으로 수출입하기 위해서, 수출업자와 수입업자(예: Buyer) 간에 물품 거래를 체결하기 위한 국제 물품 매매 합의 문서이다. 이는 거래의 조건을 명확히 하여 당사자들에게 권리와 의무를 부여해 무역 분쟁을 예방하는 서류이다.\n[수출대행계약서] (필요 시)\n수출대행이란 수출자가 필요 시 직접 수출을 진행하지 않고, 해외 거래상대방과 수출계약을 체결하거나 신용장을 수취한 위탁자의 의뢰에 따라 수출대행자가 수출대행계약을 체결한 후, 자기 명의로 수출을 수행하는 거래 형태를 말한다. 위탁자가 직접 수출할 수 있는 자격을 갖추고 있더라도, 특정 거래처나 특수한 상품에 대해 보다 전문적인 지식과 경험이 필요한 경우에는 수출대행자에게 수출업무를 위탁할 수 있다. 또한, 수출대행의뢰인은 수출대행자가 자기 명의로 수출을 진행한다는 사실을 수입업자(Buyer)에게 사전에 통지하고, 이에 대한 동의를 받아야 한다.\n[수출신고필증] (필수)\n관세법상 수출이란 내국물품을 외국으로 반출하는 것을 말하는 바, 물품을 수출하기 위해서는 세관에 수출신고를 하고 수리를 받아야 한다. 수출신고란 세관에 수출신고수리를 요청하는 통관의 의사표시를 말하며, 수출을 하고자 하는 자는 전자문서로 작성된 신고 자료를 통관시스템에 전송하여야 한다. 이때 허가·승인 등의 증명 및 확인 요하는 물품은 수출신고수리 전에 해당 구비서류를 세관장에게 제출하여야 한다. 신고서를 접수한 세관장은 신고의 내용이 관세법상 적정한지의 여부를 판단한 후 수리를 하고 수출신고필증을 교부한다. 수출신고가 수리된 물품은 원칙적으로 수리일로부터 30일 이내에 운송수단에 적재 하여야 한다.\n(수출하려는 품목 가격이 FOB 기준 400만원 이하일 경우, 간이수출신고 가능.)"
+          ],
+          [
+            "방식",
+            "[수출계약서]\n정해진 별도 양식 없이, 수출업자/수입업자 양사 간의 계약 체결.\n계약서 예시: 수출계약서 예시\n[수출대행계약서]\n정해진 별도 양식 없이, 수출업자(위탁자)/수출대행자 간 계약 체결. 한국무역협회에서 계약서 기본 양식 제공.\n계약서 예시: 수출대행계약서 예시\n[수출신고필증]\n관세청 통관시스템 UNI-PASS 포털 상 전자 신고(EDI)\n신고서 예시: 수출신고서 양식 \n포털 링크: UNI-PASS 포털 \n* 한국무역협회(KITA)의 무역상담센터 혹은 전문 기관을 통해 계약서 작성 및 검토에 대한 조언을 얻을 수 있다."
+          ],
+          [
+            "절차",
+            "①수출계약서 작성(상업송장(C/I)) ②서류발급(원산지증명서, 제조공정도 등) ③관세사(수출신고필증), 포워딩(선적스케쥴) 업체 선정 → ④적재/출항"
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [
+      {
+        "rid": "rId4",
+        "text": "수출계약서 예시",
+        "url": "https://www.kyungnam.ac.kr/bbs/kuit/314/46382/artclView.do",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId5",
+        "text": "수출대행계약서 예시",
+        "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "text": "수출신고서 양식",
+        "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId7",
+        "text": "UNI-PASS 포털",
+        "url": "https://unipass.customs.go.kr/csp/index.do?utm_source=chatgpt.com",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "shape_links": [],
+    "any_hlinks": [
+      {
+        "rid": "rId4",
+        "url": "https://www.kyungnam.ac.kr/bbs/kuit/314/46382/artclView.do",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId5",
+        "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId7",
+        "url": "https://unipass.customs.go.kr/csp/index.do?utm_source=chatgpt.com",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId7",
+        "url": "https://unipass.customs.go.kr/csp/index.do?utm_source=chatgpt.com",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_120_760E43C.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId7": {
+        "target": "https://unipass.customs.go.kr/csp/index.do?utm_source=chatgpt.com",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide1.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      },
+      "rId6": {
+        "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId5": {
+        "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId4": {
+        "target": "https://www.kyungnam.ac.kr/bbs/kuit/314/46382/artclView.do",
+        "type": "hyperlink",
+        "mode": "External"
+      }
+    },
+    "notes": [
+      "3"
+    ]
+  },
+  {
+    "slide": 4,
+    "path": "ppt/slides/slide4.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "01. 수출계약 및 상표등록"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 2",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "상표등록 (EUIPO)"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 7",
+        "bbox": [
+          0,
+          6596390,
+          1634308,
+          261610
+        ],
+        "paras": [
+          "다음 페이지에 이어서"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1298360,
+          11178501,
+          5457193
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "설명 또는 정의",
+            "EU는 단일 시장 체계를 바탕으로 유럽연합 지식재산청(EUIPO)에 상표 출원 시 EU 전체에 효력을 가지는 유럽연합상표(EUTM) 제도를 운영 중이다.\n상표 등록 시 모든 EU 국가 내 10년간 유효한 상표권 취득(10년 단위 무기한 갱신)\nEU는 선출원주의로 먼저 출원한 사람에게 상표권을 주는 제도를 채택 중이기에 먼저 출원하지 않을 경우 상표를 선점 당해 피해를 입을 수 있다. \n* 브렉시트 이후 UKIPO(영국)은 별도의 전략이 요구된다."
+          ],
+          [
+            "계약 방식",
+            "EU 내 상표 출원"
+          ],
+          [
+            "관련 기관",
+            "유럽연합 지식재산청(EUIPO, European Union Intellectual Property Office)"
+          ],
+          [
+            "참고 또는\n필요서류",
+            "TMclass를 통해 상표 보호 신청에 필요한 제품 서비스(용어) 검색 및 분류\n출원일을 받기 위해 상품 및 서비스 목록 포함, 니스분류에 따라 분류, 각 상품류는 대표 명칭에 따라 표기 \n현재 EU국가 전체에 상표를 취득 가능하며, 장래 가입국도 포함한다.\n유럽경제구역(EEA) 밖에 법적 주소를 가지고 있다면, 대리인 지정이 의무이므로 유럽연합(EU) 내의 주소를 가진 법인 또는 현지인으로 대리인을 지정해야 한다."
+          ],
+          [
+            "절차",
+            "①TMview/eSearch plus를 통한 상표 예비 검색 ② 상표 출원 준비 ③ 상표 출원 신청 → ④상표 형식심사 ⑤ 상표 실질심사(4~6개월, 심사단계TMview로 모니터링) \n⑥ 상표공고 및 선행 권리자들이 이의제기(3개월) ⑦ 상표등록 및 등록증 발급"
+          ],
+          [
+            "주의사항\n또는\n확인사항",
+            "1. EU 상표 출원 등록 요건(절대적 거절 이유)\n- 식별력(다른 기업의 상품, 서비스와의 구별성), 기술성(판매 제품의 내용 설명 포함 하는 경우), 불법성 배제\n2. EU 상표 출원 등록 요건(상대적 거절 이유)\n- 혼동가능성, 명성이 있는 상품\n3. 상표 출원 신청서 제출 후 상품/서비스 목록을 추가 및 변경이 불가능\n-   선행상표와 혼동/충돌하는지 확인(혼동/충돌 시 리브랜딩, 철수 비용 급증)\n수수료 환불 불가\n변경 시 비용 및 시간 소요되므로 사전검색 및 조기출원 중요\n4. 이의신청이 접수될 경우 \n상표 공고 후 3개월 상표 이의신청과 쿨링오프가 있어 분쟁 대비 필요하다.\n냉각기간은 이의 제기 후 2개월(최대 24개월까지 연장 가능)\n*출원인이 문서를 EUIPO에 제출한 날로부터 1개월 이내에 출원료 납부"
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [
+      {
+        "rid": "rId4",
+        "text": "TMclass",
+        "url": "https://euipo.europa.eu/ec2/",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId5",
+        "text": "TMview",
+        "url": "https://www.tmdn.org/tmview/#/tmview",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "text": "eSearch plus",
+        "url": "https://euipo.europa.eu/eSearch/",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "shape_links": [],
+    "any_hlinks": [
+      {
+        "rid": "rId4",
+        "url": "https://euipo.europa.eu/ec2/",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId5",
+        "url": "https://www.tmdn.org/tmview/#/tmview",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "url": "https://euipo.europa.eu/eSearch/",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "url": "https://euipo.europa.eu/eSearch/",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_11C_0.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide2.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      },
+      "rId6": {
+        "target": "https://euipo.europa.eu/eSearch/",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId5": {
+        "target": "https://www.tmdn.org/tmview/#/tmview",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId4": {
+        "target": "https://euipo.europa.eu/ec2/",
+        "type": "hyperlink",
+        "mode": "External"
+      }
+    },
+    "notes": [
+      "4"
+    ]
+  },
+  {
+    "slide": 5,
+    "path": "ppt/slides/slide5.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "01. 수출계약 및 상표등록"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 2",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "상표등록 (WIPO)"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 5",
+        "bbox": [
+          0,
+          6596390,
+          1634308,
+          261610
+        ],
+        "paras": [
+          "다음 페이지에 이어서"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1298358,
+          11178501,
+          5102441
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "설명 또는 정의",
+            "WIPO 국제등록(International Registration)이란 세계지식재산기구(WIPO, World Intellectual Property Organization)가 운영하는 국제 출원·등록 제도를 통해 하나의 출원으로 출원 신청 시 지정한 국가에서 지식재산권 보호를 받을 수 있도록 하는 국제 등록 절차를 말한다. 이를 통해 출원인은 국가별로 개별 출원하는 부담을 줄이고, 지정한 회원국에서 상표, 디자인 등 지식재산권의 보호를 효율적으로 받을 수 있다."
+          ],
+          [
+            "방식",
+            "국제 상표 출원"
+          ],
+          [
+            "기관",
+            "WIPO를 통한 국제 등록 (마드리드 의정서에 의한 출원)"
+          ],
+          [
+            "참고 또는\n필요서류",
+            "국제출원은 다수의 관할을 한 번에 상표 출원이 가능한 방식이다. 단일한 언어(우리나라 : 영어)로 출원서를 작성할 수 있고 출원 시 지정한 국가에 대한 상표 등록 및 관리가 용의하고, 장기적인 비용 및 시간 절감 효과가 있지만, 기초출원/등록에 5년 종속(central attack) 리스크가 있어, 기초가 취소되면 국제등록도 영향을 받는다."
+          ],
+          [
+            "절차",
+            "① 선등록 검색 ② 국내상표 출원 ③ 국내상표 기반 국제출원서(영문) 작성 및 지식재산처 제출 ④ 한국 지식재산처(MOIP) 기초출원(등록)과 국제출원 합치 여부 심사 ⑤ 합치시 도달일 기재된 국제출원서 및 국제출원비용 제출(국제사무국, WIPO)  ⑥ 국제출원서의 방식심사 후 등록 및 국제공고, 지정국 통지  ⑦ 지정국(유럽) 실체심사(18개월) 이의신청 접수(국제공고 후 3개월 내) ⑧등록 통지 "
+          ],
+          [
+            "주의사항\n또는\n확인사항",
+            "1. 국제출원서의 포장 이미지, 폰트, 색상 등이 국내 상표와 동일하고, 상표 적용 범위는 국내상표권 범위보다 같거나 작아야 함\n* 지식재산처 ‘합치심사’ 에서 국내상표와 국제출원상표 일치 여부 판단\n2. 한국 지식재산처  수수료와 별도로 국제사무국 수수료를 따로 납부\n* WIPO 마드리드 홈페이지 수수료자동계산기에서 확인\n*출원 시 1부 수수료(First part)를 내고, 향후 지식재산처 심사를 통과하여 최종 등록될 때 2부 수수료(Second part)를 WIPO를 통해 추가 납부\n3. 국제 등록일로부터 5년 내 국내 기초출원(등록)의 효력이 소멸*하는 경우 국제 상표출원까지 효력 상실\n* 제3자가 본국관청의 기초 출원(등록)을 소멸시켜 국제출원을 무효화시키는 ‘집중공격’에 대한 주의 필요\n4. 한국 지식재산처의 국제출원서 접수 후 2개월 내에 국제사무국이 국제출원서를 접수할 때 한국 지식재산처 접수 시점에 국제등록이 된 것으로 간주"
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [
+      {
+        "rid": "rId4",
+        "text": "* WIPO 마드리드 홈페이지 ",
+        "url": "https://www.wipo.int/en/web/madrid-system",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "shape_links": [],
+    "any_hlinks": [
+      {
+        "rid": "rId4",
+        "url": "https://www.wipo.int/en/web/madrid-system",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId4",
+        "url": "https://www.wipo.int/en/web/madrid-system",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_103_0.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide3.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      },
+      "rId4": {
+        "target": "https://www.wipo.int/en/web/madrid-system",
+        "type": "hyperlink",
+        "mode": "External"
+      }
+    },
+    "notes": [
+      "5"
+    ]
+  },
+  {
+    "slide": 6,
+    "path": "ppt/slides/slide6.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "01. 수출계약 및 상표등록"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 2",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "상표등록"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 5",
+        "bbox": [
+          0,
+          6596390,
+          1634308,
+          261610
+        ],
+        "paras": [
+          "다음 페이지에 이어서"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1298360,
+          11178501,
+          5323850
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "방식",
+            "특정 EU 회원국 내 상표 출원",
+            "유럽연합 회원국(벨기에, 네덜란드, 룩셈부르크)의 상표청을 통한 국내 상표 출원"
+          ],
+          [
+            "기관",
+            "각 국가 상표청 ",
+            "베네룩스 지식재산청(BOIP)"
+          ],
+          [
+            "참고 또는\n필요서류",
+            "특정 EU 회원국에서만 보호\nEU 회원 국에 현재 사업 기반이 있거나 진출 예정 국가에서만 보호를 원하는 경우 해당 국가 상표청의 직접 상표 출원\n각국 상표청의 전체 목록",
+            "벨기에, 네덜란드, 룩셈부르크에서 보호를 원하는 경우 EU에서 유일한 지역 지식재산청인 베네룩스 지식재산청(BOIP)에 상표를 출원\nBOIP 상표 출원 홈페이지"
+          ],
+          [
+            "절차",
+            "①각 국가의 상표청 확인 ②상표권 선행검색 ③진출 예정 국가의 상표법 절차에 따라 상표청에 상표출원 ",
+            "[베네룩스 상표 등록 절차]\n①선등록 상표 검색 ②독창적인 상표 출원 ③제품/서비스 선택 ④MyBOIP를 통한 상표 출원서 접수(BOIP 상표 등록부로 확인 가능) → ⑤상표 형식심사 ⑥상표 실질심사 ⑦상표공고 및 선행 권리자들이 이의제기(2개월) ⑧상표 등록부에 공식적으로 등재"
+          ],
+          [
+            "주의사항\n또는\n확인사항",
+            "* 특정 국가(독일, 프랑스 등)에서만 사업을 진행하거나, EUTM 출원 시 특정 국가에서 상표가 거절될 위험을 피하고 싶을 때 사용\n- 장점 : 해당 국가의 지식재산청에 맞춘 빠른 심사나 거절 사유 해소 용이, 마드리드 국제출원 시스템과 연계해 기초 출원으로 활용 용이\n- 단점 : 여러 국가에 개별적으로 진행할 경우 EUTM 대비 비용 부담 증가\n* 상표권 선행검색, 우선권 주장, 정확한 니스 분류와 지정문구 최적화 후 상표 등록",
+            "[제품/서비스 선택 방법]\n1~34번 클래스는 제품, 35~45번에서는 서비스 관련 내용을 다룹니다 .\n①제품/서비스 설명하는 용어 검색 ②제품에 맞는 용어 선택, Tmclass를 이용해 미리 검색 가능 \n용어가 주황색으로 표시 : 유효성 검사를 거치지 않음 → 추천되는 용어 선택\n용어가 빨간색으로 표시 : 해당 용어의 유효성이 검증되지 않음\n[이의제기 신청이 될 경우]\n의견서를 제출 → 제출된 의견서를 바탕으로 BOIP는 결정을 내림\n이의신청 인용: 상표 등록부에서 전부/일부가 삭제되고, 상대에게 1045유로 지급\n이의신청 일부 인용 : 이의신청이 정당하다고 판단된 상품/서비스 제외\n이의신청 거부 : 상표가 등록되며, 이의신청 당사자가 1045유로 지급\n*상표출원서 신청 현황은 BOIP 상표 등록부에서 출원 번호를 입력하고 검색을 하면 찾아 볼 수 있다. "
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [
+      {
+        "rid": "rId4",
+        "text": "각국 상표청의 전체 목록",
+        "url": "https://tmdn.org/#/members",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId5",
+        "text": "BOIP 상표 출원 홈페이지",
+        "url": "https://www.boip.int/nl",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "text": "[베네룩스 상표 등록 절차]",
+        "url": "https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "shape_links": [],
+    "any_hlinks": [
+      {
+        "rid": "rId4",
+        "url": "https://tmdn.org/#/members",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId5",
+        "url": "https://www.boip.int/nl",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId5",
+        "url": "https://www.boip.int/nl",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "url": "https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "url": "https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "url": "https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId6",
+        "url": "https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_11B_0.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide4.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      },
+      "rId6": {
+        "target": "https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId5": {
+        "target": "https://www.boip.int/nl",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId4": {
+        "target": "https://tmdn.org/#/members",
+        "type": "hyperlink",
+        "mode": "External"
+      }
+    },
+    "notes": [
+      "6"
+    ]
+  },
+  {
+    "slide": 7,
+    "path": "ppt/slides/slide7.xml",
+    "shapes": [
+      {
+        "name": "TextBox 4",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          707886
+        ],
+        "paras": [
+          "02. 유럽 책임자(RP, Responsible Person) 선임"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          325826,
+          865735,
+          11175294,
+          5394484
+        ],
+        "name": "표 3",
+        "rows": [
+          [
+            "대리인 역할",
+            "①제품의 안정성과 규정 준수 보장\n②제품 정보 파일(PIF) 유지 관리(10년간 보관)\n③제품 신고 진행, CPNP 신고서 제출\n④규제 당국과의 협력",
+            "⑤시장 출시 후 리콜 및 시정 조치 총괄\n⑥부작용 모니터링 협조 및 보고\n⑦제품 라벨 및 Claims 검증(마케팅 문구 검토), 라벨에 책임자(RP) 표시"
+          ],
+          [
+            "대리인 자격 요건",
+            "유럽연합(EU) 내의 주소를 가진 법인 또는 현지인\n①법률 대리인(Legal practitioner): 유럽경제지역(EEA) 내에 사업장을 두고, 국가지식재산권 사무소에서 제 3자를 대리할 자격을 갖춘 전문가\n②현지인 또는 법인 소속 직원(Employee of a natural or legal person): EEA내 거주지 또는 사업장, 상업 시설이 있는 직원\n③전문 대리인(Professional representative): (eSearch plus로 찾을 수 있는 EUIPO와 이미 협력한 경력이 있는 EEA에 거주하는 대리인)",
+            ""
+          ],
+          [
+            "선정 요령/체크포인트",
+            "[유럽 현지 지사/법인]\n- 본사와의 의사소통이 원활하고 제품 정보 통제 가능\n- PIF 및 기술자료의 외부 유출 위험이 낮음\n- 현지 법인 유지비용 및 RA 인력 운영비 발생\n[현지 바이어(Distributor)]\n추가 RP 비용 절감 가능\n유통 및 마케팅 업무와 연계 가능\n거래처 변경 시 CPNP 이전 문제 발생 가능\n제품 정보 및 영업기밀 노출 위험 존재\n[전문 RP 대행사(Third-party RP)]\n유럽 규제 대응 경험 보유\n제조기술 및 영업비밀 보호 용이\n바이어 변경 시 RP 변경 부담이 적음\n연간 유지관리 비용 및 제품 등록 관리 비용 발생",
+            ""
+          ],
+          [
+            "수권 계약서",
+            "정해진 별도 양식 없이 RP 주체가 발행한 계약서",
+            ""
+          ],
+          [
+            "주의사항",
+            "* RP 변경 시 복잡한 절차와 많은 비용이 들기에 신중하게 선정\n* RP 없이 CPNP 등록 불가능, EU 시장 판매 불가능, 통관 불가능, 제품 압류 및 벌금 처분",
+            ""
+          ],
+          [
+            "필요서류",
+            "①서비스 범위: CPNP 등록, PIF 관리, 규제 대응, 리콜 지원 등\n②책임 범위: RP의 법적 책임, 제조사의 의무\n③비용: 연간 기본 비용, 제품당 비용, 추가 서비스 비용\n④계약 기간: 일반적으로 1년 단위, 자동 갱신 조항\n⑤해지 조건: 계약 해지 시 PIF 이전, 통지 기간 등\n⑥보험: RP의 책임 보험 가입 여부",
+            ""
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [],
+    "shape_links": [],
+    "any_hlinks": [],
+    "all_rels": {
+      "rId2": {
+        "target": "../notesSlides/notesSlide5.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      }
+    },
+    "notes": [
+      "7"
+    ]
+  },
+  {
+    "slide": 8,
+    "path": "ppt/slides/slide8.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "03. 제품 신고/ 서류 구비"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 3",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "PIF(제품정보파일)"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1341838,
+          11178501,
+          4700556
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "설명 또는 정의",
+            "유럽은 사전 '허가제'가 아닌 사후 시장 감시 체계이므로, 시판 전 유럽 화장품 포털(CPNP)에 제품 정보를 신고(Notification)하고, 법적 규격에 부합하는 제품정보파일(PIF)을 RP 소재지에 상시 비치해야 한다.\n* PIF (Product Information File, 제품 정보 파일): 화장품의 안전성과 품질을 입증하는 모든 자료를 체계적으로 정리한 파일",
+            ""
+          ],
+          [
+            "방식",
+            "RP선정 → PIF 구비 → CPSR 작성 → CPNP 신고",
+            ""
+          ],
+          [
+            "기관",
+            "* 유럽연합 집행위원회(EC, European Commission)",
+            ""
+          ],
+          [
+            "참고 또는\n필요서류",
+            "[PIF 필수 포함 자료]\n안정성 보고서(Stability Test)\n방부력 시험 보고서(Challenge Test)\n- 화장품 안전성 평가 보고서 CPSR (Cosmetic Product Safety Report)\n- 제조 공정도 (Manufacturing Process)\n- 안전성 시험 성적서 (Safety Test Report)\n- 화장품 제조 및 품질관리(ISO 22716/Cosmetic GMP)준수 증명서",
+            "- 포장적합성 성적서(Compatibility Test)\n- 동물실험 금지 규정 (Animal Testing Data) 준수 증명서\n- 효능/효과 입증 자료 (Efficacy Claims Substantiation)\n- 원료 자료 (Raw Material Specifications)"
+          ],
+          [
+            "절차",
+            "* PIF : RP선정 → CPNP 대상여부 확인 → 각종 선언서 작성 → 완제품 시험 진행/서류 취합",
+            ""
+          ],
+          [
+            "주의사항\n또는\n확인사항",
+            "[PIF 주의사항]\n* PIF는 제품 변경 사항을 반영하여 지속적으로 업데이트되어야 한다. 업데이트 필요한 경우: ①성분 변경 ②제조 공정 변경 ③포장 재료 변경 ④사용 조건 변경 (예: 대상 연령, 사용 부위) ⑤새로운 안전성 정보 확보 ⑥Claims 변경 ⑦규제 요구사항 변경. \n* 위 사항 변경 시 CPSR 재평가 필요, 필요시 CPNP도 업데이트\n* PIF 미보유 또는 불완전한 PIF는 제품 판매 금지, 리콜, 벌금 등의 제재 사유",
+            ""
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [],
+    "shape_links": [],
+    "any_hlinks": [],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_11D_E85BA94A.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide6.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      }
+    },
+    "notes": [
+      "8"
+    ]
+  },
+  {
+    "slide": 9,
+    "path": "ppt/slides/slide9.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "03. 제품 신고/ 서류 구비"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 3",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "CPSR 구축 "
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1250398,
+          11430501,
+          5089442
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "설명 또는 정의",
+            "* CPSR(Cosmetic Product Safety Report, 화장품 안전성평가): 화장품이 인체 건강에 안전한지 증명하고 소비자 건강을 보호하기 위한 공식적인 전문가 평가 문서, 관련 분야 박사학위 이상의 전문 평가사가 작성\n제품 안전성평가보고서(CPSR)은 해당 제품의 PIF 내 보관",
+            ""
+          ],
+          [
+            "방식",
+            "RP선정 → PIF 구비 → CPSR 작성 → CPNP 신고",
+            ""
+          ],
+          [
+            "기관",
+            "* 유럽연합 집행위원회(EC, European Commission)",
+            ""
+          ],
+          [
+            "참고 또는\n필요서류",
+            "[CPSR 필수 포함 자료]\nCPSR의 핵심 요소 (Annex I 의거 기재 필수)\n· Part A (안전성 정보): 성분, 물리·화학적 특성, 미생물 품질, 원료 순도, 포장 용기, 용출물 평가, 노출도 및 독성 평가\n· Part B (안전성 평가): 유관 자격(유럽 학위 기준 의사/독성학자 등)을 갖춘 안전성 평가사(Safety Assessor)의 정식 서명 및 유효성 결론\n- CGMP 인증서 (ISO22716으로 대체 가능)\n- 제품 소개서 (제품명, 용량, 사용방법 등)\n- QQC (함량 순으로 정리된 전성분 표)\n- 사용 원료들의 영문 COA 및 MSDS \n- 완제품의 COA 및 MSDS\n- 안정성 테스트 자료 (Stability Test Report)",
+            "- 미생물 실험 보고서 (Microbial Test Report)\n- 중금속 실험 보고서 (Heavy metal / Purity Test report)\n- 알레르겐 실험 보고서 (Allergen Test Report)\n- 보존력 실험 보고서 (Challenge Test Report)\n- 패치테스트 결과 보고서 (Patch Test Report)\n- 향료 관련 서류 (IFRA, 향료의 MSDS 및 COA & 알레르겐 리스트)\n- 각종 선언문 \n- 용기의 적합성 보고서 (Compatibility Test Report)\n- 용기 재질 증빙 \n- 정제수 관리 보고서\n- 제품 공정도 (Manufacturing Flow Chart)"
+          ],
+          [
+            "절차",
+            "* CPSR : 안전성 테스트(최소 3개월) → 독성학적 데이터 수집 → 사용 시나리오 분석 → 안전성 평가 결론",
+            ""
+          ],
+          [
+            "주의사항\n또는\n확인사항",
+            "[CPSR 주의사항]\n* Part A&B 작성 오류 시 규제 준수에 치명적이므로 전문가의 검토가 필수",
+            ""
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [],
+    "shape_links": [],
+    "any_hlinks": [],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_118_78BE6AEE.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide7.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      }
+    },
+    "notes": [
+      "9"
+    ]
+  },
+  {
+    "slide": 10,
+    "path": "ppt/slides/slide10.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "03. 제품 신고/ 서류 구비"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 2",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "CPNP 신고"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 5",
+        "bbox": [
+          0,
+          6596390,
+          1634308,
+          261610
+        ],
+        "paras": [
+          "다음 페이지에 이어서"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1341838,
+          11178502,
+          5285673
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "설명 또는 정의",
+            "한국산 화장품이 EU 시장에 판매되기 위해서는 반드시 수출 전 CPNP 신고가 선행되어야 한다.\nCPNP(Cosmetic Products Notification Portal) : EU의 화장품 신고포털로서 유럽 시장에 출시될 제품을 미리 신고하는 것으로, 한번 신고하면 전 EU 국가 통관이 가능하다.\nCPNP 계정은 유럽 내 책임자(RP) 자연인 혹은 법인만 소유 가능.",
+            ""
+          ],
+          [
+            "방식",
+            "RP선정 → CPSR 작성 → PIF 작성 → CPNP 등록",
+            ""
+          ],
+          [
+            "기관",
+            "* 유럽연합 집행위원회(EC, European Commission)",
+            "* CPNP (Cosmetic Products Notification Portal)"
+          ],
+          [
+            "참고 또는\n필요서류",
+            "[CPNP 필수 입력사항]\n- 제품정보 (제품명, Shade)\n- 제품 식별 번호(보유 시)\n- 전성분표(single formula)\n- 원산국명(제조국)\n- 최초 수출 국가",
+            "CMR(발암성/변이성/생식 독성), 나노물질 포함 여부\n제품 카테고리 및 제형\n특수용기 여부 \t\n- Responsible person (RP), 담당자 상세정보 \n- 제품 포장 전개도면 / 실물 사진(필요 시)"
+          ],
+          [
+            "",
+            "* CPNP 신고 가이드라인",
+            ""
+          ],
+          [
+            "절차",
+            "①제품 성분표 검토 및 수정 ②제품의 안전성 입증 ③화장품 안전성 보고서 작성(CPSR) ④CPSR, 제품품질관리기준(GMP), 제품효능 입증 정보 등 제품정보파일(PIF) 작성 ⑤제품 라벨 평가 ⑥라벨 및 제품 정보 승인 후, CPSR가 포함된 PIF를 CPNP에 등록",
+            ""
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [
+      {
+        "rid": "rId4",
+        "text": "CPNP (Cosmetic Products Notification Portal)",
+        "url": "https://webgate.ec.europa.eu/cpnp/",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "shape_links": [],
+    "any_hlinks": [
+      {
+        "rid": "rId4",
+        "url": "https://webgate.ec.europa.eu/cpnp/",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_119_4F6B9CEC.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide8.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      },
+      "rId4": {
+        "target": "https://webgate.ec.europa.eu/cpnp/",
+        "type": "hyperlink",
+        "mode": "External"
+      }
+    },
+    "notes": [
+      "10"
+    ]
+  },
+  {
+    "slide": 11,
+    "path": "ppt/slides/slide11.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "03. 제품 신고/ 서류 구비"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 2",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "CPNP 신고"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1341837,
+          11178502,
+          3948176
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "주의사항\n또는\n확인사항",
+            "[Claim 주의사항]\n클레임은 제품의 효능/효과를 표시하거나 광고하는 것\n제품이 미백이나 주름개선 효능이 있다고 주장한다면 해당 클레임을 뒷받침할 근거 자료를 서면으로 제출해야 한다.(Regulation (EU) No.655/2013 기준 충족 필요)\n[Labeling 규정 주의사항]\n아래와 같은 필수표기사항 누락 주의(EU Cosmetic Labeling Guide – EC 1223/2009) \n제품명 및 기능 \n전성분(INCI)&알러젠 대상(80+종) 표기(Leave-on: 0.001% 이상 / Rinse-off: 0.01% 이상)\n원산지 \n사용기한(30개월 이하: Best used before the end of~ / 30개월 초과: PAO 마크)\n제조번호\n사용시 주의사항\n내용량\n책임자(RP)정보 \n[포장 주의사항]\n제품과 직접 접촉하는 1차 포장재는 제품의 안전성, 불순물, 용출 가능성 등에 영향을 줄 수 있어 확인 필요"
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [],
+    "shape_links": [],
+    "any_hlinks": [],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_11E_5718D46.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide9.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      }
+    },
+    "notes": [
+      "11"
+    ]
+  },
+  {
+    "slide": 12,
+    "path": "ppt/slides/slide12.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "04. 수출통관/선적"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 9",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "수출통관"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          325826,
+          1194386,
+          11178502,
+          6048966
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "설명 또는 정의",
+            "관세법 등 관련 법령에 따라 국내 물품을 외국으로 반출하기 위해 세관에 수출신고 후 수리를 받아 국제 외국무역선에 적재하는 행정 절차\n한국에서 수출신고와 EU 첫 도착 국가에서 수입통관을 마치면 27개 회원국 내에서 자유롭게 이동이 가능하다(EU의 단일 관세).\n* Cosmetic Directive 76/768/EEC 제정: EEC(유럽 경제 공동체)의 회원국은 화장품의 자유로운 수출입과 소비자 보호를 달성하기 위해 각국의 화장품 규정을 조화하였다.\n* 수출신고: 수출품에 대하여 세관에 수출 신고\n* 수출선적: 수출 신고 수리일로부터 30일 이내에 선박 또는 항공기에 수출품을 적재하고 해상운송의 경우 선하증권을 항공운송의 경우 항공화물운송장 발급",
+            ""
+          ],
+          [
+            "방식",
+            "수출통관(관세사 대행)\n수입통관(EORI 번호 및 VAT 처리)",
+            ""
+          ],
+          [
+            "기관",
+            "지역본부세관\n유럽 공동체(EC, European Community)",
+            ""
+          ],
+          [
+            "참고 또는\n필요서류",
+            "[수출 신고 시 제출 서류]\n수출 신고서\n송장 (invoice)\n포장명세서\n기타 수출통관에 필요한 서류\n[참고자료]\n성분분석표(CoA)\n제조증명서 및 자유판매증명서(CFS)",
+            ""
+          ],
+          [
+            "절차",
+            "수출계약 체결 → 수출 서류 준비 → 수출 신고 → 선적 및 운송",
+            ""
+          ],
+          [
+            "주의사항\n또는\n확인사항",
+            "한국 관세청에 수출 신고 시 국제통일 상품분류체계(HS CODE)를 기준으로 물품 분류 및 관세를 사전심사하고, 수출 신고번호가 부여되며 신고필증이 발급된다.  \n* 수출 통관 서류는 도착지 국가의 언어(우리나라:영어)로 작성되어 있어야 한다.\n* 수출신고는 물품 소재지 관할세관에 한다;\n* 수출신고 수리 후 30이내 적재를 완료해야 한다.(최대 1년 이내 연장 가능)",
+            ""
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [],
+    "shape_links": [],
+    "any_hlinks": [],
+    "all_rels": {
+      "rId3": {
+        "target": "../comments/modernComment_11A_DBB06A40.xml",
+        "type": "comments",
+        "mode": null
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide10.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      }
+    },
+    "notes": [
+      "12"
+    ]
+  },
+  {
+    "slide": 13,
+    "path": "ppt/slides/slide13.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "05. 현지통관"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 9",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "현지통관"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 3",
+        "bbox": [
+          0,
+          6596390,
+          1634308,
+          261610
+        ],
+        "paras": [
+          "다음 페이지에 이어서"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1341838,
+          11178501,
+          4819904
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "설명 또는 정의",
+            "현지통관은 수입신고를 받은 세관 당국이 신고사항을 확인하고 일정한 요건을 갖추었을 때 수입을 허용하여 외국물품을 자국에 판매할 수 있는 통관 절차\n* Cosmetic Directive 76/768/EEC 제정: EEC(유럽 경제 공동체)의 회원국은 화장품의 자유로운 수출입과 소비자 보호를 달성하기 위해 각국의 화장품 규정을 조화하였다.",
+            ""
+          ],
+          [
+            "방식",
+            "EU관세 지역에 들어가는 물품은 아래 절차 중 하나를 선택하여 수입신고 \n①일반적인 소비물품 수입통관 ②통과(환적) ③보세 창고 보관 ④일시적 수입 ⑤재수출 가공  ⑥세관 관리 가공",
+            ""
+          ],
+          [
+            "기관",
+            "* EU 회원국 세관(Customs Authority)\n* 유럽 공동체(EC, European Community)",
+            ""
+          ],
+          [
+            "참고 또는\n필요서류",
+            "[수입신고 시 기본 서류]\n수입신고서\n가격신고서(물품 가액이 10,000 EUR 이상인 경우)\n선하증권(해운) or 항공화물운송장(항공)\n산업송장(Invoice)\n포장명세서(Packing List)\n화물명세서\n수입 화장품 기업 책임 승낙서\n특수 화장품 행정허가증 또는 일반화장품 등록증빙 취득\n원산지증명서",
+            "[EU 세관 통관에 필요한 서류]\n- 수출자 및 수입자 정보 \n- 발행일, 송장번호, 측정 단위, 수량, 단가, 운송 수단\n- 물품 설명(품명, 품질, 규격 등)  \n- 품목별 총금액 \n- 송장 총금액 및 결제 통화\n- 결제 조건(결제 방법, 기한, 할인 조건 등)\nIncoterms에 따른 인도 조건(Terms of Delivery)\n[EU 수입통관 필요 서류]\nEORI(Economic Operator Registration and Identification, 상업운영자 등록 식별)번호 \n입항 적하목록 (ENS, Entry Summary Declaration) \n수입신고서 (SAD, Single Administrative Document)"
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [
+      {
+        "rid": "rId3",
+        "text": "[EU 세관 통관에 필요한 서류]",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/content/customs-clearance-documents-and-procedures-0",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "shape_links": [],
+    "any_hlinks": [
+      {
+        "rid": "rId3",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/content/customs-clearance-documents-and-procedures-0",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId3",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/content/customs-clearance-documents-and-procedures-0",
+        "tooltip": null,
+        "action": null
+      },
+      {
+        "rid": "rId3",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/content/customs-clearance-documents-and-procedures-0",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "all_rels": {
+      "rId3": {
+        "target": "https://trade.ec.europa.eu/access-to-markets/en/content/customs-clearance-documents-and-procedures-0",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide11.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      }
+    },
+    "notes": [
+      "13"
+    ]
+  },
+  {
+    "slide": 14,
+    "path": "ppt/slides/slide14.xml",
+    "shapes": [
+      {
+        "name": "TextBox 1",
+        "bbox": [
+          325826,
+          339047,
+          8721213,
+          400110
+        ],
+        "paras": [
+          "05. 현지통관"
+        ],
+        "kind": "sp"
+      },
+      {
+        "name": "TextBox 9",
+        "bbox": [
+          325826,
+          886609,
+          8721213,
+          307777
+        ],
+        "paras": [
+          "현지통관"
+        ],
+        "kind": "sp"
+      }
+    ],
+    "tables": [
+      {
+        "bbox": [
+          405898,
+          1301198,
+          11178501,
+          4954016
+        ],
+        "name": "표 4",
+        "rows": [
+          [
+            "절차",
+            "[EU 수입통관 절차]\n①EORI(상업운영자 등록 식별)번호 발급 ②입항 적하목록 신고(ENS) ③물품반입 ④하역 및 검사 ⑤세관 보세구역에 물품 반입  ⑥임시 장치기간 ⑦세관에 물품 제시  ⑧수입신고(수입신고서, SAD) ⑨관세(부가가치세(VAT), 소비세(excise)) 등 납부 및 물품 반출"
+          ],
+          [
+            "주의사항\n또는\n확인사항",
+            "EORI 상업운영자 등록 식별번호 \nEU 회원국들과의 수출입을 진행하기 위해 기업에게 필요한 번호, 세관 식별 번호 역할, 무역할동 추적 및 모니터링을 가능하게 한다.\n① 해당 세관 당국에 등록   ② EORI 번호 발급\n2.  입항 적하목록 신고\n① 도착한 첫 번째 EU국가에서 도착 항구에 관할 세관에 입항 적하목록 제출\n② 제출 내용 : 화물정보, 물품명, HS Code, 컨테이너 번호, 운송인, 송하인, 수하인 등 인적정보\n제출시기는 운송 수단에 따라 달라지며, 원칙적으로는 신고 제출 의무자는 운송인이지만, 수입자 또는 수취인이 대신 신고가 가능하다. \n적하목록 사전 검토를 통한 우범화물 선별 및 보안강화 목적으로 시행되므로, 미신고시 과태료가 부과된다.\n[불공정한 수입에 대한 EU의 조치]\nEU는 덤핑되거나 보조금을 받은 수입품으로 인해 EU 산업이 피해를 입는 경우, 반덤핑, 상계관세 또는 세이프가드(긴급수입제한) 조치와 같은 무역구제 조치를 시행\n[EU 화장품 통관 거부 및 사후 적발 사례]\n- CPNP 미등록 및 RP 부재(CPNP등록번호 없음, EU내 책임자 미지정, 서류 불일치시 즉시 반송 또는 폐기)\n- PIF 미비 및 안전성 입증 불가(PIF자료 요청 시 미제출, CPSR 누락/서명 없음, 동물실험 자료 사용시 공공 경보 및 회수하거나 EU전역 판매 중지)\n- 라벨링 및 금지 성분 위반(현지어 번역 누락, 금지/제한 원료(ex. 나노물질), PAO/사용기한 오류일 경우 판매 중지, 시정명령, 벌금)\n* Access2Markets은 EU로 수입되는 제품 조치 제공(관세, 원산지규정, 수입절차 및 형식, 제품 요구사항, 무역 흐름 통계)\n* 수입품의 가치가 20,000유로를 초과하는 경우 세관 당국에 관세가치신고서 제출"
+          ]
+        ]
+      }
+    ],
+    "grouped_links": [
+      {
+        "rid": "rId3",
+        "text": "Access2Markets",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/home",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "shape_links": [],
+    "any_hlinks": [
+      {
+        "rid": "rId3",
+        "url": "https://trade.ec.europa.eu/access-to-markets/en/home",
+        "tooltip": null,
+        "action": null
+      }
+    ],
+    "all_rels": {
+      "rId3": {
+        "target": "https://trade.ec.europa.eu/access-to-markets/en/home",
+        "type": "hyperlink",
+        "mode": "External"
+      },
+      "rId2": {
+        "target": "../notesSlides/notesSlide12.xml",
+        "type": "notesSlide",
+        "mode": null
+      },
+      "rId1": {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "slideLayout",
+        "mode": null
+      }
+    },
+    "notes": [
+      "14"
+    ]
+  }
+]

@@ -1,0 +1,3175 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "path": "ppt/slides/slide1.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "1"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 3",
+          "bbox": [
+            748029,
+            3022573,
+            5788354,
+            655372
+          ],
+          "paras": [
+            "대만 화장품 수출 절차"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [],
+      "grouped_links": [],
+      "shape_links": [],
+      "any_hlinks": [],
+      "ext_rels": [],
+      "all_rels": {
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        }
+      },
+      "notes": [],
+      "comment_refs": [],
+      "flat_text": [
+        "1",
+        "대만 화장품 수출 절차"
+      ]
+    },
+    {
+      "slide": 2,
+      "path": "ppt/slides/slide2.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 1",
+          "bbox": null,
+          "paras": [
+            "2"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            468066,
+            528935,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "대만 화장품 수출 규제 주요 절차"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 3",
+          "bbox": [
+            2641704,
+            3626293,
+            2539499,
+            738664
+          ],
+          "paras": [
+            "대만 내 수입업자 ",
+            "(化粧品製造或輸入業者)",
+            "선임 및 PIF 준비"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 6",
+          "bbox": [
+            7526648,
+            3626293,
+            1537177,
+            307777
+          ],
+          "paras": [
+            "수출통관/선적"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 7",
+          "bbox": [
+            9916323,
+            3626293,
+            1286268,
+            523220
+          ],
+          "paras": [
+            "현지통관 및 시판 후 관리"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 4",
+          "bbox": [
+            5163761,
+            3626294,
+            1734512,
+            307777
+          ],
+          "paras": [
+            "제품 등록"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 2",
+          "bbox": [
+            548905,
+            3628652,
+            2092799,
+            307777
+          ],
+          "paras": [
+            "수출 계약 및 상표등록"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [],
+      "grouped_links": [],
+      "shape_links": [],
+      "any_hlinks": [],
+      "ext_rels": [],
+      "all_rels": {
+        "rId3": {
+          "target": "../media/image2.png",
+          "type": "image",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        },
+        "rId2": {
+          "target": "../media/image1.png",
+          "type": "image",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId6": {
+          "target": "../media/image5.png",
+          "type": "image",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        },
+        "rId5": {
+          "target": "../media/image4.png",
+          "type": "image",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        },
+        "rId4": {
+          "target": "../media/image3.png",
+          "type": "image",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+        }
+      },
+      "notes": [],
+      "comment_refs": [],
+      "flat_text": [
+        "2",
+        "대만 화장품 수출 규제 주요 절차",
+        "대만 내 수입업자 ",
+        "(化粧品製造或輸入業者)",
+        "선임 및 PIF 준비",
+        "수출통관/선적",
+        "현지통관 및 시판 후 관리",
+        "제품 등록",
+        "수출 계약 및 상표등록"
+      ]
+    },
+    {
+      "slide": 3,
+      "path": "ppt/slides/slide3.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "3"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "01. 수출계약 및 상표등록"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            1119957,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "1-1. 수출계약"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1616158,
+            11178501,
+            4331252
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "설명 또는 정의",
+              "대만 수출을 위해 수출자와 대만 구매자 또는 수입자 간 제품, 가격, 수량, 결제조건, 인도조건, 납기, 통관·인허가 책임 등 주요 거래조건을 확정하는 단계"
+            ],
+            [
+              "계약 방식",
+              "수출계약서, 발주서(PO), 주문확인서, 견적송장/형식송장(Proforma Invoice) 등을 통해 거래조건 확정"
+            ],
+            [
+              "관련 기관",
+              "국내 (계약 서식·보험·중재):\n한국무역협회(KITA) / 통합무역정보서비스(TradeNAVI) / KOTRA: 표준 수출계약서 서식 제공 및 법률 자문 지원\n한국무역보험공사(K-SURE): 대금 미회수 리스크 대비 무역보험/신용보증 가입\n대한상사중재원(KCAB): 수출계약 분쟁 발생 시 중재 관할 기관\n대만 (상표 출원 주무관청): 대만 경제부 지혜재산국(TIPO) - 대만 현지 상표(영문·중문·로고) 출원 및 심사 관할"
+            ],
+            [
+              "계약서 서식 참고",
+              "* 한국무역협회"
+            ],
+            [
+              "절차",
+              "① 대만 거래상대방 및 수입업자 정보 확인 → ② 제품의 대만 수입 가능 여부, HS Code, 관세율, 수입규제, 인증·허가·라벨링 요건 확인 → ③ 제품명·브랜드명·규격·수량·단가·통화 확정 → ④ 결제조건·Incoterms·선적조건·납기 확정 → ⑤ 수입허가·라벨링·통관 책임 주체 확인 → ⑥ 발주서(PO)/견적송장 또는 형식송장 확인 → ⑦ 수출계약 체결 → ⑧ 계약내용과 상업송장·포장명세서 기재정보의 정합성 확인"
+            ],
+            [
+              "주의사항\n또는\n확인사항",
+              "계약상 매수인, 수하인, 대만 수입업자 정보 구분 및 정합성 확인 필요. \n제품명, 브랜드명, 규격, 수량, 단가 등 계약정보와 상업송장·포장명세서 기재정보 일치 필요. Incoterms 2020 기준 비용·위험 이전 시점 명확화 필요. \n결제조건, 납기, 운송방식, 클레임 처리 기준 명확화 필요. 대만 수입허가, 인증, 라벨링 및 통관 책임 주체를 계약 단계에서 확인 필요. \n현지 수입업자 또는 대리점의 상표 임의 출원을 방지하기 위해 상표권 귀속 및 사용제한 조항 검토 필요. \n신규 거래처는 선금, 신용장, 지급보증, 무역보험 등 대금 회수 안전장치 검토 필요."
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId4",
+          "text": "수출계약서",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId4",
+          "text": "한국무역협회",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId4",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId4",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId4",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId3": {
+          "target": "../comments/modernComment_103_5D417036.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide1.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId4": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        }
+      },
+      "notes": [
+        "3"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_103_5D417036.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "3",
+        "01. 수출계약 및 상표등록",
+        "1-1. 수출계약",
+        "설명 또는 정의",
+        "대만 수출을 위해 수출자와 대만 구매자 또는 수입자 간 제품, 가격, 수량, 결제조건, 인도조건, 납기, 통관·인허가 책임 등 주요 거래조건을 확정하는 단계",
+        "계약 방식",
+        "수출계약서, 발주서(PO), 주문확인서, 견적송장/형식송장(Proforma Invoice) 등을 통해 거래조건 확정",
+        "관련 기관",
+        "국내 (계약 서식·보험·중재):\n한국무역협회(KITA) / 통합무역정보서비스(TradeNAVI) / KOTRA: 표준 수출계약서 서식 제공 및 법률 자문 지원\n한국무역보험공사(K-SURE): 대금 미회수 리스크 대비 무역보험/신용보증 가입\n대한상사중재원(KCAB): 수출계약 분쟁 발생 시 중재 관할 기관\n대만 (상표 출원 주무관청): 대만 경제부 지혜재산국(TIPO) - 대만 현지 상표(영문·중문·로고) 출원 및 심사 관할",
+        "계약서 서식 참고",
+        "* 한국무역협회",
+        "절차",
+        "① 대만 거래상대방 및 수입업자 정보 확인 → ② 제품의 대만 수입 가능 여부, HS Code, 관세율, 수입규제, 인증·허가·라벨링 요건 확인 → ③ 제품명·브랜드명·규격·수량·단가·통화 확정 → ④ 결제조건·Incoterms·선적조건·납기 확정 → ⑤ 수입허가·라벨링·통관 책임 주체 확인 → ⑥ 발주서(PO)/견적송장 또는 형식송장 확인 → ⑦ 수출계약 체결 → ⑧ 계약내용과 상업송장·포장명세서 기재정보의 정합성 확인",
+        "주의사항\n또는\n확인사항",
+        "계약상 매수인, 수하인, 대만 수입업자 정보 구분 및 정합성 확인 필요. \n제품명, 브랜드명, 규격, 수량, 단가 등 계약정보와 상업송장·포장명세서 기재정보 일치 필요. Incoterms 2020 기준 비용·위험 이전 시점 명확화 필요. \n결제조건, 납기, 운송방식, 클레임 처리 기준 명확화 필요. 대만 수입허가, 인증, 라벨링 및 통관 책임 주체를 계약 단계에서 확인 필요. \n현지 수입업자 또는 대리점의 상표 임의 출원을 방지하기 위해 상표권 귀속 및 사용제한 조항 검토 필요. \n신규 거래처는 선금, 신용장, 지급보증, 무역보험 등 대금 회수 안전장치 검토 필요."
+      ]
+    },
+    {
+      "slide": 4,
+      "path": "ppt/slides/slide4.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "4"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "01. 수출계약 및 상표등록"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            886609,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "1-2. 상표등록"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1341837,
+            11178501,
+            5453322
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "설명 또는 정의",
+              "대만은 ‘선출원주의’를 채택하고 있어 동일〮유사 상표가 먼저 출원될 경우 후출원자의 등록이 제한될 수 있음. 화장품 수출 전 브랜드명, 로고, 중문명에 대한 사전 출원이 권장됨. (해당 내용은 설명 또는 정의에 부적합)\n대만 내 브랜드명, 로고, 제품명 등에 대한 상표권을 확보하고 현지 제3자 또는 거래상대방의 상표 선점을 방지하기 위해 선행상표 검색 및 상표출원을 검토하는 단계"
+            ],
+            [
+              "방식",
+              "대만 경제부 지혜재산국, TIPO에 선행상표 검색 후 상표출원. 필요 시 현지 대리인을 통해 진행"
+            ],
+            [
+              "기관",
+              "대만 경제부 지혜재산국(TIPO, Taiwan Intellectual Property Office / 經濟部智慧財產局)"
+            ],
+            [
+              "참고 또는\n필요서류",
+              "대만은 마드리드 국제상표 출원의 지정국이 아니므로 TIPO에 개별 출원 필요\n[필요 서류]\n출원인 정보\n상표 견본\n지정상품·서비스 목록\n법인 또는 사업자 정보\n위임장, 대리인을 선임하는 경우(출원일로부터 3개월 이내)\n우선권 주장서류, 해당 시\n중문 상표명 후보, 해당 시\n실제 판매 제품 목록 또는 제품 카테고리\n기존 한국 또는 해외 상표등록증, 참고용"
+            ],
+            [
+              "절차",
+              "① 수출 제품 및 사용 상표 확정 → ② 영문·한글·중문 브랜드명 및 로고 검토 → ③대만 내 선행 상표 검색 → ④ 지정상품·서비스류 확정 → ⑤ 출원인 명의 및 대리인 선임 여부 결정 → ⑥ TIPO 상표출원 → ⑦ 심사 및 보정 대응 → ⑧ 공고 및 이의신청 기간 경과 → ⑨ 등록 및 갱신기한 관리\n※ 예상 소요기간: 통상 출원부터 등록까지 약 8~12개월 내외 소요될 수 있으며, 보정·거절이유 통지·이의신청 발생 시 기간이 연장될 수 있음※ 상표권 존속기간은 등록 후 10년이며, 만료 전 6개월 이내 갱신 신청 가능"
+            ],
+            [
+              "주의사항\n또는\n확인사항",
+              "한국 또는 다른 국가에 등록된 상표라도 대만에서 자동으로 보호되는 것은 아니므로, 대만 내 별도 상표출원 필요 여부 확인 필요\n현지 수입업자, 대리점, 총판 명의로 상표를 출원할 경우 계약 종료 후 분쟁이 발생할 수 있으므로 브랜드 권리자 명의 출원 권장\n영문 브랜드명뿐 아니라 중문 브랜드명, 음역명, 의역명, 로고, 제품명도 별도 보호 필요성 검토\n수출계약, 총판계약 또는 대리점계약에 상표권 귀속, 사용허락 범위, 계약 종료 후 상표 사용중지 조항 반영 필요\n등록상표가 정당한 사유 없이 3년 이상 사용되지 않을 경우 불사용 취소 대상이 될 수 있으므로, 등록 후 실제 사용 및 사용증거 관리 필요\n화장품 관련 TFDA 절차는 상표등록 완료가 일반적으로 필수 요건은 아니므로, 상표출원 후 TFDA 관련 제품등록·신고 절차를 병행할 수 있음\n등록 후에도 갱신기한 및 유사상표 모니터링 필요"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId3",
+          "text": "대만 내 선행 상표 검색",
+          "url": "https://cloud.tipo.gov.tw/S282/S282WV1/",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId3",
+          "url": "https://cloud.tipo.gov.tw/S282/S282WV1/",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId3",
+          "url": "https://cloud.tipo.gov.tw/S282/S282WV1/",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId3": {
+          "target": "https://cloud.tipo.gov.tw/S282/S282WV1/",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide2.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        }
+      },
+      "notes": [
+        "4"
+      ],
+      "comment_refs": [],
+      "flat_text": [
+        "4",
+        "01. 수출계약 및 상표등록",
+        "1-2. 상표등록",
+        "설명 또는 정의",
+        "대만은 ‘선출원주의’를 채택하고 있어 동일〮유사 상표가 먼저 출원될 경우 후출원자의 등록이 제한될 수 있음. 화장품 수출 전 브랜드명, 로고, 중문명에 대한 사전 출원이 권장됨. (해당 내용은 설명 또는 정의에 부적합)\n대만 내 브랜드명, 로고, 제품명 등에 대한 상표권을 확보하고 현지 제3자 또는 거래상대방의 상표 선점을 방지하기 위해 선행상표 검색 및 상표출원을 검토하는 단계",
+        "방식",
+        "대만 경제부 지혜재산국, TIPO에 선행상표 검색 후 상표출원. 필요 시 현지 대리인을 통해 진행",
+        "기관",
+        "대만 경제부 지혜재산국(TIPO, Taiwan Intellectual Property Office / 經濟部智慧財產局)",
+        "참고 또는\n필요서류",
+        "대만은 마드리드 국제상표 출원의 지정국이 아니므로 TIPO에 개별 출원 필요\n[필요 서류]\n출원인 정보\n상표 견본\n지정상품·서비스 목록\n법인 또는 사업자 정보\n위임장, 대리인을 선임하는 경우(출원일로부터 3개월 이내)\n우선권 주장서류, 해당 시\n중문 상표명 후보, 해당 시\n실제 판매 제품 목록 또는 제품 카테고리\n기존 한국 또는 해외 상표등록증, 참고용",
+        "절차",
+        "① 수출 제품 및 사용 상표 확정 → ② 영문·한글·중문 브랜드명 및 로고 검토 → ③대만 내 선행 상표 검색 → ④ 지정상품·서비스류 확정 → ⑤ 출원인 명의 및 대리인 선임 여부 결정 → ⑥ TIPO 상표출원 → ⑦ 심사 및 보정 대응 → ⑧ 공고 및 이의신청 기간 경과 → ⑨ 등록 및 갱신기한 관리\n※ 예상 소요기간: 통상 출원부터 등록까지 약 8~12개월 내외 소요될 수 있으며, 보정·거절이유 통지·이의신청 발생 시 기간이 연장될 수 있음※ 상표권 존속기간은 등록 후 10년이며, 만료 전 6개월 이내 갱신 신청 가능",
+        "주의사항\n또는\n확인사항",
+        "한국 또는 다른 국가에 등록된 상표라도 대만에서 자동으로 보호되는 것은 아니므로, 대만 내 별도 상표출원 필요 여부 확인 필요\n현지 수입업자, 대리점, 총판 명의로 상표를 출원할 경우 계약 종료 후 분쟁이 발생할 수 있으므로 브랜드 권리자 명의 출원 권장\n영문 브랜드명뿐 아니라 중문 브랜드명, 음역명, 의역명, 로고, 제품명도 별도 보호 필요성 검토\n수출계약, 총판계약 또는 대리점계약에 상표권 귀속, 사용허락 범위, 계약 종료 후 상표 사용중지 조항 반영 필요\n등록상표가 정당한 사유 없이 3년 이상 사용되지 않을 경우 불사용 취소 대상이 될 수 있으므로, 등록 후 실제 사용 및 사용증거 관리 필요\n화장품 관련 TFDA 절차는 상표등록 완료가 일반적으로 필수 요건은 아니므로, 상표출원 후 TFDA 관련 제품등록·신고 절차를 병행할 수 있음\n등록 후에도 갱신기한 및 유사상표 모니터링 필요"
+      ]
+    },
+    {
+      "slide": 5,
+      "path": "ppt/slides/slide5.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "5"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 8",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "02. 대만 내 수입업자 선임 및 PIF 준비"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            886609,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "2-1. 대만 내 수입업자 선임"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            0,
+            6596390,
+            1634308,
+            261610
+          ],
+          "paras": [
+            "다음 페이지에 이어서"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            325826,
+            1288645,
+            11175294,
+            3169920
+          ],
+          "name": "표 3",
+          "rows": [
+            [
+              "대리인 역할",
+              "① TFDA 시스템상 제품 등록·신고 및 제품정보 관리\n② PIF 구축 자료 수집·검토, 대만 내 보관 및 TFDA 요청 시 제출 대응\n③ 제품 표시사항, 라벨 및 광고·홍보 문구의 적합성 관리\n④ 이상사례 수집·평가·보고, 제품 회수·소비자 공지 등 시판 후 안전관리\n⑤ TFDA 감독·점검 및 조사 대응, 관련 자료 제출 협조"
+            ],
+            [
+              "대리인 자격 요건",
+              "① 대만 내 관련 법령에 따라 설립·등록된 법인 또는 사업자일 것\n② 화장품 수입·유통 또는 관련 영업 범위를 보유할 것\n③ TFDA 시스템 계정 개설 및 제품 등록·신고, 자료 관리가 가능할 것\n④ 대만 내 연락 가능한 담당자와 PIF 보관·제출 대응 체계를 갖출 것\n⑤ 이상사례, 회수, 소비자 불만 등 시판 후 관리 대응이 가능할 것"
+            ],
+            [
+              "선정 요령/체크포인트",
+              "[대만지사(자사 법인)]\n등록정보, PIF, 라벨, 광고, 사후관리 권한을 직접 통제 가능하나 설립·운영비 및 현지 규제 대응 인력 필요\n[수입〮유통업체]\n초기 진입과 유통망 확보에 유리하나 제품 등록정보, PIF, 고객·유통채널 권한이 수입업체에 집중될 수 있으므로 계약상 권한·이전 조건 명확화 필요\n[규제 대행사(전문 컨설팅/대행 업체)]\n전문성·보안성은 높을 수 있으나 실제 수입자 또는 제품 책임주체 역할 수행 가능 여부, 물류·통관·판매 역할 분리 여부 확인 필요"
+            ],
+            [
+              "수권 계약서",
+              "화장품 수입업자 위임계약서 또는 수권서"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId4",
+          "text": "화장품 수입업자 위임계약서 또는 수권서",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId3": {
+          "target": "../comments/modernComment_105_B404018D.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide3.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId4": {
+          "target": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        }
+      },
+      "notes": [
+        "5"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_105_B404018D.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "5",
+        "02. 대만 내 수입업자 선임 및 PIF 준비",
+        "2-1. 대만 내 수입업자 선임",
+        "다음 페이지에 이어서",
+        "대리인 역할",
+        "① TFDA 시스템상 제품 등록·신고 및 제품정보 관리\n② PIF 구축 자료 수집·검토, 대만 내 보관 및 TFDA 요청 시 제출 대응\n③ 제품 표시사항, 라벨 및 광고·홍보 문구의 적합성 관리\n④ 이상사례 수집·평가·보고, 제품 회수·소비자 공지 등 시판 후 안전관리\n⑤ TFDA 감독·점검 및 조사 대응, 관련 자료 제출 협조",
+        "대리인 자격 요건",
+        "① 대만 내 관련 법령에 따라 설립·등록된 법인 또는 사업자일 것\n② 화장품 수입·유통 또는 관련 영업 범위를 보유할 것\n③ TFDA 시스템 계정 개설 및 제품 등록·신고, 자료 관리가 가능할 것\n④ 대만 내 연락 가능한 담당자와 PIF 보관·제출 대응 체계를 갖출 것\n⑤ 이상사례, 회수, 소비자 불만 등 시판 후 관리 대응이 가능할 것",
+        "선정 요령/체크포인트",
+        "[대만지사(자사 법인)]\n등록정보, PIF, 라벨, 광고, 사후관리 권한을 직접 통제 가능하나 설립·운영비 및 현지 규제 대응 인력 필요\n[수입〮유통업체]\n초기 진입과 유통망 확보에 유리하나 제품 등록정보, PIF, 고객·유통채널 권한이 수입업체에 집중될 수 있으므로 계약상 권한·이전 조건 명확화 필요\n[규제 대행사(전문 컨설팅/대행 업체)]\n전문성·보안성은 높을 수 있으나 실제 수입자 또는 제품 책임주체 역할 수행 가능 여부, 물류·통관·판매 역할 분리 여부 확인 필요",
+        "수권 계약서",
+        "화장품 수입업자 위임계약서 또는 수권서"
+      ]
+    },
+    {
+      "slide": 6,
+      "path": "ppt/slides/slide6.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "6"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 8",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "02. 대만 내 수입업자 선임 및 PIF 준비"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            886609,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "2-1. 대만 내 수입업자 선임"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            0,
+            6596390,
+            1634308,
+            261610
+          ],
+          "paras": [
+            "다음 페이지에 이어서"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            325826,
+            1461813,
+            11175294,
+            2560320
+          ],
+          "name": "표 3",
+          "rows": [
+            [
+              "주의사항",
+              "대만 내 수입업자 선임 전 역할〮권한〮비용〮계약 해지 조건 등을 명확히 계약서에 기재할 것\nTFDA 시스템 계정, 제품 등록·신고 정보 및 PIF 접근권한을 사전에 확인할 것\nPIF에는 제조공정, 성분자료 등 영업비밀이 포함될 수 있으므로 접근권한, 열람범위, 비밀유지의무를 계약서에 명시할 것\n동일 제품을 여러 수입업체가 판매할 수 있으므로 각 대만 내 수입업자의 책임 범위를 명확히 설정할 것\n대만 내 수입업자 변경 시 제품 등록 및 관리정보 이전 가능 여부를 사전에 검토할 것"
+            ],
+            [
+              "필요서류",
+              "① 화장품 대만 내 수입업자 위임계약서 또는 수권서\n② 대만 내 수입업자 회사설립등기자료, 사업자등록 또는 상업등기 관련 서류\n③ 대만 내 수입업자 회사 기본정보, 회사명, 주소, 연락처, 담당자 정보\n④ TFDA 시스템 계정 신청자료\n⑤ 대만 내 수입업자 법인 대표자 또는 등록 담당자 신분증 사본\n⑥ 수입업 허가 또는 관련 영업등록 서류, 해당 시\n⑦ 브랜드사 또는 제조사 위임장, 필요 시\n⑧ PIF 보관장소 및 접근권한 확인자료, 필요 시"
+            ],
+            [
+              "소요기간",
+              "약 1~2주 소요, 단 대만 내 수입업자 확정 및 계약조건 합의가 완료된 경우 기준. 신규 수입업자 발굴, 계약 협상, TFDA 계정 개설 상황에 따라 기간 연장 가능"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId4",
+          "text": "화장품 대만 내 수입업자 위임계약서 또는 수권서",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId4",
+          "url": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId3": {
+          "target": "../comments/modernComment_10D_EA7711BE.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide4.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId4": {
+          "target": "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        }
+      },
+      "notes": [
+        "6"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_10D_EA7711BE.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "6",
+        "02. 대만 내 수입업자 선임 및 PIF 준비",
+        "2-1. 대만 내 수입업자 선임",
+        "다음 페이지에 이어서",
+        "주의사항",
+        "대만 내 수입업자 선임 전 역할〮권한〮비용〮계약 해지 조건 등을 명확히 계약서에 기재할 것\nTFDA 시스템 계정, 제품 등록·신고 정보 및 PIF 접근권한을 사전에 확인할 것\nPIF에는 제조공정, 성분자료 등 영업비밀이 포함될 수 있으므로 접근권한, 열람범위, 비밀유지의무를 계약서에 명시할 것\n동일 제품을 여러 수입업체가 판매할 수 있으므로 각 대만 내 수입업자의 책임 범위를 명확히 설정할 것\n대만 내 수입업자 변경 시 제품 등록 및 관리정보 이전 가능 여부를 사전에 검토할 것",
+        "필요서류",
+        "① 화장품 대만 내 수입업자 위임계약서 또는 수권서\n② 대만 내 수입업자 회사설립등기자료, 사업자등록 또는 상업등기 관련 서류\n③ 대만 내 수입업자 회사 기본정보, 회사명, 주소, 연락처, 담당자 정보\n④ TFDA 시스템 계정 신청자료\n⑤ 대만 내 수입업자 법인 대표자 또는 등록 담당자 신분증 사본\n⑥ 수입업 허가 또는 관련 영업등록 서류, 해당 시\n⑦ 브랜드사 또는 제조사 위임장, 필요 시\n⑧ PIF 보관장소 및 접근권한 확인자료, 필요 시",
+        "소요기간",
+        "약 1~2주 소요, 단 대만 내 수입업자 확정 및 계약조건 합의가 완료된 경우 기준. 신규 수입업자 발굴, 계약 협상, TFDA 계정 개설 상황에 따라 기간 연장 가능"
+      ]
+    },
+    {
+      "slide": 7,
+      "path": "ppt/slides/slide7.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "7"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 8",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "02. 대만 내 수입업자 선임 및 PIF 준비"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            795169,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "2-2. PIF 준비"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            0,
+            6596390,
+            1634308,
+            261610
+          ],
+          "paras": [
+            "다음 페이지에 이어서"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            325826,
+            1208635,
+            11175294,
+            4328160
+          ],
+          "name": "표 3",
+          "rows": [
+            [
+              "PIF(Product Information File) 개요",
+              "대만 『화장품위생안전관리법』에 따라 화장품의 안전성 및 품질을 입증하기 위해 구축·보관해야 하는 기술문서로, 제품 등록·신고, TFDA 점검 대응 및 시판 후 관리의 기초 자료로 활용됨.\n[1] PIF 작성 입문 매뉴얼  [2] PIF 작성 매뉴얼                [3] PIF 파일 예시"
+            ],
+            [
+              "PIF 주요 구성 항목",
+              "제품의 기본 정보: 제품명, 제품 유형, 제형, 용도, 제조공장의 이름 및 주소, 제조업자 또는 수입상의 정보\n제품 등록·신고 또는 TFDA 시스템상 제품정보 제출 입증자료전성분 명칭 및 함량\n전성분 목록, 성분명, 함량, 배합목적 및 제한성분 해당 여부\n제품 포장, 용기, 라벨 및 표시사항 자료\nGMP 또는 ISO 22716 관련 자료, 해당 시 또는 적용 대상 제품제조방법 및 절차\n제조방법 및 제조공정\n제품 사용법, 적용부위, 사용량, 사용빈도, 사용대상\n제품 사용으로 인한 이상사례 또는 알려진 부작용 정보\n제품 및 개별 성분의 물리·화학적 특성\n성분 독성학 자료\n안전성 평가 보고서\n미생물 검사 보고서\n보존력 시험 또는 방부력 시험 보고서, 해당 시\n효능·표방문구 입증자료, 해당 시\n제품과 접촉하는 포장재 정보\n제품 안전성 관련 정보 및 참고자료"
+            ],
+            [
+              "PIF 보관 요건",
+              "① 대만 내 수입업자 또는 대만 내 책임주체 소재지에 상시 보관\n② TFDA 요청 시 정해진 기한 내 제출 가능해야 함\n③ 제품 성분, 제조소, 라벨, 포장, 안전성 자료 등 제품정보 변경 시 업데이트 필요\n④ 제품의 최종 시판 또는 판매 종료 후 법정 보관기간 동안 보관 필요, 최소 5년 기준 여부는 최신 TFDA 규정 확인 권장"
+            ],
+            [
+              "준비 절차",
+              "① 제품 정보 수집 → ② 원료·성분 자료 확보 → ③ 제조·품질시험 자료 확보 → ④ 라벨 및 표방문구 검토 → ⑤ 안전성 평가 수행 → ⑥ PIF 작성 및 자료 누락 검토 → ⑦ 제품 등록·신고 정보와 PIF 정합성 확인 → ⑧ 대만 내 수입업자 또는 책임주체 보관 → ⑨ 변경사항 발생 시 업데이트"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId4",
+          "text": "화장품위생안전관리법",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "text": "[1] PIF 작성 입문 매뉴얼",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5629&page=1&code=foreign&searchopt=&searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId6",
+          "text": "[2] PIF 작성 매뉴얼",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5630&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId7",
+          "text": "PIF 파일 예시",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5823&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId4",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5629&page=1&code=foreign&searchopt=&searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5629&page=1&code=foreign&searchopt=&searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId6",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5630&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId6",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5630&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId7",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5823&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId7",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5823&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId7",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5823&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C",
+          "mode": "External"
+        },
+        {
+          "rid": "rId6",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5630&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "mode": "External"
+        },
+        {
+          "rid": "rId5",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5629&page=1&code=foreign&searchopt=&searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "mode": "External"
+        },
+        {
+          "rid": "rId4",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId3": {
+          "target": "../comments/modernComment_10E_1151531A.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId7": {
+          "target": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5823&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide5.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId6": {
+          "target": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5630&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId5": {
+          "target": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5629&page=1&code=foreign&searchopt=&searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId4": {
+          "target": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        }
+      },
+      "notes": [
+        "7"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_10E_1151531A.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "7",
+        "02. 대만 내 수입업자 선임 및 PIF 준비",
+        "2-2. PIF 준비",
+        "다음 페이지에 이어서",
+        "PIF(Product Information File) 개요",
+        "대만 『화장품위생안전관리법』에 따라 화장품의 안전성 및 품질을 입증하기 위해 구축·보관해야 하는 기술문서로, 제품 등록·신고, TFDA 점검 대응 및 시판 후 관리의 기초 자료로 활용됨.\n[1] PIF 작성 입문 매뉴얼  [2] PIF 작성 매뉴얼                [3] PIF 파일 예시",
+        "PIF 주요 구성 항목",
+        "제품의 기본 정보: 제품명, 제품 유형, 제형, 용도, 제조공장의 이름 및 주소, 제조업자 또는 수입상의 정보\n제품 등록·신고 또는 TFDA 시스템상 제품정보 제출 입증자료전성분 명칭 및 함량\n전성분 목록, 성분명, 함량, 배합목적 및 제한성분 해당 여부\n제품 포장, 용기, 라벨 및 표시사항 자료\nGMP 또는 ISO 22716 관련 자료, 해당 시 또는 적용 대상 제품제조방법 및 절차\n제조방법 및 제조공정\n제품 사용법, 적용부위, 사용량, 사용빈도, 사용대상\n제품 사용으로 인한 이상사례 또는 알려진 부작용 정보\n제품 및 개별 성분의 물리·화학적 특성\n성분 독성학 자료\n안전성 평가 보고서\n미생물 검사 보고서\n보존력 시험 또는 방부력 시험 보고서, 해당 시\n효능·표방문구 입증자료, 해당 시\n제품과 접촉하는 포장재 정보\n제품 안전성 관련 정보 및 참고자료",
+        "PIF 보관 요건",
+        "① 대만 내 수입업자 또는 대만 내 책임주체 소재지에 상시 보관\n② TFDA 요청 시 정해진 기한 내 제출 가능해야 함\n③ 제품 성분, 제조소, 라벨, 포장, 안전성 자료 등 제품정보 변경 시 업데이트 필요\n④ 제품의 최종 시판 또는 판매 종료 후 법정 보관기간 동안 보관 필요, 최소 5년 기준 여부는 최신 TFDA 규정 확인 권장",
+        "준비 절차",
+        "① 제품 정보 수집 → ② 원료·성분 자료 확보 → ③ 제조·품질시험 자료 확보 → ④ 라벨 및 표방문구 검토 → ⑤ 안전성 평가 수행 → ⑥ PIF 작성 및 자료 누락 검토 → ⑦ 제품 등록·신고 정보와 PIF 정합성 확인 → ⑧ 대만 내 수입업자 또는 책임주체 보관 → ⑨ 변경사항 발생 시 업데이트"
+      ]
+    },
+    {
+      "slide": 8,
+      "path": "ppt/slides/slide8.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "8"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 8",
+          "bbox": [
+            325826,
+            252420,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "02. 대만 내 수입업자 선임 및 PIF 준비"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            795169,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "2-2. PIF 준비"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            325826,
+            1208635,
+            11175294,
+            3535680
+          ],
+          "name": "표 3",
+          "rows": [
+            [
+              "주의사항",
+              "PIF는 원칙적으로 TFDA에 사전 제출하는 서류가 아니라, 대만 내 보관 후 요청 시 제출하는 기술문서임\n제품 시판 전 PIF 구축·보관을 완료하고, TFDA 요청 시 제출 가능해야 함\n모든 자료는 최신 상태로 유지해야 하며, 제품정보 변경 시 즉시 업데이트 필요\nTFDA 시스템상 제품 등록·신고 정보, 라벨, 전성분, PIF 자료 간 정합성 확인 필요\n원료 안전성 자료 및 안전성 평가 보고서의 누락 여부를 사전에 확인할 것\n안전성 평가 보고서는 요구되는 자격요건을 갖춘 평가자가 작성했는지 확인 필요\nTFDA 제출 대응을 위해 주요 자료의 중문 또는 영문 번역 필요 여부 확인 필요\n[참조] 화장품 제품정보 문서작성 매뉴얼"
+            ],
+            [
+              "필요서류",
+              "① 제품 설명서 및 제품 기본정보\n② 전성분 목록, 성분명, 함량 및 배합목적\n③ 제조공정서 및 제조소 정보\n④ 제품 규격서 및 시험성적서\n⑤ 원료 COA, SDS 및 성분 안전성 자료\n⑥ GMP 또는 ISO 22716 인증자료, 해당 시 또는 적용 대상 제품\n⑦ 제품 라벨, 포장 도안 및 표시사항 자료\n⑧ 안전성 평가 보고서\n⑨ 미생물 시험자료\n⑩ 안정성 및 보존력 시험자료, 해당 시\n⑪ 효능·표방문구 입증자료, 해당 시\n⑫ 제품과 접촉하는 포장재 정보, 해당 시"
+            ],
+            [
+              "소요기간",
+              "약 2~8주 소요, 단 제품 복잡도, 원료자료 확보 수준, 안전성 평가 및 추가 시험 필요 여부에 따라 기간 연장 가능"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId4",
+          "text": "화장품 제품정보 문서작성 매뉴얼",
+          "url": "https://kcia.or.kr/inc/down.php?dir=BOARD&file_name=202310_169640754590651_1.docx&rename=%ED%99%94%EC%9E%A5%ED%92%88+%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4+%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1+%EB%A7%A4%EB%89%B4%EC%96%BC_%EA%B5%AD%EB%AC%B8.docx",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId4",
+          "url": "https://kcia.or.kr/inc/down.php?dir=BOARD&file_name=202310_169640754590651_1.docx&rename=%ED%99%94%EC%9E%A5%ED%92%88+%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4+%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1+%EB%A7%A4%EB%89%B4%EC%96%BC_%EA%B5%AD%EB%AC%B8.docx",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId4",
+          "url": "https://kcia.or.kr/inc/down.php?dir=BOARD&file_name=202310_169640754590651_1.docx&rename=%ED%99%94%EC%9E%A5%ED%92%88+%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4+%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1+%EB%A7%A4%EB%89%B4%EC%96%BC_%EA%B5%AD%EB%AC%B8.docx",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId3": {
+          "target": "../comments/modernComment_10B_65584E78.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide6.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId4": {
+          "target": "https://kcia.or.kr/inc/down.php?dir=BOARD&file_name=202310_169640754590651_1.docx&rename=%ED%99%94%EC%9E%A5%ED%92%88+%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4+%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1+%EB%A7%A4%EB%89%B4%EC%96%BC_%EA%B5%AD%EB%AC%B8.docx",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        }
+      },
+      "notes": [
+        "8"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_10B_65584E78.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "8",
+        "02. 대만 내 수입업자 선임 및 PIF 준비",
+        "2-2. PIF 준비",
+        "주의사항",
+        "PIF는 원칙적으로 TFDA에 사전 제출하는 서류가 아니라, 대만 내 보관 후 요청 시 제출하는 기술문서임\n제품 시판 전 PIF 구축·보관을 완료하고, TFDA 요청 시 제출 가능해야 함\n모든 자료는 최신 상태로 유지해야 하며, 제품정보 변경 시 즉시 업데이트 필요\nTFDA 시스템상 제품 등록·신고 정보, 라벨, 전성분, PIF 자료 간 정합성 확인 필요\n원료 안전성 자료 및 안전성 평가 보고서의 누락 여부를 사전에 확인할 것\n안전성 평가 보고서는 요구되는 자격요건을 갖춘 평가자가 작성했는지 확인 필요\nTFDA 제출 대응을 위해 주요 자료의 중문 또는 영문 번역 필요 여부 확인 필요\n[참조] 화장품 제품정보 문서작성 매뉴얼",
+        "필요서류",
+        "① 제품 설명서 및 제품 기본정보\n② 전성분 목록, 성분명, 함량 및 배합목적\n③ 제조공정서 및 제조소 정보\n④ 제품 규격서 및 시험성적서\n⑤ 원료 COA, SDS 및 성분 안전성 자료\n⑥ GMP 또는 ISO 22716 인증자료, 해당 시 또는 적용 대상 제품\n⑦ 제품 라벨, 포장 도안 및 표시사항 자료\n⑧ 안전성 평가 보고서\n⑨ 미생물 시험자료\n⑩ 안정성 및 보존력 시험자료, 해당 시\n⑪ 효능·표방문구 입증자료, 해당 시\n⑫ 제품과 접촉하는 포장재 정보, 해당 시",
+        "소요기간",
+        "약 2~8주 소요, 단 제품 복잡도, 원료자료 확보 수준, 안전성 평가 및 추가 시험 필요 여부에 따라 기간 연장 가능"
+      ]
+    },
+    {
+      "slide": 9,
+      "path": "ppt/slides/slide9.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "9"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "03. 제품 등록"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            325826,
+            795169,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "3. 제품 등록"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 6",
+          "bbox": [
+            0,
+            6596390,
+            1634308,
+            261610
+          ],
+          "paras": [
+            "다음 페이지에 이어서"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1341838,
+            11178501,
+            4073144
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "설명 또는 정의",
+              "대만은 『화장품위생안전관리법』에 따라 화장품의 시판 전 제품정보 등록제도를 운영하고 있으며, 대만 내 수입업자 또는 책임주체가 TFDA 시스템에 제품정보를 등록·관리해야 함"
+            ],
+            [
+              "방식",
+              "TFDA 온라인 시스템을 통한 제품정보 등록 (Online Registration)"
+            ],
+            [
+              "기관",
+              "대만 위생복리부 식품약물관리서 (TFDA, Taiwan Food and Drug Administration)"
+            ],
+            [
+              "참고 또는\n필요서류",
+              "[제품 등록 필요서류]① 제품명, 중문·영문\n② 제품 유형 및 용도\n③ 전성분 정보, INCI명, 함량 또는 함량범위, 제한성분 해당 여부\n④ 제조업체 및 제조소 정보\n⑤ 대만 내 수입업자 또는 책임주체 정보\n⑥ 제품 라벨 및 표시사항 정보\n⑦ 제품정보파일, PIF, 또는 PIF 구축 확인자료\n⑧ GMP 또는 ISO 22716 관련 자료, 해당 시 또는 적용 대상 제품\n⑨ 제품 사진 또는 포장 도안, 필요 시\n⑩ 기타 TFDA 시스템 입력 또는 확인에 필요한 자료"
+            ],
+            [
+              "절차",
+              "① 대만 내 수입업자 또는 책임주체 TFDA 계정 로그인 → ② 제품 기본정보, 성분, 제조소, 라벨 정보 입력 → ③ PIF 구축 여부 및 관련 정보 확인 → ④ 등록 수수료 납부 → ⑤ 등록번호 발급 → ⑥ 등록정보와 실제 판매제품, 라벨, PIF 정합성 확인 → ⑦ 제품 판매"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId4",
+          "text": "화장품위생안전관리법",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "text": "TFDA 온라인 시스템을 통한 제품정보 등록 ",
+          "url": "https://cos.fda.gov.tw/TCAL/",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId4",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "url": "https://cos.fda.gov.tw/TCAL/",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "url": "https://cos.fda.gov.tw/TCAL/",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId5",
+          "url": "https://cos.fda.gov.tw/TCAL/",
+          "mode": "External"
+        },
+        {
+          "rid": "rId4",
+          "url": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId3": {
+          "target": "../comments/modernComment_107_D4A2BB0F.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide7.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId5": {
+          "target": "https://cos.fda.gov.tw/TCAL/",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId4": {
+          "target": "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        }
+      },
+      "notes": [
+        "9"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_107_D4A2BB0F.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "9",
+        "03. 제품 등록",
+        "3. 제품 등록",
+        "다음 페이지에 이어서",
+        "설명 또는 정의",
+        "대만은 『화장품위생안전관리법』에 따라 화장품의 시판 전 제품정보 등록제도를 운영하고 있으며, 대만 내 수입업자 또는 책임주체가 TFDA 시스템에 제품정보를 등록·관리해야 함",
+        "방식",
+        "TFDA 온라인 시스템을 통한 제품정보 등록 (Online Registration)",
+        "기관",
+        "대만 위생복리부 식품약물관리서 (TFDA, Taiwan Food and Drug Administration)",
+        "참고 또는\n필요서류",
+        "[제품 등록 필요서류]① 제품명, 중문·영문\n② 제품 유형 및 용도\n③ 전성분 정보, INCI명, 함량 또는 함량범위, 제한성분 해당 여부\n④ 제조업체 및 제조소 정보\n⑤ 대만 내 수입업자 또는 책임주체 정보\n⑥ 제품 라벨 및 표시사항 정보\n⑦ 제품정보파일, PIF, 또는 PIF 구축 확인자료\n⑧ GMP 또는 ISO 22716 관련 자료, 해당 시 또는 적용 대상 제품\n⑨ 제품 사진 또는 포장 도안, 필요 시\n⑩ 기타 TFDA 시스템 입력 또는 확인에 필요한 자료",
+        "절차",
+        "① 대만 내 수입업자 또는 책임주체 TFDA 계정 로그인 → ② 제품 기본정보, 성분, 제조소, 라벨 정보 입력 → ③ PIF 구축 여부 및 관련 정보 확인 → ④ 등록 수수료 납부 → ⑤ 등록번호 발급 → ⑥ 등록정보와 실제 판매제품, 라벨, PIF 정합성 확인 → ⑦ 제품 판매"
+      ]
+    },
+    {
+      "slide": 10,
+      "path": "ppt/slides/slide10.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "10"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "03. 제품 등록"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            325826,
+            795169,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "3. 제품 등록"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1341838,
+            11178501,
+            2991104
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "소요기간",
+              "등록정보 제출 및 수수료 납부 후 시스템 처리 기준으로 등록번호가 발급될 수 있음. 단, 자료 준비, 계정 개설, 입력정보 검토, 수수료 처리 상황에 따라 실제 준비기간은 달라질 수 있음"
+            ],
+            [
+              "등록 유효기간",
+              "등록일로부터 3년 (유효기간 만료 3개월 전 등록 연장 필요)"
+            ],
+            [
+              "등록 수수료",
+              "제품당 NT$800 (2026.07.01 이후) 단, 최신 TFDA 고시 또는 시스템 기준 확인 필요"
+            ],
+            [
+              "주의사항\n또는\n확인사항",
+              "대만은 기존 특정용도화장품 허가제를 폐지하고 모든 화장품에 대해 제품정보 등록제도를 운영함\n제품 등록은 사전 심사·허가가 아니라 TFDA 시스템상 제품정보 등록 성격이므로, 등록정보의 정확성과 사후 점검 대응이 중요함\n제품 등록 전 또는 늦어도 제품 시판 전 PIF 구축·보관이 완료되어야 함\n등록정보, 전성분, 라벨, 제조소 정보 및 PIF 내용은 실제 판매제품과 일치해야 함\n등록정보 변경 시 수정 등록이 필요하며, 전성분 변경 등 제품 동일성에 영향을 주는 변경은 재등록 필요 여부를 검토해야 함\n등록 유효기간 만료 전 갱신 필요, 만료 3개월 전 갱신기한 관리 권장\n수입업자 또는 책임주체 변경 시 등록정보 이전 또는 재등록 필요 여부를 사전에 확인해야 함\n제품명, 효능·효과 표현 및 광고 문구가 화장품 범위를 벗어나 의약품적 효능으로 해석되지 않도록 확인 필요"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [],
+      "shape_links": [],
+      "any_hlinks": [],
+      "ext_rels": [],
+      "all_rels": {
+        "rId3": {
+          "target": "../comments/modernComment_111_5C88F3A6.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide8.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        }
+      },
+      "notes": [
+        "10"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_111_5C88F3A6.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "10",
+        "03. 제품 등록",
+        "3. 제품 등록",
+        "소요기간",
+        "등록정보 제출 및 수수료 납부 후 시스템 처리 기준으로 등록번호가 발급될 수 있음. 단, 자료 준비, 계정 개설, 입력정보 검토, 수수료 처리 상황에 따라 실제 준비기간은 달라질 수 있음",
+        "등록 유효기간",
+        "등록일로부터 3년 (유효기간 만료 3개월 전 등록 연장 필요)",
+        "등록 수수료",
+        "제품당 NT$800 (2026.07.01 이후) 단, 최신 TFDA 고시 또는 시스템 기준 확인 필요",
+        "주의사항\n또는\n확인사항",
+        "대만은 기존 특정용도화장품 허가제를 폐지하고 모든 화장품에 대해 제품정보 등록제도를 운영함\n제품 등록은 사전 심사·허가가 아니라 TFDA 시스템상 제품정보 등록 성격이므로, 등록정보의 정확성과 사후 점검 대응이 중요함\n제품 등록 전 또는 늦어도 제품 시판 전 PIF 구축·보관이 완료되어야 함\n등록정보, 전성분, 라벨, 제조소 정보 및 PIF 내용은 실제 판매제품과 일치해야 함\n등록정보 변경 시 수정 등록이 필요하며, 전성분 변경 등 제품 동일성에 영향을 주는 변경은 재등록 필요 여부를 검토해야 함\n등록 유효기간 만료 전 갱신 필요, 만료 3개월 전 갱신기한 관리 권장\n수입업자 또는 책임주체 변경 시 등록정보 이전 또는 재등록 필요 여부를 사전에 확인해야 함\n제품명, 효능·효과 표현 및 광고 문구가 화장품 범위를 벗어나 의약품적 효능으로 해석되지 않도록 확인 필요"
+      ]
+    },
+    {
+      "slide": 11,
+      "path": "ppt/slides/slide11.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "11"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "04. 수출통관/선적"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            772309,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "4. 수출통관"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            0,
+            6596390,
+            1634308,
+            261610
+          ],
+          "paras": [
+            "다음 페이지에 이어서"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1157511,
+            11178501,
+            4591304
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "설명 또는 정의",
+              "수출통관: 한국에서 대만으로 수출되는 화장품에 대해 관세청에 수출신고를 진행하고 수출신고 수리를 받는 절차\n선적: 수출신고 수리 후 화물을 선박 또는 항공기에 적재하여 대만으로 운송하는 절차\n자유판매증명서(CFS): 대만 바이어 또는 대만 내 수입업자가 요구하는 경우 국내에서 정상적으로 판매 가능한 제품임을 증명하기 위해 발급받는 서류\n    (대만은 아포스티유 미가맹국이므로, 대만 세관/TFDA 또는 바이어가 공증 서류를 요구할 경우 [외교부 영사확인 -> 주한국타이페이대표부 인증] 절차를 거쳐 제출)"
+            ],
+            [
+              "방식",
+              "한국 관세청 전자통관시스템, UNI-PASS를 통한 전자 수출신고 후 수출신고 수리일로부터 30일 이내 해상운송, B/L 또는 항공운송, AWB 방식으로 대만행 화물 선적"
+            ],
+            [
+              "기관",
+              "관세청 및 지역본부세관\n대한화장품협회(KCA), CFS 등 화장품 관련 증명서 발급 시\n선사, 항공사, 포워더, 관세사"
+            ],
+            [
+              "참고 또는\n필요서류",
+              "[수출 신고 시 제출 서류]\n수출 신고서\n송장\n① 상업 송장\n② 견적 송장\n포장명세서\n선하증권 (B/L) 또는 항공화물운송장 (AWB)\n자유판매증명서 (CFS) (필요 시)\n원산지증명서 (거래조건에 따라 필요)\n기타 수출통관에 필요한 서류\n관세율 조회 사이트"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId4",
+          "text": "수출 신고서",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "text": "상업 송장",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId6",
+          "text": "견적 송장",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863877",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId7",
+          "text": "포장명세서",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId8",
+          "text": "선하증권",
+          "url": "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId9",
+          "text": "항공화물운송장",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId10",
+          "text": "자유판매증명서",
+          "url": "https://kcia.or.kr/cert/main/",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId10",
+          "text": "원산지증명서",
+          "url": "https://kcia.or.kr/cert/main/",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId11",
+          "text": "기타 수출통관에 필요한 서류",
+          "url": "https://kcia.or.kr/home/law/%EA%B8%B0%ED%83%80%20%EC%88%98%EC%B6%9C%ED%86%B5%EA%B4%80%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%84%9C%EB%A5%98.pdf",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId12",
+          "text": "관세율 조회 사이트",
+          "url": "https://unipass.customs.go.kr/clip/index.do",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId4",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId6",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863877",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId7",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId8",
+          "url": "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId9",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId10",
+          "url": "https://kcia.or.kr/cert/main/",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId10",
+          "url": "https://kcia.or.kr/cert/main/",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId11",
+          "url": "https://kcia.or.kr/home/law/%EA%B8%B0%ED%83%80%20%EC%88%98%EC%B6%9C%ED%86%B5%EA%B4%80%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%84%9C%EB%A5%98.pdf",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId12",
+          "url": "https://unipass.customs.go.kr/clip/index.do",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId8",
+          "url": "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf",
+          "mode": "External"
+        },
+        {
+          "rid": "rId7",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940",
+          "mode": "External"
+        },
+        {
+          "rid": "rId12",
+          "url": "https://unipass.customs.go.kr/clip/index.do",
+          "mode": "External"
+        },
+        {
+          "rid": "rId6",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863877",
+          "mode": "External"
+        },
+        {
+          "rid": "rId11",
+          "url": "https://kcia.or.kr/home/law/%EA%B8%B0%ED%83%80%20%EC%88%98%EC%B6%9C%ED%86%B5%EA%B4%80%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%84%9C%EB%A5%98.pdf",
+          "mode": "External"
+        },
+        {
+          "rid": "rId5",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212",
+          "mode": "External"
+        },
+        {
+          "rid": "rId10",
+          "url": "https://kcia.or.kr/cert/main/",
+          "mode": "External"
+        },
+        {
+          "rid": "rId4",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914",
+          "mode": "External"
+        },
+        {
+          "rid": "rId9",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId8": {
+          "target": "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId3": {
+          "target": "../comments/modernComment_109_8180DCBA.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId7": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId12": {
+          "target": "https://unipass.customs.go.kr/clip/index.do",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide9.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId6": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863877",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId11": {
+          "target": "https://kcia.or.kr/home/law/%EA%B8%B0%ED%83%80%20%EC%88%98%EC%B6%9C%ED%86%B5%EA%B4%80%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%84%9C%EB%A5%98.pdf",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId5": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId10": {
+          "target": "https://kcia.or.kr/cert/main/",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId4": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId9": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        }
+      },
+      "notes": [
+        "11"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_109_8180DCBA.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "11",
+        "04. 수출통관/선적",
+        "4. 수출통관",
+        "다음 페이지에 이어서",
+        "설명 또는 정의",
+        "수출통관: 한국에서 대만으로 수출되는 화장품에 대해 관세청에 수출신고를 진행하고 수출신고 수리를 받는 절차\n선적: 수출신고 수리 후 화물을 선박 또는 항공기에 적재하여 대만으로 운송하는 절차\n자유판매증명서(CFS): 대만 바이어 또는 대만 내 수입업자가 요구하는 경우 국내에서 정상적으로 판매 가능한 제품임을 증명하기 위해 발급받는 서류\n    (대만은 아포스티유 미가맹국이므로, 대만 세관/TFDA 또는 바이어가 공증 서류를 요구할 경우 [외교부 영사확인 -> 주한국타이페이대표부 인증] 절차를 거쳐 제출)",
+        "방식",
+        "한국 관세청 전자통관시스템, UNI-PASS를 통한 전자 수출신고 후 수출신고 수리일로부터 30일 이내 해상운송, B/L 또는 항공운송, AWB 방식으로 대만행 화물 선적",
+        "기관",
+        "관세청 및 지역본부세관\n대한화장품협회(KCA), CFS 등 화장품 관련 증명서 발급 시\n선사, 항공사, 포워더, 관세사",
+        "참고 또는\n필요서류",
+        "[수출 신고 시 제출 서류]\n수출 신고서\n송장\n① 상업 송장\n② 견적 송장\n포장명세서\n선하증권 (B/L) 또는 항공화물운송장 (AWB)\n자유판매증명서 (CFS) (필요 시)\n원산지증명서 (거래조건에 따라 필요)\n기타 수출통관에 필요한 서류\n관세율 조회 사이트"
+      ]
+    },
+    {
+      "slide": 12,
+      "path": "ppt/slides/slide12.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "12"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "04. 수출통관/선적"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            772309,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "4. 수출통관"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            382249,
+            1343194,
+            11178501,
+            2287016
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "절차",
+              "① 선적 전 제품 등록정보, 라벨, 수입업자 정보 확인 → ② 수출서류 작성, 상업송장·포장명세서 등 → ③ UNI-PASS 수출신고 → ④ 수출신고 수리 → ⑤ 선사·항공사 또는 포워더 부킹 → ⑥ 화물 반입 및 선적 → ⑦ B/L 또는 AWB 발급 → ⑧ 대만 수입업자에게 통관서류 송부"
+            ],
+            [
+              "주의사항\n또는\n확인사항",
+              "제품 등록 완료 여부 또는 대만 내 판매 가능 상태를 확인한 후 선적 진행\n상업송장, 포장명세서, B/L 또는 AWB 등 선적서류의 제품명, 수량, 중량, 제조소, 수입업자 정보가 제품 등록정보 및 실제 제품과 일치해야 함\n대만 내 수입업자, 수하인, 통지처, 실제 구매자 정보가 정확하게 기재되어야 함\n자유판매증명서, CFS, 원산지증명서 등 바이어 또는 대만 수입통관에서 요구하는 서류를 사전에 확인할 것\nIncoterms 조건에 따라 운임, 보험, 수입통관, 관세·세금 부담 주체를 명확히 확인할 것\n제품 라벨의 번체중문 표시사항이 대만 등록정보와 일치하는지 선적 전 확인 필요\nHS Code, 수출신고 가격, 통화, 원산지, 포장단위 등 통관정보의 정합성 확인 필요\n수출신고 수리 후 30일 이내 선적 원칙을 준수하고, 지연 시 정정 또는 취하 필요 여부를 관세사와 확인할 것"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [],
+      "shape_links": [],
+      "any_hlinks": [],
+      "ext_rels": [],
+      "all_rels": {
+        "rId2": {
+          "target": "../notesSlides/notesSlide10.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        }
+      },
+      "notes": [
+        "12"
+      ],
+      "comment_refs": [],
+      "flat_text": [
+        "12",
+        "04. 수출통관/선적",
+        "4. 수출통관",
+        "절차",
+        "① 선적 전 제품 등록정보, 라벨, 수입업자 정보 확인 → ② 수출서류 작성, 상업송장·포장명세서 등 → ③ UNI-PASS 수출신고 → ④ 수출신고 수리 → ⑤ 선사·항공사 또는 포워더 부킹 → ⑥ 화물 반입 및 선적 → ⑦ B/L 또는 AWB 발급 → ⑧ 대만 수입업자에게 통관서류 송부",
+        "주의사항\n또는\n확인사항",
+        "제품 등록 완료 여부 또는 대만 내 판매 가능 상태를 확인한 후 선적 진행\n상업송장, 포장명세서, B/L 또는 AWB 등 선적서류의 제품명, 수량, 중량, 제조소, 수입업자 정보가 제품 등록정보 및 실제 제품과 일치해야 함\n대만 내 수입업자, 수하인, 통지처, 실제 구매자 정보가 정확하게 기재되어야 함\n자유판매증명서, CFS, 원산지증명서 등 바이어 또는 대만 수입통관에서 요구하는 서류를 사전에 확인할 것\nIncoterms 조건에 따라 운임, 보험, 수입통관, 관세·세금 부담 주체를 명확히 확인할 것\n제품 라벨의 번체중문 표시사항이 대만 등록정보와 일치하는지 선적 전 확인 필요\nHS Code, 수출신고 가격, 통화, 원산지, 포장단위 등 통관정보의 정합성 확인 필요\n수출신고 수리 후 30일 이내 선적 원칙을 준수하고, 지연 시 정정 또는 취하 필요 여부를 관세사와 확인할 것"
+      ]
+    },
+    {
+      "slide": 13,
+      "path": "ppt/slides/slide13.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "13"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "05. 현지통관 및 시판 후 관리"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            886609,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "5-1. 현지통관"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 3",
+          "bbox": [
+            1838739,
+            5078896,
+            2613991,
+            1477328
+          ],
+          "paras": [
+            " 메모: 상업송장, 포장명세서, 항공화물운송장은 기재요령 파일도 함께 다운로드할 수 있도록 첨부"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            0,
+            6596390,
+            1634308,
+            261610
+          ],
+          "paras": [
+            "다음 페이지에 이어서"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1341838,
+            11178501,
+            2815634
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "설명 또는 정의",
+              "대만으로 수입되는 화장품에 대해 대만 내 수입업자 또는 통관업자가 수입신고를 진행하고, 대만 세관의 서류심사·검사·과세 및 통관절차를 거쳐 반출하는 단계",
+              ""
+            ],
+            [
+              "방식",
+              "대만 내 수입업자 또는 그 위임을 받은 통관업자가 대만 세관 전자통관시스템을 통해 수입신고를 진행하며, 세관의 위험분류에 따라 C1·C2·C3 방식으로 통관 처리",
+              ""
+            ],
+            [
+              "기관",
+              "대만 재정부 관무서 (Customs Administration)",
+              ""
+            ],
+            [
+              "참고 또는\n필요서류",
+              "[수입신고 시 기본 서류]\n상업송장 (Commercial Invoice)\n포장명세서 (Packing List)\n선하증권 (B/L) 또는 항공장화물운송 (AWB)\n제품 등록번호 및 등록정보\n중문 라벨 자료\n수입신고서 (Import Declaration)",
+              "[필요 시 제출서류]\n무역계약서 (Sales Contract)\n제품정보파일, PIF 관련 자료, TFDA 또는 세관 요청 시\n시험성적서 또는 안전성 관련 자료, 요청 시\n자유판매증명서 (CFS)\n원산지증명서, 요청 시 또는 관세 적용상 필요 시\n기타 세관 또는 관계기관 요청자료"
+            ],
+            [
+              "절차",
+              "① 수입신고 → ② 세관심사, C1·C2·C3 → ③ 필요 시 서류보완 또는 실물검사 → ④ 관세·부가세 등 세금 납부 → ⑤ 통관 및 반출 → ⑥ 대만 내 유통",
+              ""
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [
+        {
+          "rid": "rId4",
+          "text": "상업송장",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "text": "포장명세서",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId6",
+          "text": "선하증권",
+          "url": "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId7",
+          "text": "항공장화물운송",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId8",
+          "text": "수입신고서",
+          "url": "https://web.customs.gov.tw/en/singlehtml/3333?cntId=ef481d6f272c42ac98dca2c33502bb7c",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId9",
+          "text": "자유판매증명서",
+          "url": "https://kcia.or.kr/cert/main/",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId9",
+          "text": "원산지증명서",
+          "url": "https://kcia.or.kr/cert/main/",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "shape_links": [],
+      "any_hlinks": [
+        {
+          "rid": "rId4",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId5",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId6",
+          "url": "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId7",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId8",
+          "url": "https://web.customs.gov.tw/en/singlehtml/3333?cntId=ef481d6f272c42ac98dca2c33502bb7c",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId9",
+          "url": "https://kcia.or.kr/cert/main/",
+          "tooltip": null,
+          "action": null
+        },
+        {
+          "rid": "rId9",
+          "url": "https://kcia.or.kr/cert/main/",
+          "tooltip": null,
+          "action": null
+        }
+      ],
+      "ext_rels": [
+        {
+          "rid": "rId8",
+          "url": "https://web.customs.gov.tw/en/singlehtml/3333?cntId=ef481d6f272c42ac98dca2c33502bb7c",
+          "mode": "External"
+        },
+        {
+          "rid": "rId7",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB",
+          "mode": "External"
+        },
+        {
+          "rid": "rId6",
+          "url": "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf",
+          "mode": "External"
+        },
+        {
+          "rid": "rId5",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940",
+          "mode": "External"
+        },
+        {
+          "rid": "rId4",
+          "url": "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212",
+          "mode": "External"
+        },
+        {
+          "rid": "rId9",
+          "url": "https://kcia.or.kr/cert/main/",
+          "mode": "External"
+        }
+      ],
+      "all_rels": {
+        "rId8": {
+          "target": "https://web.customs.gov.tw/en/singlehtml/3333?cntId=ef481d6f272c42ac98dca2c33502bb7c",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId3": {
+          "target": "../comments/modernComment_10A_741D51D9.xml",
+          "type": "comments",
+          "mode": null,
+          "full_type": "http://schemas.microsoft.com/office/2018/10/relationships/comments"
+        },
+        "rId7": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId2": {
+          "target": "../notesSlides/notesSlide11.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        },
+        "rId6": {
+          "target": "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId5": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId4": {
+          "target": "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        },
+        "rId9": {
+          "target": "https://kcia.or.kr/cert/main/",
+          "type": "hyperlink",
+          "mode": "External",
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+        }
+      },
+      "notes": [
+        "13"
+      ],
+      "comment_refs": [
+        {
+          "rid": "rId3",
+          "target": "../comments/modernComment_10A_741D51D9.xml",
+          "type": "comments"
+        }
+      ],
+      "flat_text": [
+        "13",
+        "05. 현지통관 및 시판 후 관리",
+        "5-1. 현지통관",
+        " 메모: 상업송장, 포장명세서, 항공화물운송장은 기재요령 파일도 함께 다운로드할 수 있도록 첨부",
+        "다음 페이지에 이어서",
+        "설명 또는 정의",
+        "대만으로 수입되는 화장품에 대해 대만 내 수입업자 또는 통관업자가 수입신고를 진행하고, 대만 세관의 서류심사·검사·과세 및 통관절차를 거쳐 반출하는 단계",
+        "방식",
+        "대만 내 수입업자 또는 그 위임을 받은 통관업자가 대만 세관 전자통관시스템을 통해 수입신고를 진행하며, 세관의 위험분류에 따라 C1·C2·C3 방식으로 통관 처리",
+        "기관",
+        "대만 재정부 관무서 (Customs Administration)",
+        "참고 또는\n필요서류",
+        "[수입신고 시 기본 서류]\n상업송장 (Commercial Invoice)\n포장명세서 (Packing List)\n선하증권 (B/L) 또는 항공장화물운송 (AWB)\n제품 등록번호 및 등록정보\n중문 라벨 자료\n수입신고서 (Import Declaration)",
+        "[필요 시 제출서류]\n무역계약서 (Sales Contract)\n제품정보파일, PIF 관련 자료, TFDA 또는 세관 요청 시\n시험성적서 또는 안전성 관련 자료, 요청 시\n자유판매증명서 (CFS)\n원산지증명서, 요청 시 또는 관세 적용상 필요 시\n기타 세관 또는 관계기관 요청자료",
+        "절차",
+        "① 수입신고 → ② 세관심사, C1·C2·C3 → ③ 필요 시 서류보완 또는 실물검사 → ④ 관세·부가세 등 세금 납부 → ⑤ 통관 및 반출 → ⑥ 대만 내 유통"
+      ]
+    },
+    {
+      "slide": 14,
+      "path": "ppt/slides/slide14.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "14"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "05. 현지통관 및 시판 후 관리"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            886609,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "5-1. 현지통관"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1341838,
+            11178501,
+            5838952
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "주의사항\n또는\n확인사항",
+              "상업송장, 포장명세서, B/L 또는 AWB의 제품명, 수량, 중량, 제조소, 수입업자 정보가 실제 수입제품 및 등록정보와 일치해야 함\n중문 표시사항, 라벨, 제품 외관 및 포장정보의 적합성 확인 필요\n제품명, 성분, 제조소, 원산지, 용량 등 제품정보와 실제 수입제품의 일치 여부 확인 필요\n세관 또는 관계기관 요청 시 제품 등록정보, 라벨, 시험성적서, CFS, PIF 관련 자료 등 증빙자료 제출 가능해야 함\nHS Code, 과세가격, 원산지, 수량, 포장단위 등 통관신고 정보의 정합성 확인 필요\n통관 보류, 검사, 서류보완 요청 발생 시 대만 내 수입업자와 제조사 간 신속한 자료제공 체계 필요"
+            ],
+            [
+              "세부 통관 절차",
+              "수입신고\n대만 내 수입업자 또는 수입업자가 수입신고 진행\n등록번호 및 제품정보 제출\n관세 및 부가세 납부\n세관심사\nC1: 서류심사·검사 면제 또는 간이심사\nC2: 서류심사\nC3: 서류심사 + 실물검사\n화물검사 (필요 시)\n제품 표시사항 확인\n제품 외관 확인\n중문 라벨 적합성 검토\n필요 시 샘플 검사 또는 추가자료 요청\n통관 및 반출\n세관 심사 완료 후 반출\n대만 내 유통 가능\n사후심사\n세관이 가격, 품목분류, 원산지 등을 사후 검토할 수 있음\n허위신고 또는 자료 불일치 적발 시 보정, 과태료, 추징 등 행정처분 가능"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [],
+      "shape_links": [],
+      "any_hlinks": [],
+      "ext_rels": [],
+      "all_rels": {
+        "rId2": {
+          "target": "../notesSlides/notesSlide12.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        }
+      },
+      "notes": [
+        "14"
+      ],
+      "comment_refs": [],
+      "flat_text": [
+        "14",
+        "05. 현지통관 및 시판 후 관리",
+        "5-1. 현지통관",
+        "주의사항\n또는\n확인사항",
+        "상업송장, 포장명세서, B/L 또는 AWB의 제품명, 수량, 중량, 제조소, 수입업자 정보가 실제 수입제품 및 등록정보와 일치해야 함\n중문 표시사항, 라벨, 제품 외관 및 포장정보의 적합성 확인 필요\n제품명, 성분, 제조소, 원산지, 용량 등 제품정보와 실제 수입제품의 일치 여부 확인 필요\n세관 또는 관계기관 요청 시 제품 등록정보, 라벨, 시험성적서, CFS, PIF 관련 자료 등 증빙자료 제출 가능해야 함\nHS Code, 과세가격, 원산지, 수량, 포장단위 등 통관신고 정보의 정합성 확인 필요\n통관 보류, 검사, 서류보완 요청 발생 시 대만 내 수입업자와 제조사 간 신속한 자료제공 체계 필요",
+        "세부 통관 절차",
+        "수입신고\n대만 내 수입업자 또는 수입업자가 수입신고 진행\n등록번호 및 제품정보 제출\n관세 및 부가세 납부\n세관심사\nC1: 서류심사·검사 면제 또는 간이심사\nC2: 서류심사\nC3: 서류심사 + 실물검사\n화물검사 (필요 시)\n제품 표시사항 확인\n제품 외관 확인\n중문 라벨 적합성 검토\n필요 시 샘플 검사 또는 추가자료 요청\n통관 및 반출\n세관 심사 완료 후 반출\n대만 내 유통 가능\n사후심사\n세관이 가격, 품목분류, 원산지 등을 사후 검토할 수 있음\n허위신고 또는 자료 불일치 적발 시 보정, 과태료, 추징 등 행정처분 가능"
+      ]
+    },
+    {
+      "slide": 15,
+      "path": "ppt/slides/slide15.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "15"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "05. 현지통관 및 시판 후 관리"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            886609,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "5-2. 시판 후 관리"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            0,
+            6596390,
+            1634308,
+            261610
+          ],
+          "paras": [
+            "다음 페이지에 이어서"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1341838,
+            11178501,
+            5281466
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "설명 또는 정의",
+              "화장품 판매 이후 TFDA 등 관할기관이 실시하는 시장감시, 표시·광고 점검, 안전성 확인, 이상사례 관리 및 회수 등 사후관리 제도"
+            ],
+            [
+              "방식",
+              "제품 출시 후 대만 내 수입업자 또는 책임주체가 PIF, 제품 등록정보, 공급원·유통흐름 자료, 시험자료 및 이상사례 자료를 보관하고, TFDA의 시장감시·표시사항 점검·샘플링 검사·자료요청에 대응"
+            ],
+            [
+              "기관",
+              "대만 위생복리부 식품약물관리서 (TFDA) 필요 시 지방 보건당국 및 세관"
+            ],
+            [
+              "참고 또는\n필요서류",
+              "제품정보파일 (PIF)\n안전성 평가 보고서 (Safety Assessment Report)\n제품 등록정보 및 등록번호\n제품 라벨, 포장 및 광고·홍보 자료\n시험성적서, 미생물·보존력·안정성 자료 등\n공급원 및 유통흐름 자료, 판매·출하 기록\n이상사례, 소비자 불만 및 회수 관련 자료\n제품 변경 이력 및 PIF 업데이트 기록"
+            ],
+            [
+              "절차",
+              "① 시장감시 또는 자료요청 → ② 제품 수거 또는 샘플링 → ③ 표시사항·광고·라벨 점검 → ④ 시험검사 → ⑤ PIF 및 제품 등록정보 확인 → ⑥ 필요 시 시정명령, 판매중지, 회수 또는 행정처분"
+            ],
+            [
+              "주의사항\n또는\n확인사항",
+              "PIF는 대만 내 수입업자 또는 책임주체 소재지에 상시 보관해야 함\nTFDA 요청 시 정해진 기한 내 PIF 및 관련 자료를 제출할 수 있어야 함\n제품 등록정보, 라벨, PIF, 실제 판매제품 및 광고문구 간 정합성 유지 필요\n이상사례, 소비자 불만, 품질문제 발생 시 평가·기록·보고 및 회수 대응 절차를 갖추어야 함\n제품 정보, 성분, 제조소, 라벨, 포장, 광고문구 변경 시 등록정보 및 PIF 업데이트 필요\n판매·출하 기록 및 유통흐름 자료를 보관하여 회수 발생 시 추적 가능해야 함\n온라인몰, SNS, 인플루언서 광고 등 판매채널의 표시·광고 문구도 화장품 규정 준수 여부 확인 필요\n안전성 평가 보고서, 시험성적서 등 주요 자료가 최신 상태인지 정기적으로 검토 필요"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [],
+      "shape_links": [],
+      "any_hlinks": [],
+      "ext_rels": [],
+      "all_rels": {
+        "rId2": {
+          "target": "../notesSlides/notesSlide13.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        }
+      },
+      "notes": [
+        "15"
+      ],
+      "comment_refs": [],
+      "flat_text": [
+        "15",
+        "05. 현지통관 및 시판 후 관리",
+        "5-2. 시판 후 관리",
+        "다음 페이지에 이어서",
+        "설명 또는 정의",
+        "화장품 판매 이후 TFDA 등 관할기관이 실시하는 시장감시, 표시·광고 점검, 안전성 확인, 이상사례 관리 및 회수 등 사후관리 제도",
+        "방식",
+        "제품 출시 후 대만 내 수입업자 또는 책임주체가 PIF, 제품 등록정보, 공급원·유통흐름 자료, 시험자료 및 이상사례 자료를 보관하고, TFDA의 시장감시·표시사항 점검·샘플링 검사·자료요청에 대응",
+        "기관",
+        "대만 위생복리부 식품약물관리서 (TFDA) 필요 시 지방 보건당국 및 세관",
+        "참고 또는\n필요서류",
+        "제품정보파일 (PIF)\n안전성 평가 보고서 (Safety Assessment Report)\n제품 등록정보 및 등록번호\n제품 라벨, 포장 및 광고·홍보 자료\n시험성적서, 미생물·보존력·안정성 자료 등\n공급원 및 유통흐름 자료, 판매·출하 기록\n이상사례, 소비자 불만 및 회수 관련 자료\n제품 변경 이력 및 PIF 업데이트 기록",
+        "절차",
+        "① 시장감시 또는 자료요청 → ② 제품 수거 또는 샘플링 → ③ 표시사항·광고·라벨 점검 → ④ 시험검사 → ⑤ PIF 및 제품 등록정보 확인 → ⑥ 필요 시 시정명령, 판매중지, 회수 또는 행정처분",
+        "주의사항\n또는\n확인사항",
+        "PIF는 대만 내 수입업자 또는 책임주체 소재지에 상시 보관해야 함\nTFDA 요청 시 정해진 기한 내 PIF 및 관련 자료를 제출할 수 있어야 함\n제품 등록정보, 라벨, PIF, 실제 판매제품 및 광고문구 간 정합성 유지 필요\n이상사례, 소비자 불만, 품질문제 발생 시 평가·기록·보고 및 회수 대응 절차를 갖추어야 함\n제품 정보, 성분, 제조소, 라벨, 포장, 광고문구 변경 시 등록정보 및 PIF 업데이트 필요\n판매·출하 기록 및 유통흐름 자료를 보관하여 회수 발생 시 추적 가능해야 함\n온라인몰, SNS, 인플루언서 광고 등 판매채널의 표시·광고 문구도 화장품 규정 준수 여부 확인 필요\n안전성 평가 보고서, 시험성적서 등 주요 자료가 최신 상태인지 정기적으로 검토 필요"
+      ]
+    },
+    {
+      "slide": 16,
+      "path": "ppt/slides/slide16.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "16"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "05. 현지통관 및 시판 후 관리"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            886609,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "5-2. 시판 후 관리"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 5",
+          "bbox": [
+            0,
+            6596390,
+            1634308,
+            261610
+          ],
+          "paras": [
+            "다음 페이지에 이어서"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1341838,
+            11178501,
+            4405376
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "TFDA 주요 점검 항목",
+              "표시사항 점검\n제품명\n대만 내 수입업자 또는 책임주체 정보\n제조업체 정보 및 제조소 정보\n전성분\n내용량 또는 용량\n제조번호 또는 로트번호\n사용기한 또는 유통기한\n사용방법 및 사용상 주의사항\n원산지, 필요 시\n효능·효과, 기능성 표현 및 광고문구의 적합성\n제품 수거검사\n미생물 기준\n중금속 기준\n금지성분 함유 여부\n사용제한 성분 기준\n보존제, 색소, 자외선차단제 등 허용성분 기준\n표시사항과 실제 제품 성분의 일치 여부\n제품 품질, 안정성 및 안전성 관련 시험자료 확인"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [],
+      "shape_links": [],
+      "any_hlinks": [],
+      "ext_rels": [],
+      "all_rels": {
+        "rId2": {
+          "target": "../notesSlides/notesSlide14.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        }
+      },
+      "notes": [
+        "16"
+      ],
+      "comment_refs": [],
+      "flat_text": [
+        "16",
+        "05. 현지통관 및 시판 후 관리",
+        "5-2. 시판 후 관리",
+        "다음 페이지에 이어서",
+        "TFDA 주요 점검 항목",
+        "표시사항 점검\n제품명\n대만 내 수입업자 또는 책임주체 정보\n제조업체 정보 및 제조소 정보\n전성분\n내용량 또는 용량\n제조번호 또는 로트번호\n사용기한 또는 유통기한\n사용방법 및 사용상 주의사항\n원산지, 필요 시\n효능·효과, 기능성 표현 및 광고문구의 적합성\n제품 수거검사\n미생물 기준\n중금속 기준\n금지성분 함유 여부\n사용제한 성분 기준\n보존제, 색소, 자외선차단제 등 허용성분 기준\n표시사항과 실제 제품 성분의 일치 여부\n제품 품질, 안정성 및 안전성 관련 시험자료 확인"
+      ]
+    },
+    {
+      "slide": 17,
+      "path": "ppt/slides/slide17.xml",
+      "shapes": [
+        {
+          "name": "슬라이드 번호 개체 틀 2",
+          "bbox": null,
+          "paras": [
+            "17"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 1",
+          "bbox": [
+            325826,
+            339047,
+            8721213,
+            400110
+          ],
+          "paras": [
+            "05. 현지통관 및 시판 후 관리"
+          ],
+          "kind": "sp"
+        },
+        {
+          "name": "TextBox 9",
+          "bbox": [
+            325826,
+            886609,
+            8721213,
+            307777
+          ],
+          "paras": [
+            "5-2. 시판 후 관리"
+          ],
+          "kind": "sp"
+        }
+      ],
+      "tables": [
+        {
+          "bbox": [
+            405898,
+            1341838,
+            11178501,
+            3948176
+          ],
+          "name": "표 4",
+          "rows": [
+            [
+              "TFDA 주요 점검 항목",
+              "PIF 점검\n안전성 평가자료 보유 여부\n원료 안전성 자료 보유 여부\n시험성적서, 안정성·보존력 자료 보유 여부\n제품 등록정보, 라벨, PIF 및 실제 판매제품 간 정합성\n제품 변경사항 반영 및 최신 정보 유지 여부\n행정조치\n이상사례 및 소비자 불만 접수·평가·기록 체계\n판매·출하 기록 및 유통흐름 추적 가능 여부\n회수 절차 및 책임자 지정 여부\n수입업자, 제조사, 브랜드사 간 자료제공 및 비상연락 체계\n행정조치\n시정명령\n판매중지 또는 판매금지\n회수명령\n제품 폐기 또는 개선명령\n과태료 부과 또는 벌금 부과"
+            ]
+          ]
+        }
+      ],
+      "grouped_links": [],
+      "shape_links": [],
+      "any_hlinks": [],
+      "ext_rels": [],
+      "all_rels": {
+        "rId2": {
+          "target": "../notesSlides/notesSlide15.xml",
+          "type": "notesSlide",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"
+        },
+        "rId1": {
+          "target": "../slideLayouts/slideLayout1.xml",
+          "type": "slideLayout",
+          "mode": null,
+          "full_type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"
+        }
+      },
+      "notes": [
+        "17"
+      ],
+      "comment_refs": [],
+      "flat_text": [
+        "17",
+        "05. 현지통관 및 시판 후 관리",
+        "5-2. 시판 후 관리",
+        "TFDA 주요 점검 항목",
+        "PIF 점검\n안전성 평가자료 보유 여부\n원료 안전성 자료 보유 여부\n시험성적서, 안정성·보존력 자료 보유 여부\n제품 등록정보, 라벨, PIF 및 실제 판매제품 간 정합성\n제품 변경사항 반영 및 최신 정보 유지 여부\n행정조치\n이상사례 및 소비자 불만 접수·평가·기록 체계\n판매·출하 기록 및 유통흐름 추적 가능 여부\n회수 절차 및 책임자 지정 여부\n수입업자, 제조사, 브랜드사 간 자료제공 및 비상연락 체계\n행정조치\n시정명령\n판매중지 또는 판매금지\n회수명령\n제품 폐기 또는 개선명령\n과태료 부과 또는 벌금 부과"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "file": "ppt/comments/modernComment_103_5D417036.xml",
+      "paras": [
+        "수정 완료",
+        "대제목을 '계약서 서식 참고'로 수정해주세요. \n타국가 동일 항목도 동일하게 수정",
+        "수정 완료",
+        "계약방식, 관련 기관 등 제목을 구체적으로 적어주는게 좋겠습니다.",
+        "수정완료",
+        "무역협회, 코트라 등이 수출 계약과 직접적인 관련이 있는 기관인지 확인 부탁드립니다. ",
+        "수정 완료",
+        "두 링크가 같은 주소임, 1개로 통일",
+        "수정 완료",
+        "사이트 연결 불가, 유효한 사이트로 안내 필요",
+        "첨부파일 1-1",
+        "수정 완료",
+        "콜론이 두번 들어가 있어 1개 기관을 말하는지 헷갈림. 아래와 같이 수정 요망\n대만 (상표 출원 주무관청): 대만 경제부 지혜재산국(TIPO) — 대만 현지 상표(영문·중문·로고)의 출원 및 심사 관할"
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 7151,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{001E4819-4C8B-48CF-B4A3-0AEB30708AAE}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" status=\"resolved\" created=\"2026-07-22T10:17:26.619\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"1564569654\" sldId=\"259\"/><ac:graphicFrameMk id=\"5\" creationId=\"{02105134-4194-C6D1-D94E-2778D40821AF}\"/><ac:tblMk/><ac:tcMk rowId=\"1549504629\" colId=\"3376188853\"/><ac:txMk cp=\"3\" len=\"2\"><ac:context len=\"6\" hash=\"4185626708\"/></ac:txMk></ac:txMkLst><p188:pos x=\"1026976\" y=\"1061054\"/><p188:replyLst><p188:reply id=\"{EC269947-37B6-42C5-873D-63709FF41D2E}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-07-27T09:15:28.539\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정 완료</a:t></a:r></a:p></p188:txBody></p188:reply><p188:reply id=\"{082A2D8F-24E8-4A03-A29D-6F2C3DF56C99}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" created=\"2026-08-14T11:35:46.211\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>대제목을 '계약서 서식 참고'로 수정해주세요. \r\n타국가 동일 항목도 동일하게 수정</a:t></a:r></a:p></p188:txBody></p188:reply><p188:reply id=\"{A073FA07-89CB-4C7A-B0B1-7CB9BDBD0FD3}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-08-26T08:59:58.744\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정 완료</a:t></a:r></a:p></p188:txBody></p188:reply></p188:replyLst><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t"
+    },
+    {
+      "file": "ppt/comments/modernComment_105_B404018D.xml",
+      "paras": [
+        "수정완료",
+        "링크는 중국 경내책임자 수권서입니다. 확인필요",
+        "첨부파일 2-1"
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 2175,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{5C9F7276-AA18-4492-A4DF-9079BC8AE850}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" status=\"resolved\" created=\"2026-07-22T10:30:10.426\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"3020161421\" sldId=\"261\"/><ac:graphicFrameMk id=\"4\" creationId=\"{DC6E0229-3686-5145-6220-2CDA9B3FEFAC}\"/><ac:tblMk/><ac:tcMk rowId=\"3471127830\" colId=\"1944886688\"/><ac:txMk cp=\"0\" len=\"21\"><ac:context len=\"22\" hash=\"2793271497\"/></ac:txMk></ac:txMkLst><p188:pos x=\"5490512\" y=\"3170233\"/><p188:replyLst><p188:reply id=\"{E0F7AF82-5F98-49E5-B376-E37C5D72634E}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-07-27T06:10:03.036\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정완료</a:t></a:r></a:p></p188:txBody></p188:reply></p188:replyLst><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>링크는 중국 경내책임자 수권서입니다. 확인필요</a:t></a:r></a:p></p188:txBody></p188:cm><p188:cm id=\"{88510659-8D92-4846-AA46-70962993CD8A}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" status=\"resolved\" created=\"2026-08-04T07:11:31.735\" complete=\"100000\"><ac:deMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"3020161421\" sldId=\"261\"/><ac:graphicFrameMk id=\"4\" creationId=\"{DC6E0229-3686-5145-6220-2CDA9B"
+    },
+    {
+      "file": "ppt/comments/modernComment_10D_EA7711BE.xml",
+      "paras": [
+        "수정완료",
+        "링크는 중국 경내책임자 수권서입니다. 확인필요",
+        "첨부파일 2-1"
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 2176,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{EB8275A6-CA1F-48E4-A620-CC6787052155}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" status=\"resolved\" created=\"2026-07-22T10:30:35.409\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"3933671870\" sldId=\"269\"/><ac:graphicFrameMk id=\"4\" creationId=\"{F1A06AF8-86D9-B422-495A-6A26E99D875D}\"/><ac:tblMk/><ac:tcMk rowId=\"2473776228\" colId=\"1944886688\"/><ac:txMk cp=\"2\" len=\"26\"><ac:context len=\"250\" hash=\"2979507390\"/></ac:txMk></ac:txMkLst><p188:pos x=\"6131535\" y=\"1121131\"/><p188:replyLst><p188:reply id=\"{DEEEAB7D-4A08-4235-9E34-DEDEA14850CD}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-07-27T06:10:09.985\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정완료</a:t></a:r></a:p></p188:txBody></p188:reply></p188:replyLst><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>링크는 중국 경내책임자 수권서입니다. 확인필요</a:t></a:r></a:p></p188:txBody></p188:cm><p188:cm id=\"{CBAD93F1-1E6F-42F3-A567-5898FFA87ED1}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" status=\"resolved\" created=\"2026-08-04T07:12:52.123\" complete=\"100000\"><ac:deMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"3933671870\" sldId=\"269\"/><ac:graphicFrameMk id=\"4\" creationId=\"{F1A06AF8-86D9-B422-495A-6A26E"
+    },
+    {
+      "file": "ppt/comments/modernComment_10B_65584E78.xml",
+      "paras": [
+        "수정완료",
+        "링크는 중국 자료입니다. "
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 1475,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{8237AA5B-38D0-4122-BFAA-76A6CD296B7C}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" status=\"resolved\" created=\"2026-07-22T10:32:42.596\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"1700286072\" sldId=\"267\"/><ac:graphicFrameMk id=\"4\" creationId=\"{D9725D31-43A6-E0C1-6CEB-8CC88190D3EF}\"/><ac:tblMk/><ac:tcMk rowId=\"2473776228\" colId=\"1944886688\"/><ac:txMk cp=\"173\" len=\"10\"><ac:context len=\"263\" hash=\"1463172923\"/></ac:txMk></ac:txMkLst><p188:pos x=\"4038784\" y=\"2646928\"/><p188:replyLst><p188:reply id=\"{04ECB61C-B16F-4529-A21B-079673397479}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-07-27T06:39:20.163\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정완료</a:t></a:r></a:p></p188:txBody></p188:reply></p188:replyLst><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>링크는 중국 자료입니다. </a:t></a:r></a:p></p188:txBody></p188:cm></p188:cmLst>"
+    },
+    {
+      "file": "ppt/comments/modernComment_107_D4A2BB0F.xml",
+      "paras": [
+        "수정 완료",
+        "화장품글로벌규제조화지원센터 게시글 연결"
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 1442,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{2FA38925-855F-428E-8B41-3F4084E0750C}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" created=\"2026-10-01T06:13:28.070\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"3567434511\" sldId=\"263\"/><ac:graphicFrameMk id=\"5\" creationId=\"{97C0919B-94F1-A1B8-1461-5F92CD23F2E2}\"/><ac:tblMk/><ac:tcMk rowId=\"3129518004\" colId=\"4224328845\"/><ac:txMk cp=\"5\" len=\"10\"><ac:context len=\"97\" hash=\"574715066\"/></ac:txMk></ac:txMkLst><p188:pos x=\"3460424\" y=\"278240\"/><p188:replyLst><p188:reply id=\"{83F50633-4BCC-42EC-B7F4-39138C7DBC64}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-10-06T09:12:37.606\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정 완료</a:t></a:r></a:p></p188:txBody></p188:reply></p188:replyLst><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>화장품글로벌규제조화지원센터 게시글 연결</a:t></a:r></a:p></p188:txBody></p188:cm></p188:cmLst>"
+    },
+    {
+      "file": "ppt/comments/modernComment_111_5C88F3A6.xml",
+      "paras": [
+        "수정 완료",
+        "괄호 추가함",
+        "확인 완료",
+        "유효기간 만료 3개월전에 등록 연장 추가"
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 2038,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{5E842EA3-088C-4D31-AE7B-1B64B869857F}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" status=\"resolved\" created=\"2026-07-22T10:34:45.938\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"1552479142\" sldId=\"273\"/><ac:graphicFrameMk id=\"5\" creationId=\"{AE600061-8BC2-BC83-DD5E-1B7678FCF729}\"/><ac:tblMk/><ac:tcMk rowId=\"2922806760\" colId=\"4224328845\"/><ac:txMk cp=\"0\" len=\"9\"><ac:context len=\"35\" hash=\"1535366817\"/></ac:txMk></ac:txMkLst><p188:pos x=\"2742655\" y=\"779193\"/><p188:replyLst><p188:reply id=\"{131B61FB-A2D4-4057-A546-F4F46E68CF88}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-07-27T06:15:36.177\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정 완료</a:t></a:r></a:p></p188:txBody></p188:reply><p188:reply id=\"{E19117FF-C247-449B-8900-AC8E60A55A17}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" created=\"2026-08-14T11:30:34.382\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>괄호 추가함</a:t></a:r></a:p></p188:txBody></p188:reply><p188:reply id=\"{09659C29-2EC4-43C5-8AC7-4E6230EFD49D}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-08-21T05:42:23.805\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>확인 완료</a:t></a:r></a:p></p188:txBody></p188:reply></p188:replyLst><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>유효기간 만료 3개월전에 등록 연장 추가</a:t></a:r></a:p"
+    },
+    {
+      "file": "ppt/comments/modernComment_109_8180DCBA.xml",
+      "paras": [
+        "수정완료",
+        "KCA",
+        "- 대만은 아포스티유 협약국이 아니므로, 해당 인증 적용 불가.\n\n- 주한국대만대표부 인증 필요.",
+        "대표부 인증, 아포스티유 인증 등이 필요한지",
+        "첨부파일 4-1",
+        "첨부파일 4-2",
+        "첨부파일 4-3",
+        "첨부파일 4-4",
+        "첨부파일 4-5",
+        "첨부파일 4-6",
+        "첨부파일 4-7"
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 8738,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{C1FD163D-309E-4B85-A8B8-083F35F3E73B}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" status=\"resolved\" created=\"2026-07-22T10:35:22.461\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"2172705978\" sldId=\"265\"/><ac:graphicFrameMk id=\"5\" creationId=\"{5A010D71-C422-55B7-5795-102E23034F84}\"/><ac:tblMk/><ac:tcMk rowId=\"3517785727\" colId=\"4224328845\"/><ac:txMk cp=\"13\" len=\"12\"><ac:context len=\"67\" hash=\"4134457761\"/></ac:txMk></ac:txMkLst><p188:pos x=\"3110300\" y=\"1538555\"/><p188:replyLst><p188:reply id=\"{9B0C702B-F63E-46D0-A63D-3BAF0DC522C7}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-07-27T06:17:05.541\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정완료</a:t></a:r></a:p></p188:txBody></p188:reply></p188:replyLst><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>KCA</a:t></a:r></a:p></p188:txBody></p188:cm><p188:cm id=\"{2627FC6C-933B-4B8B-8CFF-BB20B3E53314}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" status=\"resolved\" created=\"2026-07-22T10:35:54.663\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"2172705978\" sldId=\"265\"/><ac:graphicFrameMk id=\"5\" creationId=\"{5A010D71-C422-55B7-5795-102E23034F84}\"/><ac:tblMk/>"
+    },
+    {
+      "file": "ppt/comments/modernComment_10E_1151531A.xml",
+      "paras": [
+        "수정 완료",
+        "화장품글로벌규제조화지원센터 게시글 연결"
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 1443,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{7CE781C6-B913-461B-8C19-F26199FECA09}\" authorId=\"{0A894E26-C7D1-BA6A-00B6-2540C16AE08A}\" created=\"2026-10-01T06:08:52.184\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"290542362\" sldId=\"270\"/><ac:graphicFrameMk id=\"4\" creationId=\"{70C05311-DC1A-3D39-EF41-8AA2E25CA60A}\"/><ac:tblMk/><ac:tcMk rowId=\"3129518004\" colId=\"1944886688\"/><ac:txMk cp=\"4\" len=\"10\"><ac:context len=\"169\" hash=\"3897045341\"/></ac:txMk></ac:txMkLst><p188:pos x=\"4355504\" y=\"341869\"/><p188:replyLst><p188:reply id=\"{B2114EC6-8B37-40ED-91CE-13CD7C3BB1BA}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" created=\"2026-10-06T09:12:25.700\"><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>수정 완료</a:t></a:r></a:p></p188:txBody></p188:reply></p188:replyLst><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>화장품글로벌규제조화지원센터 게시글 연결</a:t></a:r></a:p></p188:txBody></p188:cm></p188:cmLst>"
+    },
+    {
+      "file": "ppt/comments/modernComment_10A_741D51D9.xml",
+      "paras": [
+        "첨부파일 5-1",
+        "첨부파일 5-2",
+        "첨부파일 5-3",
+        "첨부파일 5-4",
+        "첨부파일 5-5"
+      ],
+      "urls": [
+        "http://schemas.openxmlformats.org/drawingml/2006/main",
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+        "http://schemas.microsoft.com/office/powerpoint/2018/8/main",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/drawing/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command",
+        "http://schemas.microsoft.com/office/powerpoint/2013/main/command"
+      ],
+      "drive_urls": [],
+      "raw_len": 4607,
+      "raw_preview": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<p188:cmLst xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:p188=\"http://schemas.microsoft.com/office/powerpoint/2018/8/main\"><p188:cm id=\"{C67C68AC-2831-4EE8-9C6F-D6F42E3BE3A9}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" status=\"resolved\" created=\"2026-08-04T07:19:47.604\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"1948078553\" sldId=\"266\"/><ac:graphicFrameMk id=\"5\" creationId=\"{83680017-532B-F30F-00A1-79EED46A202E}\"/><ac:tblMk/><ac:tcMk rowId=\"3471127830\" colId=\"4224328845\"/><ac:txMk cp=\"15\" len=\"4\"><ac:context len=\"141\" hash=\"3038644824\"/></ac:txMk></ac:txMkLst><p188:pos x=\"2371938\" y=\"1318235\"/><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>첨부파일 5-1</a:t></a:r></a:p></p188:txBody></p188:cm><p188:cm id=\"{0737F20B-536B-472E-955A-D8529A7A563E}\" authorId=\"{A1F4ACA4-32C5-3A05-D2BC-2194DD035544}\" status=\"resolved\" created=\"2026-08-04T07:19:55.966\" complete=\"100000\"><ac:txMkLst xmlns:ac=\"http://schemas.microsoft.com/office/drawing/2013/main/command\"><pc:docMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\"/><pc:sldMk xmlns:pc=\"http://schemas.microsoft.com/office/powerpoint/2013/main/command\" cId=\"1948078553\" sldId=\"266\"/><ac:graphicFrameMk id=\"5\" creationId=\"{83680017-532B-F30F-00A1-79EED46A202E}\"/><ac:tblMk/><ac:tcMk rowId=\"3471127830\" colId=\"4224328845\"/><ac:txMk cp=\"41\" len=\"5\"><ac:context len=\"141\" hash=\"3038644824\"/></ac:txMk></ac:txMkLst><p188:pos x=\"2496629\" y=\"1546835\"/><p188:txBody><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" altLang=\"en-US\"/><a:t>첨부파일 5-2</a:t></a:r></a:p></p188:txBody></p"
+    }
+  ],
+  "pkg_urls": [
+    [
+      "ppt/slides/_rels/slide3.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913"
+    ],
+    [
+      "ppt/slides/_rels/slide3.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863913"
+    ],
+    [
+      "ppt/slides/_rels/slide4.xml.rels",
+      "https://cloud.tipo.gov.tw/S282/S282WV1/"
+    ],
+    [
+      "ppt/slides/_rels/slide4.xml.rels",
+      "https://cloud.tipo.gov.tw/S282/S282WV1/"
+    ],
+    [
+      "ppt/slides/_rels/slide5.xml.rels",
+      "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&amp;id=41180"
+    ],
+    [
+      "ppt/slides/_rels/slide5.xml.rels",
+      "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&amp;id=41180"
+    ],
+    [
+      "ppt/slides/_rels/slide6.xml.rels",
+      "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&amp;id=41180"
+    ],
+    [
+      "ppt/slides/_rels/slide6.xml.rels",
+      "https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&amp;id=41180"
+    ],
+    [
+      "ppt/slides/_rels/slide7.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5823&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C"
+    ],
+    [
+      "ppt/slides/_rels/slide7.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5630&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC"
+    ],
+    [
+      "ppt/slides/_rels/slide7.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5629&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC"
+    ],
+    [
+      "ppt/slides/_rels/slide7.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5668&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84"
+    ],
+    [
+      "ppt/slides/_rels/slide7.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5823&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C"
+    ],
+    [
+      "ppt/slides/_rels/slide7.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5630&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC"
+    ],
+    [
+      "ppt/slides/_rels/slide7.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5629&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC"
+    ],
+    [
+      "ppt/slides/_rels/slide7.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5668&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84"
+    ],
+    [
+      "ppt/slides/_rels/slide8.xml.rels",
+      "https://kcia.or.kr/inc/down.php?dir=BOARD&amp;file_name=202310_169640754590651_1.docx&amp;rename=%ED%99%94%EC%9E%A5%ED%92%88+%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4+%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1+%EB%A7%A4%EB%89%B4%EC%96%BC_%EA%B5%AD%EB%AC%B8.docx"
+    ],
+    [
+      "ppt/slides/_rels/slide8.xml.rels",
+      "https://kcia.or.kr/inc/down.php?dir=BOARD&amp;file_name=202310_169640754590651_1.docx&amp;rename=%ED%99%94%EC%9E%A5%ED%92%88+%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4+%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1+%EB%A7%A4%EB%89%B4%EC%96%BC_%EA%B5%AD%EB%AC%B8.docx"
+    ],
+    [
+      "ppt/slides/_rels/slide9.xml.rels",
+      "https://cos.fda.gov.tw/TCAL/"
+    ],
+    [
+      "ppt/slides/_rels/slide9.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5668&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84"
+    ],
+    [
+      "ppt/slides/_rels/slide9.xml.rels",
+      "https://cos.fda.gov.tw/TCAL/"
+    ],
+    [
+      "ppt/slides/_rels/slide9.xml.rels",
+      "https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&amp;idx=5668&amp;page=1&amp;code=foreign&amp;searchopt=&amp;searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://unipass.customs.go.kr/clip/index.do"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863877"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://kcia.or.kr/home/law/%EA%B8%B0%ED%83%80%20%EC%88%98%EC%B6%9C%ED%86%B5%EA%B4%80%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%84%9C%EB%A5%98.pdf"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://kcia.or.kr/cert/main/"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&amp;ContentsID=KI_cmmrcFormat_1719028&amp;query=AWB"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://unipass.customs.go.kr/clip/index.do"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863877"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://kcia.or.kr/home/law/%EA%B8%B0%ED%83%80%20%EC%88%98%EC%B6%9C%ED%86%B5%EA%B4%80%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%84%9C%EB%A5%98.pdf"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://kcia.or.kr/cert/main/"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863914"
+    ],
+    [
+      "ppt/slides/_rels/slide11.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&amp;ContentsID=KI_cmmrcFormat_1719028&amp;query=AWB"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://web.customs.gov.tw/en/singlehtml/3333?cntId=ef481d6f272c42ac98dca2c33502bb7c"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&amp;ContentsID=KI_cmmrcFormat_1719028&amp;query=AWB"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://kcia.or.kr/cert/main/"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://web.customs.gov.tw/en/singlehtml/3333?cntId=ef481d6f272c42ac98dca2c33502bb7c"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&amp;ContentsID=KI_cmmrcFormat_1719028&amp;query=AWB"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1863940"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://www.kita.net/board/format/formatDetail.do?postIndex=1720212"
+    ],
+    [
+      "ppt/slides/_rels/slide13.xml.rels",
+      "https://kcia.or.kr/cert/main/"
+    ]
+  ]
+}

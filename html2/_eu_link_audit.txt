@@ -1,0 +1,70 @@
+# EU PPT vs HTML link/download audit
+
+Pages: law-export-eu-01.html, law-export-eu-02.html, law-export-eu-03.html, law-export-eu-04.html, law-export-eu-05.html, law-export-eu.html
+PPT unique URLs (raw 14 + stripped UNI-PASS): compare set size 14
+HTML content URLs: 14
+PPT attachments: 11
+HTML downloads: 11
+
+## Missing external URLs
+- (none)
+
+## Extra external URLs
+- (none)
+
+## Missing downloads
+- (none)
+
+## Extra downloads
+- (none)
+
+## Per-page
+### law-export-eu-01.html
+  [PPT] URL https://euipo.europa.eu/eSearch/
+  [PPT] URL https://euipo.europa.eu/ec2/
+  [PPT] URL https://tmdn.org/#/members
+  [PPT] URL https://unipass.customs.go.kr/csp/index.do
+  [PPT] URL https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3
+  [PPT] URL https://www.boip.int/nl
+  [PPT] URL https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+  [PPT] URL https://www.kita.net/board/format/formatDetail.do?postIndex=1863914
+  [PPT] URL https://www.kyungnam.ac.kr/bbs/kuit/314/46382/artclView.do
+  [PPT] URL https://www.tmdn.org/tmview/#/tmview
+  [PPT] URL https://www.wipo.int/en/web/madrid-system
+  [PPT] DL  files/eu/eu-1-1-export-contract-example.hwp
+  [PPT] DL  files/eu/eu-1-2-export-agency-en.pdf
+  [PPT] DL  files/eu/eu-1-2-export-agency-ko.pdf
+  [PPT] DL  files/eu/eu-1-3-export-declaration.pdf
+
+### law-export-eu-02.html
+
+### law-export-eu-03.html
+  [PPT] URL https://webgate.ec.europa.eu/cpnp/
+  [PPT] DL  files/eu/eu-2-cpnp-guide.pdf
+
+### law-export-eu-04.html
+  [PPT] DL  files/eu/eu-1-3-export-declaration.pdf
+  [PPT] DL  files/eu/eu-3-1-bl.pdf
+  [PPT] DL  files/eu/eu-3-2-awb.pdf
+  [PPT] DL  files/eu/eu-3-3-commercial-invoice.pdf
+  [PPT] DL  files/eu/eu-3-3-proforma-invoice.pdf
+  [PPT] DL  files/eu/eu-3-4-packing-list.pdf
+  [PPT] DL  files/eu/eu-3-5-customs-docs.pdf
+
+### law-export-eu-05.html
+  [PPT] URL https://trade.ec.europa.eu/access-to-markets/en/content/customs-clearance-documents-and-procedures-0
+  [PPT] URL https://trade.ec.europa.eu/access-to-markets/en/home
+
+### law-export-eu.html
+
+## Disk files (top-level only)
+disk: ['eu-1-1-export-contract-example.hwp', 'eu-1-2-export-agency-en.pdf', 'eu-1-2-export-agency-ko.pdf', 'eu-1-3-export-declaration.pdf', 'eu-2-cpnp-guide.pdf', 'eu-3-1-bl.pdf', 'eu-3-2-awb.pdf', 'eu-3-3-commercial-invoice.pdf', 'eu-3-3-proforma-invoice.pdf', 'eu-3-4-packing-list.pdf', 'eu-3-5-customs-docs.pdf']
+disk only vs inventory: []
+inventory missing on disk: []
+
+## Verdict
+- PPT External hyperlinks: 14/14 present in HTML content (UNI-PASS utm stripped).
+- Attachment downloads: 11/11 present; disk files match inventory.
+- Step placement: 1-x on eu-01 (slide3 comments); CPNP guide on eu-03 (slide10); 3-x on eu-04 (slide12); eu-05 URLs only (slides 13-14).
+- eu-04 also links eu-1-3 for slide12 body label 수출 신고서 (map note: related to 첨부 1-3).
+- Extra/missing: none. No HTML edits required.

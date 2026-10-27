@@ -1,0 +1,84 @@
+     32769  1-1. 수출계약서예시.hwp
+    175847  1-2. 수출대행계약서.zip
+           -> 1-1. 수출대행계약서_영문.pdf  (raw='1-1. 수출대행계약서_영문.pdf')
+           -> 1-1. 수출대행계약서_국문.pdf  (raw='1-1. 수출대행계약서_국문.pdf')
+    763279  1-3. 수출신고서, 수출신고필증.pdf
+   3239452  2. CPNP 신고 가이드라인.pdf
+     40026  3-1. 선하증권.pdf
+     32788  3-2. 항공화물 운송장(Air Waybill).pdf
+    124355  3-3. 송장.zip
+           -> 견적송장.pdf  (raw='░▀└√╝█└σ.pdf')
+           -> 상업송장.pdf  (raw='╗≤╛≈╝█└σ.pdf')
+     32689  3-4. 포장명세서.pdf
+    108016  3-5. 기타 수출통관에 필요한 서류.pdf
+
+
+===== LINKS AUDIT =====
+
+=== ALL EXTERNAL / HTTP TARGETS IN RELS ===
+ppt/slides/_rels/slide10.xml.rels | rId4 | hyperlink | External | https://webgate.ec.europa.eu/cpnp/
+ppt/slides/_rels/slide13.xml.rels | rId3 | hyperlink | External | https://trade.ec.europa.eu/access-to-markets/en/content/customs-clearance-documents-and-procedures-0
+ppt/slides/_rels/slide14.xml.rels | rId3 | hyperlink | External | https://trade.ec.europa.eu/access-to-markets/en/home
+ppt/slides/_rels/slide3.xml.rels | rId7 | hyperlink | External | https://unipass.customs.go.kr/csp/index.do?utm_source=chatgpt.com
+ppt/slides/_rels/slide3.xml.rels | rId6 | hyperlink | External | https://www.kita.net/board/format/formatDetail.do?postIndex=1863914
+ppt/slides/_rels/slide3.xml.rels | rId5 | hyperlink | External | https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+ppt/slides/_rels/slide3.xml.rels | rId4 | hyperlink | External | https://www.kyungnam.ac.kr/bbs/kuit/314/46382/artclView.do
+ppt/slides/_rels/slide4.xml.rels | rId6 | hyperlink | External | https://euipo.europa.eu/eSearch/
+ppt/slides/_rels/slide4.xml.rels | rId5 | hyperlink | External | https://www.tmdn.org/tmview/#/tmview
+ppt/slides/_rels/slide4.xml.rels | rId4 | hyperlink | External | https://euipo.europa.eu/ec2/
+ppt/slides/_rels/slide5.xml.rels | rId4 | hyperlink | External | https://www.wipo.int/en/web/madrid-system
+ppt/slides/_rels/slide6.xml.rels | rId6 | hyperlink | External | https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3
+ppt/slides/_rels/slide6.xml.rels | rId5 | hyperlink | External | https://www.boip.int/nl
+ppt/slides/_rels/slide6.xml.rels | rId4 | hyperlink | External | https://tmdn.org/#/members
+
+=== REGEX HTTP URLS IN ALL XML ===
+ppt/slides/_rels/slide10.xml.rels | https://webgate.ec.europa.eu/cpnp/
+ppt/slides/_rels/slide13.xml.rels | https://trade.ec.europa.eu/access-to-markets/en/content/customs-clearance-documents-and-procedures-0
+ppt/slides/_rels/slide14.xml.rels | https://trade.ec.europa.eu/access-to-markets/en/home
+ppt/slides/_rels/slide3.xml.rels | https://unipass.customs.go.kr/csp/index.do?utm_source=chatgpt.com
+ppt/slides/_rels/slide3.xml.rels | https://www.kita.net/board/format/formatDetail.do?postIndex=1863914
+ppt/slides/_rels/slide3.xml.rels | https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+ppt/slides/_rels/slide3.xml.rels | https://www.kyungnam.ac.kr/bbs/kuit/314/46382/artclView.do
+ppt/slides/_rels/slide4.xml.rels | https://euipo.europa.eu/eSearch/
+ppt/slides/_rels/slide4.xml.rels | https://www.tmdn.org/tmview/#/tmview
+ppt/slides/_rels/slide4.xml.rels | https://euipo.europa.eu/ec2/
+ppt/slides/_rels/slide5.xml.rels | https://www.wipo.int/en/web/madrid-system
+ppt/slides/_rels/slide6.xml.rels | https://www.boip.int/en/entrepreneurs/trademarks/register-a-benelux-trademark#step-3
+ppt/slides/_rels/slide6.xml.rels | https://www.boip.int/nl
+ppt/slides/_rels/slide6.xml.rels | https://tmdn.org/#/members
+
+=== COMMENT TEXTS ===
+ppt/comments/modernComment_103_0.xml: '여기서는 WIPO 국제 등록에 대한 내용인 것으로 이해됩니다. 그렇다면 설명과 정의에는 EUIPO(EUTM제도)대신 WIPO(마드리드)에 대한 배경이나 간단한 설명을 넣는 것이 좋을 것 같아 의견드립니다.수정 완료설명 또는 정의가 이전 슬라이드와 같은데, 같은 것이 맞는지 확인 부탁드립니다.수정 완료부호는 오탈자인지 확인 부탁드립니다.수정 완료우선 제가 이해하고 있는 바로는 EUIPO에 상표등록을 하는 경우 EU 내 모든 회원국에서 상표권을 보호 받을 수 잇으나, WIPO를 통해 등록하는 경우 신청자가 지정한 국가에서만 보호 받을 수 있습니다. 많은 기업분들께서 EUIPO 혹은 WIPO 상표 등록에 대한 차이를 궁금해하셔서, 이런 차이점을 추가하는 것이 좋지 않을까 의견드립니다.수정 완료일본이라고 기재되어 있습니다. 내용 확인 부탁드립니다.수정 완료“특허청" 단어들이 남아있어서 수정했습니다.한국의 특허청은 작년 지식재산처로 승격되었습니다. 명칭 변경 부탁드리겠습니다.오탈자 수정했습니다.'
+ppt/comments/modernComment_118_78BE6AEE.xml: '수정 완료“CPSR(화장품 안전성 보고서)”만 남기는 것이 어떨까요?'
+ppt/comments/modernComment_119_4F6B9CEC.xml: '첨부파일 2'
+ppt/comments/modernComment_11A_DBB06A40.xml: '첨부파일 3-1첨부파일 3-3첨부파일 3-4첨부파일 3-5첨부파일 3-2확인했습니다. 이견 없습니다.수정했습니다.확인했습니다. 이견 없습니다.수정했습니다'
+ppt/comments/modernComment_11B_0.xml: '확인했습니다. 이견 없습니다.추가했습니다.확인했습니다. 이견 없습니다.수정했습니다아래의 "하나의" 단어도 하이라이트 하였습니다. 단어 수정 부탁드립니다.이견 없습니다. 수정 완료하였습니다.EU 전체 회원국으로 오해하실 수도 있을 것 같아서 "하나의"라는 단어를"개별" 혹은 "특정" 등의 단어로 바꾸는 것이 좋을 것 같다고 생각합니다. 의견 부탁드립니다.'
+ppt/comments/modernComment_11C_0.xml: '확인했습니다. 이견 없습니다.띄어쓰기 및 문구 수정했습니다.확인했습니다. 이견 없습니다.띄어쓰기 및 문구 수정했습니다.띄어쓰기 수정했습니다.'
+ppt/comments/modernComment_11D_E85BA94A.xml: '수정 완료“PIF(제품정보파일)” 만 남기는 것이 어떨까요?'
+ppt/comments/modernComment_11E_5718D46.xml: '확인했습니다. 이견 없습니다.수정하였습니다.'
+ppt/comments/modernComment_120_760E43C.xml: "수출 시 주로 계약이 필요한 계약서 목록과\n수출 시 필수 사항인 수출신고필증 내용으로 수정하였습니다.‘한국무역협회'와 같은 사이트로 이동되는데 혹시 맞을까요?첨부파일 1-2첨부파일 1-1첨부파일 1-3"
+
+=== hlinkClick WITH action ATTR ===
+ppt/slides/slide10.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId4'}
+ppt/slides/slide13.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId3'}
+ppt/slides/slide13.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId3'}
+ppt/slides/slide13.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId3'}
+ppt/slides/slide14.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId3'}
+ppt/slides/slide3.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId4'}
+ppt/slides/slide3.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId5'}
+ppt/slides/slide3.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId6'}
+ppt/slides/slide3.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId7'}
+ppt/slides/slide3.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId7'}
+ppt/slides/slide4.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId4'}
+ppt/slides/slide4.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId5'}
+ppt/slides/slide4.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId6'}
+ppt/slides/slide4.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId6'}
+ppt/slides/slide5.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId4'}
+ppt/slides/slide5.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId4'}
+ppt/slides/slide6.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId4'}
+ppt/slides/slide6.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId5'}
+ppt/slides/slide6.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId5'}
+ppt/slides/slide6.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId6'}
+ppt/slides/slide6.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId6'}
+ppt/slides/slide6.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId6'}
+ppt/slides/slide6.xml: hlinkClick attribs={'{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id': 'rId6'}

@@ -1,0 +1,58 @@
+# Taiwan export pages verification
+
+Generated pages: 6
+- law-export-tw.html
+- law-export-tw-01.html
+- law-export-tw-02.html
+- law-export-tw-03.html
+- law-export-tw-04.html
+- law-export-tw-05.html
+
+## PPT unique URLs (19)
+- [OK] https://www.kita.net/board/format/formatDetail.do?postIndex=1863913
+- [OK] https://cloud.tipo.gov.tw/S282/S282WV1/
+- [OK] https://www.fda.gov.tw/ENG/siteListContent.aspx?sid=10334&id=41180
+- [OK] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5668&page=1&code=foreign&searchopt=&searchkey=%EC%9C%84%EC%83%9D%EC%95%88%EC%A0%84
+- [OK] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5629&page=1&code=foreign&searchopt=&searchkey=%EB%A7%A4%EB%89%B4%EC%96%BC
+- [OK] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5630&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1%20%EB%A7%A4%EB%89%B4%EC%96%BC
+- [OK] https://helpcosmetic.or.kr/pc/license/license02.php?ptype=view&idx=5823&page=1&code=foreign&searchopt=&searchkey=%ED%99%94%EC%9E%A5%ED%92%88%20%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4%20%EB%AC%B8%EC%84%9C
+- [OK] https://kcia.or.kr/inc/down.php?dir=BOARD&file_name=202310_169640754590651_1.docx&rename=%ED%99%94%EC%9E%A5%ED%92%88+%EC%A0%9C%ED%92%88%EC%A0%95%EB%B3%B4+%EB%AC%B8%EC%84%9C%EC%9E%91%EC%84%B1+%EB%A7%A4%EB%89%B4%EC%96%BC_%EA%B5%AD%EB%AC%B8.docx
+- [OK] https://cos.fda.gov.tw/TCAL/
+- [OK] https://www.kita.net/board/format/formatDetail.do?postIndex=1863914
+- [OK] https://www.kita.net/board/format/formatDetail.do?postIndex=1720212
+- [OK] https://www.kita.net/board/format/formatDetail.do?postIndex=1863877
+- [OK] https://www.kita.net/board/format/formatDetail.do?postIndex=1863940
+- [OK] https://kcia.or.kr/home/law/%EC%84%A0%ED%95%98%EC%A6%9D%EA%B6%8C.pdf
+- [OK] https://www.kita.net/board/format/formatDetail.do?postIndex=1719028&ContentsID=KI_cmmrcFormat_1719028&query=AWB
+- [OK] https://kcia.or.kr/cert/main/
+- [OK] https://kcia.or.kr/home/law/%EA%B8%B0%ED%83%80%20%EC%88%98%EC%B6%9C%ED%86%B5%EA%B4%80%EC%97%90%20%ED%95%84%EC%9A%94%ED%95%9C%20%EC%84%9C%EB%A5%98.pdf
+- [OK] https://unipass.customs.go.kr/clip/index.do
+- [OK] https://web.customs.gov.tw/en/singlehtml/3333?cntId=ef481d6f272c42ac98dca2c33502bb7c
+
+URL coverage: 19/19
+
+## Attachment files (19)
+- [OK][LINKED] tw-1-1-export-agency-ko.pdf
+- [OK][LINKED] tw-1-1-export-agency-en.pdf
+- [OK][LINKED] tw-2-1-importer-auth.pdf
+- [OK][LINKED] tw-4-1-export-declaration.pdf
+- [OK][LINKED] tw-4-2-commercial-invoice.pdf
+- [OK][LINKED] tw-4-3-proforma-invoice.pdf
+- [OK][LINKED] tw-4-4-packing-list.pdf
+- [OK][LINKED] tw-4-5-bl.pdf
+- [OK][LINKED] tw-4-6-awb.pdf
+- [OK][LINKED] tw-4-7-customs-docs.pdf
+- [OK][LINKED] tw-4-guide-commercial-invoice.hwp
+- [OK][LINKED] tw-4-guide-packing-list.xlsx
+- [OK][LINKED] tw-4-guide-awb.hwp
+- [OK][LINKED] tw-5-1-commercial-invoice.pdf
+- [OK][LINKED] tw-5-2-packing-list.pdf
+- [OK][LINKED] tw-5-3-bl.pdf
+- [OK][LINKED] tw-5-4-awb.pdf
+- [OK][LINKED] tw-5-5-import-declaration.pdf
+
+File disk: 18/18; HTML linked: 18/18
+lex-link count: 28
+lex-dl count: 20
+
+## RESULT: ALL CHECKS PASSED
